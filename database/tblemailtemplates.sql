@@ -10,7 +10,7 @@
 --
 -- @package    	WHMCS Email Templates - Greek (el)
 -- @contributor	pRieStaKos <ianastasiasdis@cubric.gr>
--- @company		Cubric Internet Services
+-- @company	Cubric Internet Services
 -- @version    	5.3.5
 -- @link       	http://clients.cubric.gr
 --
