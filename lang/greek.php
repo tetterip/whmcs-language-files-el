@@ -14,7 +14,7 @@
  * @package    	WHMCS Language File - Greek (el)
  * @contributor	pRieStaKos <ianastasiasdis@cubric.gr>
  * @company	Cubric Internet Services
- * @version    	5.3.5
+ * @version    	5.3.8
  * @link       	http://clients.cubric.gr
  */
 
@@ -1458,3 +1458,65 @@ $_LANG['twofageneralerror'] = "Παρουσιάστηκε σφάλμα κατά 
 $_LANG['continue'] = "Συνέχεια";
 $_LANG['disable'] = "Απενεργοποίηση";
 $_LANG['manage'] = "Διαχείριση";
+
+# Version 5.3
+
+$_LANG['quoteacceptancetitle'] = "Αποδοχή Προσφοράς";
+$_LANG['quoteacceptancehowto'] = "Για να αποδεχτείτε την προσφορά, παρακαλούμε να επιβεβαιώσετε την αποδοχή των όρων της υπηρεσίας μας όπου μπορείτε να δείτε @";
+$_LANG['quoteacceptancewarning'] = "Παρακαλούμε να γνωρίζετε ότι η αποδοχή μιας προσφοράς θεωρείται σύναψη σύμβασης και δεν θα είστε σε θέση να την ακυρώσετε μετά την αποδοχή.";
+
+$_LANG['contactform'] = "Φόρμα Επικοινωνίας";
+
+$_LANG['twoipverificationstep'] = "Στάδιο Επαλήθευσης";
+$_LANG['twoipverificationstepmsg'] = "Εισάγετε τον κωδικό ασφαλείας που δημιουργείται από το authenticator app του κινητού σας και θα επιβεβαιώσουμε ότι έχει ρυθμιστεί σωστά πριν τον ενεργοποιήσουμε.";
+$_LANG['twoipverificationerror'] = "Φαίνεται είναι ότι υπάρχει ένα πρόβλημα...";
+$_LANG['twoipcodemissmatch'] = "Ο κωδικός που δώσατε δεν ταιριάζει με αυτό που αναμενόταν. Παρακαλώ δοκιμάστε ξανά.";
+$_LANG['twoiptimebasedpassword'] = "Κωδικός Μιας Χρήσης με βάση την ωρα";
+$_LANG['twoiptimebasedexplain'] = "Αυτή η επιλογή ελέγχου ταυτότητας δέχετε το δεύτερο παράγοντας χρησιμοποιώντας έναν αλγόριθμο με βάση τον χρόνο. Το κινητό σας τηλέφωνο μπορεί να χρησιμοποιηθεί για να δημιουργήσει τους κωδικούς. Αν δεν έχετε μια εφαρμογή που μπορεί να το κάνει αυτό, σας συνιστούμε το Google Authenticator το οποίο είναι διαθέσιμο για iOS, Android και Windows Mobile συσκευές.";
+$_LANG['twoipconfigureapp'] = "Για να ρυθμίσετε το authenticator app του κινητού σας:";
+$_LANG['twoipconfigurestep1'] = "Ξεκινήστε επιλέγοντας να προσθέσετε ένα νέο token με βάση τον χρόνο";
+$_LANG['twoipconfigurestep2'] = "Στη συνέχεια, χρησιμοποιήστε την εφαρμογή σας για να σαρώσετε το barcode παρακάτω, ή εναλλακτικά πληκτρολογήστε το μυστικό κλειδί χειροκίνητα: ";
+$_LANG['twoipgdmissing'] = "Η βιβλιοθήκη GD λείπει από την έκδοση PHP του server σας, έτσι δεν μπορεί να δημιουργηθεί η εικόνα";
+
+$_LANG['domaincontactdetails']['First Name'] = "Όνομα";
+$_LANG['domaincontactdetails']['Last Name'] = "Επώνυμο";
+$_LANG['domaincontactdetails']['Full Name'] = "Πλήρες όνομα";
+$_LANG['domaincontactdetails']['Contact Name'] = "Όνομα Επικοινωνίας";
+$_LANG['domaincontactdetails']['Email'] = "Email";
+$_LANG['domaincontactdetails']['Email Address'] = "Διεύθυνση Email";
+$_LANG['domaincontactdetails']['Job Title'] = "Επάγγελμα";
+$_LANG['domaincontactdetails']['Company Name'] = "Επωνυμία";
+$_LANG['domaincontactdetails']['Organisation Name'] = "Όνομα Οργανισμού";
+$_LANG['domaincontactdetails']['Address'] = "Διεύθυνση";
+$_LANG['domaincontactdetails']['Street'] = "Οδός";
+$_LANG['domaincontactdetails']['Address 1'] = "Οδός 1";
+$_LANG['domaincontactdetails']['Address 2'] = "Οδός 2";
+$_LANG['domaincontactdetails']['Address 3'] = "Οδός 3";
+$_LANG['domaincontactdetails']['City'] = "Πόλη";
+$_LANG['domaincontactdetails']['State'] = "πολιτεία";
+$_LANG['domaincontactdetails']['County'] = "Χώρα";
+$_LANG['domaincontactdetails']['Region'] = "Περιοχή";
+$_LANG['domaincontactdetails']['Postcode'] = "Ταχ.Κώδικας";
+$_LANG['domaincontactdetails']['ZIP Code'] = "Ταχ.Κώδικας";
+$_LANG['domaincontactdetails']['ZIP'] = "ΤΚ";
+$_LANG['domaincontactdetails']['Country'] = "Χώρα";
+$_LANG['domaincontactdetails']['Phone'] = "Τηλέφωνο";
+$_LANG['domaincontactdetails']['Phone Number'] = "Τηλέφωνο";
+$_LANG['domaincontactdetails']['Fax'] = "ΦΑΞ";
+
+$_LANG['serverhostnameexample'] = "πχ. server1(.yourdomain.com)";
+$_LANG['serverns1prefixexample'] = "πχ. ns1(.yourdomain.com)";
+$_LANG['serverns2prefixexample'] = "πχ. ns2(.yourdomain.com)";
+
+$_LANG['hosting'] = "Φιλοξενία";
+
+$_LANG['enomfrregistration']['Heading'] = 'Τα .fr domains έχουν διαφορετικές απαιτούμενες τιμές, ανάλογα με την υπηκοότητά σας και το είδος της καταχώρισης:';
+$_LANG['enomfrregistration']['French Individuals']['Name'] = 'Γαλλoi Ιδιώτες';
+$_LANG['enomfrregistration']['French Individuals']['Requirements'] = 'Παρακαλώ συμπληρώστε "Ημερομηνία Γέννησης" σας, "Τόπο Γέννησης », και «ΤΚ Τόπου Γέννησης".';
+$_LANG['enomfrregistration']['EU Non-French Individuals']['Name'] = 'ΕΥ Μή-Γάλλοι Ιδιώτες';
+$_LANG['enomfrregistration']['EU Non-French Individuals']['Requirements'] = 'Παρακαλώ συμπληρώστε "Ημερομηνία Γέννησης".';
+$_LANG['enomfrregistration']['French Companies']['Name'] = 'Γαλλικες Εταιρείες';
+$_LANG['enomfrregistration']['French Companies']['Requirements'] = 'Παρακαλώ συμπληρώστε την "Ημερομηνία Γέννησης", "Τόπο Γέννησης", και  "ΤΚ Τόπου Γέννησης" για τον κάτοχο επικοινωνίας, μαζί με τον αριθμό SIRET σας.';
+$_LANG['enomfrregistration']['EU Non-French Companies']['Name'] = 'ΕΥ Μη-Γαλλικες Εταιρείες';
+$_LANG['enomfrregistration']['EU Non-French Companies']['Requirements'] = 'Παρακαλώ συμπληρώστε τον εταιρικό "Αριθμό DUNS", και την "Ημερομηνία Γέννησης" για τον Κατόχου Επικοινωνίας.';
+$_LANG['enomfrregistration']['Non-EU Warning'] = 'Οι πληροφορίες επαφής του πελάτη πρέπει να είναι εντός της ΕΕ αλλιώς η καταχώριση θα αποτύχει.';
