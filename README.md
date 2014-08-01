@@ -1,4 +1,4 @@
-![WHMCS](http://www.whmcs.com/wp-content/themes/whmcs/images/logo_whmcs.png "WHMCS")
+![WHMCS](http://cdn.whmcs.com/images/blog/ReleaseBanner.png "WHMCS")
 
 ### WHMCS Language File - Greek (el)
 
