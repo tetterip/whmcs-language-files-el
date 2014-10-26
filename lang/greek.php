@@ -14,9 +14,10 @@
  * @package    	WHMCS Language File - Greek (el)
  * @contributor	pRieStaKos <ianastasiasdis@cubric.gr>
  * @company	Cubric Internet Services
- * @version    	5.3.8
- * @link       	http://clients.cubric.gr
+ * @version    	5.3.10
+ * @link       	http://http://repo.cubric.gr/whmcs-language-files-el
  */
+
 
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
 
@@ -670,7 +671,7 @@ $_LANG['quicknav'] = "Γρήγορη πλοήγηση";
 $_LANG['recordsfound'] = "εγγραφές βρέθηκαν";
 $_LANG['recurring'] = "Επαναλαμβανόμενο";
 $_LANG['recurringamount'] = "Επαναλαμβανόμενο Ποσό";
-$_LANG['every'] = "Every";
+$_LANG['every'] = "Κάθε";
 $_LANG['registerdomain'] = "Κατοχύρωση Domain";
 $_LANG['registerdomaindesc'] = "Πληκτρολογήστε το domain που επιθυμείτε να κατοχυρώσετε παρακάτω για να ελέγξετε τη διαθεσιμότητα.";
 $_LANG['registerdomainname'] = "Κατοχυρώστε ένα όνομα domain";
@@ -866,7 +867,8 @@ $_LANG['invoicepaymentfailedconfirmation'] = "Δυστυχώς η προσπάθ
 
 $_LANG['promoappliedbutnodiscount'] = "Ο κωδικός προώθησης που έχετε εισάγει εφαρμόστηκε στο καλάθι σας, αλλά δεν υπάρχουν προϊόντα όπου πληρούν τις προϋποθέσεις για την έκπτωση ακόμα - παρακαλώ ελέγξτε τους όρους προώθησης";
 
-$_LANG['upgradeerroroverdueinvoice'] = "Δεν μπορείτε προς το παρόν να αναβαθμίσετε ή να υποβαθμίσετε το προϊόν αυτό, επειδή ένα τιμολόγιο έχει ήδη δημιουργηθεί για την επόμενη ανανέωση. <br /> <br /> Για να προχωρήσετε, παρακαλώ πρώτα να καταβάλετε το υπόλοιπο τιμολογίου και στη συνέχεια θα είστε σε θέση να αναβαθμίσετε ή να υποβαθμίσετε αμέσως μετά και θα χρεωθεί ή πιστωθεί η διαφορά ανάλογα με την περίπτωση.";
+$_LANG['upgradeerroroverdueinvoice'] = "You cannot currently upgrade or downgrade this product because an invoice has already been generated for the next renewal.<br /><br />To proceed, please first pay the outstanding invoice and then you will be able to upgrade or downgrade immediately following that and be charged the difference or credited as appropriate.";
+$_LANG['upgradeexistingupgradeinvoice'] = "Δεν μπορείτε να αναβαθμίσετε ή να υποβαθμίσει το προϊόν αυτό λόγω του ότι μια αναβάθμιση ή υποβάθμιση είναι ήδη σε εξέλιξη. <br /><br />Για να συνεχίσετε πρώτα εξοφλήστε το οφειλόμενο τιμολόγιο και τότε θα είστε σε θέση να αναβαθμίσετε ή να υποβαθμίσε θα είστε σε θέση να αναβαθμίσετε ή να υποβαθμίσετε και μετά και να χρεωθείτε ή να πιστωθείτε την διαφορά ανάλογα με την περίπτωση<br/><br/>Εάν πιστεύετε ότι λάβατε αυτό το μήνυμα κατά λάθος,, παρακαλουμε όπως υποβάλλετε ένα Αίτημα Υποστήριξης";
 
 $_LANG['subaccountactivate'] = "Ενεργοποίηση <br>Υπολογαριασμού";
 $_LANG['subaccountactivatedesc'] = "Επιλέξτε για να παραμετροποιήσετε έναν υπολογαριασμό με πρόσβαση στην περιοχή πελατών";
@@ -947,7 +949,7 @@ $_LANG['twitterfollow'] = "Ακολουθήστε μας στο Twitter";
 $_LANG['twitterfollowus'] = "Ακολουθήστε μας";
 $_LANG['twitterfollowuswhy'] = "για να είστε ενήμεροι για τα τελευταία μας νέα &amp; προσφορές";
 
-$_LANG['chatlivehelp'] = "Live Help";
+$_LANG['chatlivehelp'] = "Live Υποστήριξη";
 
 $_LANG['domainrelease'] = "Αποδέσμευση Domain";
 $_LANG['domainreleasedescription'] = "Πληκτρολογήστε μια νέα ετικέτα εδώ για να μεταφέρετε το domain σας σε άλλο καταχωρητή";
@@ -1008,7 +1010,7 @@ $_LANG['ticketmerge'] = "ΣΥΓΧΩΝΕΥΟΜΕΝΟ";
 
 $_LANG['quote'] = "Προσφορά";
 $_LANG['quotestitle'] = "Οι Προσφορές μου";
-$_LANG['quoteview'] = "View";
+$_LANG['quoteview'] = "Προβολή";
 $_LANG['quotedownload'] = "Προβολή / Λήψη";
 $_LANG['quoteacceptbtn'] = "Αποδοχή Προσφοράς";
 $_LANG['quotedlpdfbtn'] = "Αποθήκευση PDF";
@@ -1228,7 +1230,7 @@ $_LANG['quotesintro'] = "Εδώ είναι όλες οι προσφορές πο
 $_LANG['emailstagline'] = "Εδώ είναι αντίγραφα των πρόσφατων e-mail που σας έχουμε στείλει...";
 $_LANG['supportticketsintro'] = "Καταχωρήστε και παρακολουθείστε οποιαδήποτε απορία εδώ ...";
 $_LANG['addfundsintro'] = "Καταθέστε χρήματα εκ των προτέρων";
-$_LANG['registerintro'] = "Δημιουργήστε έναν λογαριασμό...";
+$_LANG['registerintro'] = "Δημιουργήστε έναν λογαριασμό σε εμάς . . .";
 $_LANG['masspayintro'] = "Πληρώστε όλα τα τιμολόγια που αναφέρονται παρακάτω επιλέγοντας μια μέθοδο πληρωμής";
 $_LANG['domaincheckerintro'] = "Ξεκινήστε την αναζήτηση φιλοξενίας σας εδώ, ελέγχοντας αν το domain σας είναι διαθέσιμο...";
 $_LANG['networkstatusintro'] = "Πληροφορίες κατάστασης υπηρεσιών και Ανακοινώσεις Δικτύου";
@@ -1352,7 +1354,7 @@ $_LANG['globalsignvouchersnotissued'] = "Δεν έχουν εκδοθεί ακό
 
 $_LANG['domaintrffailreasonunavailable'] = "Μη διαθέσιμη αιτία αποτυχίας";
 
-$_LANG['clientareaprojects'] = "Τα έργα μου";
+$_LANG['clientareaprojects'] = "Τα Έργα μου";
 
 $_LANG['clientgroupdiscount'] = "Έκπτωση πελάτη";
 $_LANG['billableitemshours'] = "Ώρες";
@@ -1460,7 +1462,6 @@ $_LANG['disable'] = "Απενεργοποίηση";
 $_LANG['manage'] = "Διαχείριση";
 
 # Version 5.3
-
 $_LANG['quoteacceptancetitle'] = "Αποδοχή Προσφοράς";
 $_LANG['quoteacceptancehowto'] = "Για να αποδεχτείτε την προσφορά, παρακαλούμε να επιβεβαιώσετε την αποδοχή των όρων της υπηρεσίας μας όπου μπορείτε να δείτε @";
 $_LANG['quoteacceptancewarning'] = "Παρακαλούμε να γνωρίζετε ότι η αποδοχή μιας προσφοράς θεωρείται σύναψη σύμβασης και δεν θα είστε σε θέση να την ακυρώσετε μετά την αποδοχή.";
@@ -1520,3 +1521,7 @@ $_LANG['enomfrregistration']['French Companies']['Requirements'] = 'Παρακα
 $_LANG['enomfrregistration']['EU Non-French Companies']['Name'] = 'ΕΥ Μη-Γαλλικες Εταιρείες';
 $_LANG['enomfrregistration']['EU Non-French Companies']['Requirements'] = 'Παρακαλώ συμπληρώστε τον εταιρικό "Αριθμό DUNS", και την "Ημερομηνία Γέννησης" για τον Κατόχου Επικοινωνίας.';
 $_LANG['enomfrregistration']['Non-EU Warning'] = 'Οι πληροφορίες επαφής του πελάτη πρέπει να είναι εντός της ΕΕ αλλιώς η καταχώριση θα αποτύχει.';
+
+$_LANG['maxmind_checkconfiguration'] = 'Παρουσιάστηκε σφάλμα με τον Έλεγχο Απάτη. Παρακαλούμε επικοινωνήστε με την Τεχνική Υποστήριξη.';
+$_LANG['maxmind_addressinvalid'] = 'Η διεύθυνσή σας δεν είναι αναγνωρισμένη. Παρακαλούμε ελέγξτε και προσπαθήστε ξανά.';
+$_LANG['maxmind_invalidip'] = 'Άκυρη διεύθυνση IP ή τοπική διεύθυνσή. Παρακαλούμε επικοινωνήστε με την Τεχνική Υποστήριξη.';
