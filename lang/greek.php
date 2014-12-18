@@ -1522,7 +1522,7 @@ $_LANG['enomfrregistration']['EU Non-French Companies']['Name'] = 'ΕΥ Μη-Γ�
 $_LANG['enomfrregistration']['EU Non-French Companies']['Requirements'] = 'Παρακαλώ συμπληρώστε τον εταιρικό "Αριθμό DUNS", και την "Ημερομηνία Γέννησης" για τον Κατόχου Επικοινωνίας.';
 $_LANG['enomfrregistration']['Non-EU Warning'] = 'Οι πληροφορίες επαφής του πελάτη πρέπει να είναι εντός της ΕΕ αλλιώς η καταχώριση θα αποτύχει.';
 
-$_LANG['confirm'] = "Confirm";
+$_LANG['confirm'] = "Επιβεβαίωση";
 
 $_LANG['maxmind_checkconfiguration'] = 'Παρουσιάστηκε σφάλμα με τον Έλεγχο Απάτη. Παρακαλούμε επικοινωνήστε με την Τεχνική Υποστήριξη.';
 $_LANG['maxmind_addressinvalid'] = 'Η διεύθυνσή σας δεν είναι αναγνωρισμένη. Παρακαλούμε ελέγξτε και προσπαθήστε ξανά.';
