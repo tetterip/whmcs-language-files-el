@@ -14,7 +14,7 @@
  * @package    	WHMCS Language File - Greek (el)
  * @contributor	pRieStaKos <ianastasiasdis@cubric.gr>
  * @company	Cubric Internet Services
- * @version    	5.3.10
+ * @version    	5.3.11
  * @link       	http://http://repo.cubric.gr/whmcs-language-files-el
  */
 
@@ -1522,6 +1522,27 @@ $_LANG['enomfrregistration']['EU Non-French Companies']['Name'] = 'ΕΥ Μη-Γ�
 $_LANG['enomfrregistration']['EU Non-French Companies']['Requirements'] = 'Παρακαλώ συμπληρώστε τον εταιρικό "Αριθμό DUNS", και την "Ημερομηνία Γέννησης" για τον Κατόχου Επικοινωνίας.';
 $_LANG['enomfrregistration']['Non-EU Warning'] = 'Οι πληροφορίες επαφής του πελάτη πρέπει να είναι εντός της ΕΕ αλλιώς η καταχώριση θα αποτύχει.';
 
+$_LANG['confirm'] = "Confirm";
+
 $_LANG['maxmind_checkconfiguration'] = 'Παρουσιάστηκε σφάλμα με τον Έλεγχο Απάτη. Παρακαλούμε επικοινωνήστε με την Τεχνική Υποστήριξη.';
 $_LANG['maxmind_addressinvalid'] = 'Η διεύθυνσή σας δεν είναι αναγνωρισμένη. Παρακαλούμε ελέγξτε και προσπαθήστε ξανά.';
 $_LANG['maxmind_invalidip'] = 'Άκυρη διεύθυνση IP ή τοπική διεύθυνσή. Παρακαλούμε επικοινωνήστε με την Τεχνική Υποστήριξη.';
+
+$_LANG['directDebitPageTitle'] = "Άμεσης Πληρωμής Χρέωσης";
+$_LANG['directDebitHeader'] = "Άμεσης Πληρωμής Χρέωσης";
+$_LANG['directDebitErrorNoBankName'] = "Πρέπει να εισάγεται το ονομα της τράπεζας σας";
+$_LANG['directDebitErrorAccountType'] = "Πρέπει να εισάγεται τον τυπο λογαριασμού τραπέζης";
+$_LANG['directDebitErrorNoABA'] = "Πρέπει να εισάγεται το κωδικό ABA της τράπεζας";
+$_LANG['directDebitErrorAccNumber'] = "Πρέπει να εισάγεται τον αριθμό λογαριασμού σας";
+$_LANG['directDebitErrorConfirmAccNumber'] = "Πρέπει να επιβεβαιωσεται τον αριθμό λογαριασμού σας";
+$_LANG['directDebitErrorAccNumberMismatch'] = "Ο αριθμός τραπέζης & η επιβεβαίωση δεν ταιριάζουν";
+$_LANG['directDebitThanks'] = "Σας ευχαριστούμε για την υποβολή των στοιχείων σας. Θα επιχειρήσουμε να επεξεργαστούμε την πληρωμή σας χρησιμοποιώντας τα παρεχόμενα στοιχεία εντός των προσεχών ημερών και θα επικοινωνήσουμε μαζί σας σε περίπτωση προβλημάτων.";
+$_LANG['directDebitPleaseSubmit'] = "Παρακαλούμε υποβάλλετε τα στοιχεία του τραπεζικού λογαριασμού παρακάτω, για να πληρώνετε με Αμεση Χρέωση.";
+$_LANG['directDebitBankName'] = "Όνομα Τράπεζας";
+$_LANG['directDebitAccountType'] = "Τύπος Λογαριασμού ";
+$_LANG['directDebitABA'] = "Κωδικός ΑΒΑ Τράπεζας";
+$_LANG['directDebitAccNumber'] = "Αριθμός Λογαριασμού Τραπέζης";
+$_LANG['directDebitConfirmAccNumber'] = "Επιβεβαίωση Αριθμού Λογαριασμού";
+$_LANG['directDebitSubmit'] = "Υποβολή";
+$_LANG['directDebitChecking'] = "Όψεως";
+$_LANG['directDebitSavings'] = "Ταμιευτηρίου";
