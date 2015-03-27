@@ -12,12 +12,12 @@
  *   http://docs.whmcs.com/Language_Overrides
  *
  * @package    	WHMCS Language File - Greek (el)
- * @contributor	pRieStaKos <ianastasiasdis@cubric.gr>
- * @company	Cubric Internet Services
- * @version    	5.3.11
+ * @contributor pRieStaKos <ianastasiasdis@cubric.gr>
+ * @company	    Cubric Internet Services
+ * @copyright  Copyright (c) WHMCS Limited 2005-2014
+ * @version    	5.3.12
  * @link       	http://http://repo.cubric.gr/whmcs-language-files-el
  */
-
 
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
 

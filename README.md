@@ -14,4 +14,4 @@ For instructions on overrides, please visit: http://docs.whmcs.com/Language_Over
 
 **Link:** http://forum.whmcs.com/showthread.php?83658-WHMCS-Language-File-Greek-(el)
 
-**Download:** https://github.com/pRieStaKos/whmcs-language-files-el/archive/5.3.11.zip
+**Download:** https://github.com/pRieStaKos/whmcs-language-files-el/releases
