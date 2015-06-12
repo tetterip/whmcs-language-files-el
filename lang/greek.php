@@ -1149,7 +1149,7 @@ $_LANG["domainmassrenew"] = "Ανανέωση Domain";
 
 # reCAPTCHA
 
-$_LANG["captchatitle"] = "Επιβεβαίωση CAPTCHA";
+$_LANG["captchatitle"] = "Επιβεβαίωση Spam Bot";
 $_LANG["captchaverify"] = "Παρακαλούμε εισάγετε τους χαρακτήρες που βλέπετε στην παρακάτω εικόνα στο αντίστοιχο πλαίσιο κειμένου. Αυτό είναι απαραίτητο για την αποφυγή αυτοματοποιημένων υποβολών.";
 $_LANG["captchaverifyincorrect"] = "Οι χαρακτήρες που πληκτρολογήσατε δεν ταιριάζουν με την εικόνα που εμφανίζεται. Παρακαλώ δοκιμάστε ξανά.";
 $_LANG["recaptcha-invalid-site-private-key"] = "Παρουσιάστηκε σφάλμα, παρακαλώ επικοινωνήστε με την υποστήριξη (κωδικός λάθους: cap1)";
@@ -1158,8 +1158,8 @@ $_LANG["recaptcha-incorrect-captcha-sol"] = "Οι χαρακτήρες που π
 
 # Product Bundles
 
-$_LANG["bundledeal"] = "Προσφορά πακέτου!";
-$_LANG["bundlevaliddateserror"] = "Πακέτο μη διαθέσιμο";
+$_LANG["bundledeal"] = "Προσφορά Πακέτου!";
+$_LANG["bundlevaliddateserror"] = "Πακέτο Μη Διαθέσιμο";
 $_LANG["bundlevaliddateserrordesc"] = "Αυτό το πακέτο είτε δεν είναι ακόμη ενεργό ή έχει λήξει. Εάν αισθάνεστε πως αυτό το μήνυμα είναι λάθος, παρακαλώ επικοινωνήστε με την υποστήριξη.";
 $_LANG["bundlemaxusesreached"] = "Πακέτο μη διαθέσιμο";
 $_LANG["bundlemaxusesreacheddesc"] = "Αυτό το πακέτο προσφοράς έφθασε το μέγιστο των πωλήσεων που επιτρέπεται και δυστυχώς δεν είναι πλέον διαθέσιμο. Παρακαλούμε επικοινωνήστε μαζί μας αν ενδιαφέρεστε για τις υπηρεσίες μας.";
@@ -1367,16 +1367,6 @@ $_LANG["billableitemshour"] = "Ώρα";
 $_LANG["invoicefilename"] = "Τιμολόγιο-";
 $_LANG["quotefilename"] = "Προσφορά-";
 
-# Licensing Addon
-
-$_LANG["licensingkey"] = "Κλειδί Άδειας Χρήσης";
-$_LANG["licensingvaliddomains"] = "Έγκυρα Domains";
-$_LANG["licensingvalidips"] = "Έγκυρες IPs";
-$_LANG["licensingvaliddirectory"] = "Έγκυρο Directory";
-$_LANG["licensingstatus"] = "Κατάσταση Άδειας";
-$_LANG["licensingreissue"] = "Επανέκδοση Άδειας";
-$_LANG["licensingreissued"] = "Το Έγκυρο Domain, IP και Directory θα εντοπισθεί και αποθηκευτεί κατά την επόμενη χρήση της άδειας.";
-
 # Domain Addons
 
 $_LANG["domainaddons"] = "Πρόσθετα";
@@ -1556,8 +1546,6 @@ $_LANG["sidebars"]["viewAccount"]["contacts/subAccounts"] = "Επαφές/Υπο
 $_LANG["sidebars"]["viewAccount"]["changePassword"] = "Αλλαγή Κωδικού";
 $_LANG["sidebars"]["viewAccount"]["securitySettings"] = "Ρυθμίσεις Ασφαλείας";
 $_LANG["sidebars"]["viewAccount"]["emailHistory"] = "Ιστορικό Email";
-
-$_LANG["hosting"] = "Φιλοξενία";
 
 $_LANG["aboutsecurityquestions"] = "Γιατί ερωτήσεις ασφαλείας?";
 $_LANG["registersecurityquestionblurb"] = "Ρυθμίζοντας μια ερώτηση ασφαλείας σας προσφέρει επιπλέον ασφάλεια, καθώς όλες οι αλλαγές στο λογαριασμό σας απαιτούν την παροχή των πρόσθετων πληροφοριών από την ερώτησή.";
@@ -1808,9 +1796,75 @@ $_LANG["paymentstodate"] = "Πληρωμές για Ημερομηνία";
 $_LANG["balancedue"] = "Οφειλόμενο Υπόλοιπο";
 $_LANG["submitpayment"] = "Υποβολή Πληρωμής";
 
-$_LANG["domaincheckeravailable"] = "Διαθέσιμο";
+$_LANG['domaincheckeravailable'] = "Διαθέσιμο";
+$_LANG['domaincheckertransferable'] = "Διαθέσιμο για Μεταφορά";
 $_LANG["domaincheckertaken"] = "Κατοχυρωμένο";
 $_LANG["domaincheckeradding"] = "Προσθήκη";
 $_LANG["domaincheckeradded"] = "Προστέθηκε";
 $_LANG["domaincheckernomoresuggestions"] = "Αυτά είναι όλα τα αποτελέσματα που έχουμε για εσάς! Αν ακόμα δεν έχετε βρει αυτό που ψάχνετε, δοκιμάστε έναν διαφορετικό όρο αναζήτησης ή λέξη-κλειδί.";
-$_LANG["domaincheckerunabletooffertld"] = "Δυστυχώς δεν είμαστε σε θέση να κατοχυρώσουμε αυτό το TLD αυτή τη στιγμή";
+$_LANG['domaincheckerunabletooffertld'] = "Δυστυχώς δεν είμαστε σε θέση να κατοχυρώσουμε αυτό το TLD την παρούσα στιγμή";
+$_LANG['domaincheckerbulkplaceholder'] = "Εισάγετε μέχρι 20 ονόματα domain \nΚάθε όνομα πρέπει να είναι σε ξεχωριστή γραμμή \n\nΠχ:\nexample.com\nexample.net";
+
+$_LANG['domainchecker']['suggestiontakentitle'] = "Domain Μη Διαθέσιμο";
+$_LANG['domainchecker']['suggestiontakenmsg'] = "Δυστυχώς το domain επιλέξατε δεν ειναι διαθέσιμο. Αυτό μπορεί να συμβει αν το domain έχει κατοχυρωθεί πρόσφατα. Παρακαλούμε επιστρέψτε πισω και επιλέξτε ένα άλλο domain.";
+$_LANG['domainchecker']['suggestiontakenchooseanother'] = "Επιλέξτε άλλο domain";
+
+$_LANG['domainchecker']['alreadyincarttitle'] = "Ήδη στο Καλάθι";
+$_LANG['domainchecker']['alreadyincartmsg'] = "Αυτό το domain είναι ήδη στο καλάθι αγορών. Προχωρήστε στην Ολοκλήρωση για να ολοκληρώστε την αγορά σας.";
+$_LANG['domainchecker']['alreadyincartcheckoutnow'] = "Ολοκλήρωση Τώρα";
+
+$_LANG['genericerror']['title'] = "Ωχ, κάτι πήγε στραβά!";
+$_LANG['genericerror']['msg'] = "Παρακαλώ δοκιμάστε ξανά και αν το πρόβλημα παραμένει, επικοινωνήστε με την ομάδα υποστήριξής μας.";
+
+# Licensing Addon
+
+$_LANG['licensingaddon']['mylicenses'] = "Άδειες";
+$_LANG['licensingaddon']['latestdownload'] = "Τελευταίες Λήψεις";
+$_LANG['licensingaddon']['downloadnow'] = "Λήψη Τώρα";
+$_LANG['licensingaddon']['licensekey'] = "Κλειδί Άδειας";
+$_LANG['licensingaddon']['validdomains'] = "Έγκυρα Domains";
+$_LANG['licensingaddon']['validips'] = "Έγκυρα IPs";
+$_LANG['licensingaddon']['validdirectory'] = "Έγκυρος Κατάλογος";
+$_LANG['licensingaddon']['status'] = "Κατάσταση Άδειας";
+$_LANG['licensingaddon']['reissue'] = "Επανέκδοση";
+$_LANG['licensingaddon']['reissuestatusmsg'] = "Το έγκυρο domain, IP και κατάλογος θα ανιχνευθεί και αποθηκευθεί την επόμενη φορά που χρησιμοποιηθεί η άδεια.";
+
+$_LANG['affiliateWithdrawalSummary'] = 'Θα είστε σε θέση να ζητήσετε ανάλυψη μόλις το υπόλοιπό σας φτάσει το ελάχιστο απαιτούμενο ποσό των :amountForWithdrawal.';
+
+$_LANG['projectManagement']['activeProjects'] = "Ενεργά Έργα";
+
+# cPanel Module
+
+$_LANG['cPanel']['packageDomain'] = "Πακέτο/Domain";
+$_LANG['cPanel']['addonsExtras'] = "Πρόσθετα & Extras";
+$_LANG['cPanel']['purchaseActivate'] = "Αγορά & Ενεργοποίηση";
+
+$_LANG['cPanel']['usageStats'] = "Στατιστικά Χρήσης";
+$_LANG['cPanel']['diskUsage'] = "Χρήση Δίσκου";
+$_LANG['cPanel']['bandwidthUsage'] = "Χρήση Bandwidth";
+$_LANG['cPanel']['usageStatsBwLimitNear'] = "Πλησιάζετε το όριο του bandwidth σας.";
+$_LANG['cPanel']['usageStatsDiskLimitNear'] = "Πλησιάζετε το όριο του χώρου στον δίσκο σας.";
+$_LANG['cPanel']['usageUpgradeNow'] = "Αναβάθμιση Τώρα";
+$_LANG['cPanel']['usageLastUpdated'] = "Τελευταία Ανανέωση";
+
+$_LANG['cPanel']['quickShortcuts'] = "Συντομεύσεις";
+$_LANG['cPanel']['emailAccounts'] = "Λογαριασμοί Email";
+$_LANG['cPanel']['forwarders'] = "Προωθήσεις";
+$_LANG['cPanel']['autoresponders'] = "Αυτόματοι Ανταποκριτές";
+$_LANG['cPanel']['fileManager'] = "Διαχείριση Αρχείων";
+$_LANG['cPanel']['backup'] = "Αντίγραφα Ασφαλείας";
+$_LANG['cPanel']['subdomains'] = "Subdomains";
+$_LANG['cPanel']['addonDomains'] = "Πρόσθετα Domains";
+$_LANG['cPanel']['cronJobs'] = "Cron Jobs";
+$_LANG['cPanel']['mysqlDatabases'] = "Βάσεις MySQL";
+$_LANG['cPanel']['phpMyAdmin'] = "phpMyAdmin";
+$_LANG['cPanel']['awstats'] = "Awstats";
+
+$_LANG['cPanel']['createEmailAccount'] = "Γρήγορη Δημιουργία Λογαριασμού Email";
+$_LANG['cPanel']['usernamePlaceholder'] = "Όνομα Χρήστη";
+$_LANG['cPanel']['passwordPlaceholder'] = "Επιθυμητός Κωδικός";
+$_LANG['cPanel']['create'] = "Δημιουργία";
+$_LANG['cPanel']['emailAccountCreateSuccess'] = "Λογαριασμός Email δημιουργήθηκε επιτυχώς!";
+$_LANG['cPanel']['emailAccountCreateFailed'] = "Δημιουργία λογαριασμού Email απέτυχε: ";
+
+$_LANG['cPanel']['billingOverview'] = "Επισκόπηση Τιμολόγησης";
