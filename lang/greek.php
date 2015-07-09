@@ -424,8 +424,7 @@ $_LANG["invoicesdatecreated"] = "Ημερομηνία Έκδοσης";
 $_LANG["invoicesdatedue"] = "Ημερομηνία Λήξης";
 $_LANG["invoicesdescription"] = "Περιγραφή";
 $_LANG["invoicesdownload"] = "Λήψη";
-$_LANG["invoicesdue"] = "Εκκρεμή Τιμολόγια";
-$_LANG["invoiceserror"] = "Παρουσιάστηκε ένα σφάλμα. Παρακαλώ δοκιμάστε ξανά.";
+$_LANG['invoiceserror'] = "Παρουσιάστηκε σφαλμα. Δοκιμαστε ξανά.";
 $_LANG["invoicesinvoicedto"] = "Τιμολογήθηκε σε";
 $_LANG["invoicesinvoicenotes"] = "Σημειώσεις τιμολογίου";
 $_LANG["invoicesnoinvoices"] = "Κανένα τιμολόγιο";
@@ -1152,6 +1151,7 @@ $_LANG["domainmassrenew"] = "Ανανέωση Domain";
 $_LANG["captchatitle"] = "Επιβεβαίωση Spam Bot";
 $_LANG["captchaverify"] = "Παρακαλούμε εισάγετε τους χαρακτήρες που βλέπετε στην παρακάτω εικόνα στο αντίστοιχο πλαίσιο κειμένου. Αυτό είναι απαραίτητο για την αποφυγή αυτοματοποιημένων υποβολών.";
 $_LANG["captchaverifyincorrect"] = "Οι χαρακτήρες που πληκτρολογήσατε δεν ταιριάζουν με την εικόνα που εμφανίζεται. Παρακαλώ δοκιμάστε ξανά.";
+$_LANG['googleRecaptchaIncorrect'] = "Παρακαλώ ολοκληρώστε το captcha και δοκιμάστε ξανά.";
 $_LANG["recaptcha-invalid-site-private-key"] = "Παρουσιάστηκε σφάλμα, παρακαλώ επικοινωνήστε με την υποστήριξη (κωδικός λάθους: cap1)";
 $_LANG["recaptcha-invalid-request-cookie"] = "Παρουσιάστηκε σφάλμα, παρακαλώ δοκιμάστε ξανά (κωδικός λάθους: cap2)";
 $_LANG["recaptcha-incorrect-captcha-sol"] = "Οι χαρακτήρες που πληκτρολογήσατε δεν ταιριάζουν με την λέξης επαλήθευσης. Παρακαλώ δοκιμάστε ξανά.";
@@ -1251,6 +1251,8 @@ $_LANG["supportticketsnoneopen"] = "Δεν υπάρχουν ανοιχτά αι�
 $_LANG["invoicesnoneunpaid"] = "Δεν υπάρχουν ανεξόφλητα τιμολόγια";
 
 $_LANG["registerdisablednotice"] = "Για να εγγραφείτε παρακαλώ τοποθετήστε μία <strong><a href=\"cart.php\">παραγγελία</a></strong>";
+$_LANG['registerCreateAccount'] = "Για δημιουργία λογαριασμού, παρακαλούμε";
+$_LANG['registerCreateAccountOrder'] = "κάντε μια παραγγελία μαζί μας";
 
 $_LANG["pwstrength"] = "Δυναμη Κωδικού";
 $_LANG["pwstrengthenter"] = "Εισάγετε τον Κωδικό Πρόσβασης";
@@ -1867,4 +1869,15 @@ $_LANG['cPanel']['create'] = "Δημιουργία";
 $_LANG['cPanel']['emailAccountCreateSuccess'] = "Λογαριασμός Email δημιουργήθηκε επιτυχώς!";
 $_LANG['cPanel']['emailAccountCreateFailed'] = "Δημιουργία λογαριασμού Email απέτυχε: ";
 
-$_LANG['cPanel']['billingOverview'] = "Επισκόπηση Τιμολόγησης";
+$_LANG['cPanel']['packageNotActive'] = "Αυτό το πακέτο φιλοξενίας είναι προς το παρόν";
+$_LANG['cPanel']['statusPendingNotice'] = "Δεν μπορείτε να χρησιμοποιήσετε αυτό το λογαριασμό φιλοξενίας μέχρι να ενεργοποιηθεί.";
+$_LANG['cPanel']['statusSuspendedNotice'] = "Δεν μπορείτε να συνεχίσετε να χρησιμοποιείτε ή να διαχειριστείτε αυτό το πακέτο μέχρι να επανενεργοποιηθεί.";
+
+$_LANG['cPanel']['billingOverview'] = "Σύνοψη Τιμολόγησης";
+
+$_LANG['liveHelp']['chatNow'] = "Συνομιλία τώρα";
+
+$_LANG['quotes'] = "Προσφορές";
+
+$_LANG['productMustBeActiveForModuleCmds'] = "Το προϊόν πρέπει να είναι ενεργό για να εκτελέσετε αυτήν την ενέργεια";
+$_LANG['domainCannotBeManagedUnlessActive'] = "Αυτός το domain δεν είναι ενεργό. Δεν μπορούν να διαχειρίζονται domains εκτός εάν είναι ενεργά.";
