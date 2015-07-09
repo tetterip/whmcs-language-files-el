@@ -424,7 +424,6 @@ $_LANG['invoicesdatecreated'] = "Invoice Date";
 $_LANG['invoicesdatedue'] = "Due Date";
 $_LANG['invoicesdescription'] = "Description";
 $_LANG['invoicesdownload'] = "Download";
-$_LANG['invoicesdue'] = "Due Invoices";
 $_LANG['invoiceserror'] = "An Error Occurred. Please Try Again.";
 $_LANG['invoicesinvoicedto'] = "Invoiced To";
 $_LANG['invoicesinvoicenotes'] = "Invoice Notes";
@@ -1152,6 +1151,7 @@ $_LANG['domainmassrenew'] = "Renew Domains";
 $_LANG['captchatitle'] = "Spam Bot Verification";
 $_LANG['captchaverify'] = "Please enter the characters you see in the image below into the text box provided. This is required to prevent automated submissions.";
 $_LANG['captchaverifyincorrect'] = "The characters you entered didn't match the image shown. Please try again.";
+$_LANG['googleRecaptchaIncorrect'] = "Please complete the captcha and try again.";
 $_LANG['recaptcha-invalid-site-private-key'] = "An error occurred, please contact support (error code: cap1)";
 $_LANG['recaptcha-invalid-request-cookie'] = "An error occurred, please try again (error code: cap2)";
 $_LANG['recaptcha-incorrect-captcha-sol'] = "The characters you entered didn't match the word verification. Please try again.";
@@ -1251,6 +1251,8 @@ $_LANG['supportticketsnoneopen'] = "There are currently no open support tickets"
 $_LANG['invoicesnoneunpaid'] = "There are currently no unpaid invoices";
 
 $_LANG['registerdisablednotice'] = "To register please place an <strong><a href=\"cart.php\">order</a></strong>";
+$_LANG['registerCreateAccount'] = "To create an account, please";
+$_LANG['registerCreateAccountOrder'] = "place an order with us";
 
 $_LANG['pwstrength'] = "Password Strength";
 $_LANG['pwstrengthenter'] = "Enter a Password";
@@ -1323,7 +1325,7 @@ $_LANG['affiliatesignupinfo3'] = "If you would like to find out more, please con
 
 $_LANG['copyright'] = "Copyright";
 $_LANG['allrightsreserved'] = "All Rights Reserved";
-$_LANG['supportticketsclose'] = "Close Ticket";
+$_LANG['supportticketsclose'] = "Close";
 $_LANG['affiliatesinitialthen'] = "Initially then";
 $_LANG['invoicesoutstandingbalance'] = "Outstanding Balance";
 
@@ -1679,7 +1681,7 @@ $_LANG['pwresetemailneeded'] = "Forgotten your password? Enter your email addres
 
 $_LANG['quotestageexpired'] = "Expired";
 
-$_LANG['detailstitle'] = "Details";
+$_LANG['ticketinfo'] = "Ticket Information";
 $_LANG['customfield'] = "Custom Fields";
 
 $_LANG['domainsActive'] = "Active";
@@ -1829,7 +1831,7 @@ $_LANG['licensingaddon']['status'] = "License Status";
 $_LANG['licensingaddon']['reissue'] = "Reissue";
 $_LANG['licensingaddon']['reissuestatusmsg'] = "The Valid Domain, IP and Directory will be detected & saved the next time the license is accessed.";
 
-$_LANG['affiliateWithdrawalSummary'] = 'You will be able to request a withdrawal as soon as your balance reaches the minimum required amount of :amountForWithdrawal.';
+$_LANG['affiliateWithdrawalSummary'] = "You will be able to request a withdrawal as soon as your balance reaches the minimum required amount of :amountForWithdrawal.";
 
 $_LANG['projectManagement']['activeProjects'] = "Your Active Projects";
 
@@ -1867,4 +1869,15 @@ $_LANG['cPanel']['create'] = "Create";
 $_LANG['cPanel']['emailAccountCreateSuccess'] = "Email account created successfully!";
 $_LANG['cPanel']['emailAccountCreateFailed'] = "Email account creation failed: ";
 
+$_LANG['cPanel']['packageNotActive'] = "This hosting package is currently";
+$_LANG['cPanel']['statusPendingNotice'] = "You cannot begin using this hosting account until it is activated.";
+$_LANG['cPanel']['statusSuspendedNotice'] = "You cannot continue to use or manage this package until it is reactivated.";
+
 $_LANG['cPanel']['billingOverview'] = "Billing Overview";
+
+$_LANG['liveHelp']['chatNow'] = "Chat Now";
+
+$_LANG['quotes'] = "Quotes";
+
+$_LANG['productMustBeActiveForModuleCmds'] = "Product must be active to perform this action";
+$_LANG['domainCannotBeManagedUnlessActive'] = "This domain is not currently active. Domains cannot be managed unless active.";
