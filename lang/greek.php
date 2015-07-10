@@ -1620,9 +1620,9 @@ $_LANG["homebegin"] = "Ξεκινήστε την αναζήτηση για το 
 $_LANG["howcanwehelp"] = "Πώς μπορούμε να βοηθήσουμε?";
 $_LANG["exampledomain"] = "πχ. yourdomain.com";
 $_LANG["buyadomain"] = "Αγορα Domain";
-$_LANG["orderhosting"] = "Παραγγελια Φιλοξενιας";
-$_LANG["makepayment"] = "Καταβολη Πληρωμης";
-$_LANG["getsupport"] = "Ζητηστε Υποστηριξη";
+$_LANG["orderhosting"] = "Αγορα Φιλοξενιας";
+$_LANG["makepayment"] = "Πληρωμη";
+$_LANG["getsupport"] = "Υποστηριξη";
 
 $_LANG["news"] = "Ανακοινώσεις ";
 $_LANG["allthelatest"] = "από την";
