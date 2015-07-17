@@ -472,6 +472,7 @@ $_LANG['knowledgebaseviews'] = "Views";
 $_LANG['knowledgebasevote'] = "Vote";
 $_LANG['knowledgebasevotes'] = "Votes";
 $_LANG['knowledgebaseyes'] = "Yes";
+$_LANG['knowledgebaseArticleRatingThanks'] = "Thanks for rating the article for us";
 $_LANG['language'] = "Language";
 $_LANG['latefee'] = "Late Fee";
 $_LANG['latefeeadded'] = "Added";
@@ -622,6 +623,7 @@ $_LANG['orderpromoinvalid'] = "The promotion code entered does not apply to any 
 $_LANG['orderpromomaxusesreached'] = "The promotion code entered has already been used";
 $_LANG['orderpromotioncode'] = "Promotional Code";
 $_LANG['orderpromovalidatebutton'] = "Validate Code";
+$_LANG['orderPromoCodePlaceholder'] = "Enter promo code if you have one";
 $_LANG['orderprorata'] = "Pro Rata";
 $_LANG['orderreceived'] = "Thank you for your order. You will receive a confirmation email shortly.";
 $_LANG['orderregisterdomain'] = "Register a New Domain";
@@ -1881,3 +1883,11 @@ $_LANG['quotes'] = "Quotes";
 
 $_LANG['productMustBeActiveForModuleCmds'] = "Product must be active to perform this action";
 $_LANG['domainCannotBeManagedUnlessActive'] = "This domain is not currently active. Domains cannot be managed unless active.";
+
+$_LANG['actionRequiresAtLeastOneDomainSelected'] = 'Please select at least one domain to perform the selected action on.';
+
+$_LANG['clientAreaProductDownloadsAvailable'] = "The following download items are available for your product/service";
+$_LANG['clientAreaProductAddonsAvailable'] = "Addons are available for your product/service. <a href=\"cart.php?gid=addons\">Click here to view &amp; order &raquo;</a>";
+$_LANG['clientAreaSecurityTwoFactorAuthRecommendation'] = "We strongly encourage you to enable Two-Factor Authentication for added security.";
+$_LANG['clientAreaSecurityNoSecurityQuestions'] = "Setting a security question and answer helps protect your account from unauthorized password resets and allows us to verify your identity when requesting account changes.";
+$_LANG['clientAreaSecuritySecurityQuestionOtherError'] = "The security question helps protect your account from unauthorized password resets and allows us to verify your identity when requesting account changes.";

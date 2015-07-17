@@ -15,7 +15,7 @@
  * @author     WHMCS Limited <development@whmcs.com>
  * @translate  pRieStaKos - Cubric Internet Services
  * @license    http://www.whmcs.com/license/ WHMCS Eula
- * @version    6.0
+ * @version    6.01
  * @link       https://github.com/pRieStaKos/whmcs-language-files-el
  */
 
@@ -471,7 +471,8 @@ $_LANG["knowledgebasetitle"] = "Βάση Γνώσεων";
 $_LANG["knowledgebaseviews"] = "Προβολές";
 $_LANG["knowledgebasevote"] = "Ψήφισε";
 $_LANG["knowledgebasevotes"] = "Ψήφοι";
-$_LANG["knowledgebaseyes"] = "Ναι";
+$_LANG['knowledgebaseyes'] = "Ναι";
+$_LANG['knowledgebaseArticleRatingThanks'] = "Ευχαριστώ για την βαθμολόγηση του άρθρου";
 $_LANG["language"] = "Γλώσσα";
 $_LANG["latefee"] = "Χρέωση καθυστέρησης";
 $_LANG["latefeeadded"] = "Προστέθηκε";
@@ -621,7 +622,8 @@ $_LANG["orderpromoexpired"] = "Ο κωδικός promotion που εισάγατ
 $_LANG["orderpromoinvalid"] = "Ο κωδικός promotion που εισάγατε δεν ισχύει για τα προϊόντα της παραγγελίας σας";
 $_LANG["orderpromomaxusesreached"] = "Ο κωδικός promotion που εισάγατε έχει ήδη χρησιμοποιηθεί";
 $_LANG["orderpromotioncode"] = "Κωδικός Promotion";
-$_LANG["orderpromovalidatebutton"] = "Κωδικός Επικύρωσης >>";
+$_LANG['orderpromovalidatebutton'] = "Επικύρωση Κωδικού";
+$_LANG['orderPromoCodePlaceholder'] = "Εισάγετε τον κωδικό προσφοράς, αν έχετε ένα";
 $_LANG["orderprorata"] = "Κατ'αναλογία";
 $_LANG["orderreceived"] = "Σας ευχαριστούμε για την παραγγελία σας. Θα λάβετε σύντομα email επιβεβαίωσης.";
 $_LANG["orderregisterdomain"] = "Κατοχύρωση Domain";
@@ -1880,4 +1882,12 @@ $_LANG['liveHelp']['chatNow'] = "Συνομιλία τώρα";
 $_LANG['quotes'] = "Προσφορές";
 
 $_LANG['productMustBeActiveForModuleCmds'] = "Το προϊόν πρέπει να είναι ενεργό για να εκτελέσετε αυτήν την ενέργεια";
-$_LANG['domainCannotBeManagedUnlessActive'] = "Αυτός το domain δεν είναι ενεργό. Δεν μπορούν να διαχειρίζονται domains εκτός εάν είναι ενεργά.";
+$_LANG['domainCannotBeManagedUnlessActive'] = "Αυτό το domain δεν είναι ενεργό. Δεν μπορούν να διαχειρίζονται domains εκτός εάν είναι ενεργά.";
+
+$_LANG['actionRequiresAtLeastOneDomainSelected'] = 'Παρακαλώ επιλέξτε τουλάχιστον ένα πεδίο για να εκτελέσετε αυτή την ενέργεια.';
+
+$_LANG['clientAreaProductDownloadsAvailable'] = "Τα παρακάτω αντικείμενα λήψης είναι διαθέσιμα για το προϊόν/υπηρεσία σας";
+$_LANG['clientAreaProductAddonsAvailable'] = "Διαθέσιμα πρόσθετα για το προϊόν/υπηρεσία σας. <a href=\"cart.php?gid=addons\">Κάντε κλικ εδώ για προβολη &amp; παραγγελία &raquo;</a>";
+$_LANG['clientAreaSecurityTwoFactorAuthRecommendation'] = "Σας προτρέπουμε να ενεργοποιήσετε το Two-Factor Authentication για πρόσθετη ασφάλεια.";
+$_LANG['clientAreaSecurityNoSecurityQuestions'] = "Ρυθμίζοντας ερώτηση και απάντηση ασφαλείας βοηθά στην προστασία του λογαριασμού σας από μη εξουσιοδοτημένη επαναφορά κωδικού πρόσβασης και μας επιτρέπει να επαληθεύσετε την ταυτότητά σας όταν ζητάτε αλλαγές στον λογαριασμό.";
+$_LANG['clientAreaSecuritySecurityQuestionOtherError'] = "Η ερώτηση ασφαλείας βοηθά στην προστασία του λογαριασμού σας από μη εξουσιοδοτημένη επαναφορά κωδικού πρόσβασης και μας επιτρέπει να επαληθεύσετε την ταυτότητά σας όταν ζητάτε αλλαγές στον λογαριασμό.";
