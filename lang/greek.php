@@ -15,7 +15,7 @@
  * @author     WHMCS Limited <development@whmcs.com>
  * @translate  pRieStaKos - Cubric Internet Services
  * @license    http://www.whmcs.com/license/ WHMCS Eula
- * @version    6.01
+ * @version    6.0
  * @link       https://github.com/pRieStaKos/whmcs-language-files-el
  */
 
@@ -43,7 +43,7 @@ $_LANG["affiliatesbullet2"] = "για κάθε πληρωμή του κάθε π
 $_LANG["affiliatescommission"] = "Προμήθεια";
 $_LANG["affiliatesdescription"] = "Εγγραφείτε στο πρόγραμμα συνεργατών ή δείτε τα κέρδη σας";
 $_LANG["affiliatesdisabled"] = "Δεν προσφέρουμε για την ώρα προγράμματα συνεργατών στους πελάτες μας.";
-$_LANG["affiliatesearn"] = "Κέρδησε";
+$_LANG["affiliatesearn"] = "Κέρδισε";
 $_LANG["affiliatesearningstodate"] = "Σύνολο κερδών ανά Ημέρα";
 $_LANG["affiliatesfootertext"] = "Όταν συστήσετε σε κάποιον την ιστοσελίδα μας με το μοναδικό ID σας, ένα cookie τοποθετείτε στον υπολογιστή του που περιέχει αυτό το ID, έτσι ώστε αν βάλει την ιστοσελίδα στα αγαπημένα του και επιστρέψει αργότερα, εσείς να λάβετε το μερίδιό σας.";
 $_LANG["affiliateshostingpackage"] = "Πακέτα φιλοξενίας";
@@ -394,7 +394,7 @@ $_LANG["existingpasswordincorrect"] = "Ο υπάρχον κωδικός σας �
 $_LANG["firstpaymentamount"] = "Ποσό Πρώτης Πληρωμής";
 $_LANG["flashtutorials"] = "Εγχειρίδια Flash";
 $_LANG["flashtutorialsdescription"] = "Κάντε κλικ εδώ για να δείτε τους οδηγούς που σας δείχνουν πώς να χρησιμοποιείτε τον πίνακα ελέγχου φιλοξενίας σας";
-$_LANG["flashtutorialsheadertext"] = "Tα Εγχειρίδια Flash μας είναι εδώ για να σας βοηθήσουμε να αξιοποιήσετε πλήρως τον πίνακα ελέγχου φιλοξενίας σας. Επιλέξτε μια εργασία από τις παρακάτω για να δείτε βήμα προς βήμα οδηγό για το πώς να το ολοκληρώσετε.";
+$_LANG["flashtutorialsheadertext"] = "Τα Εγχειρίδια Flash μας είναι εδώ για να σας βοηθήσουμε να αξιοποιήσετε πλήρως τον πίνακα ελέγχου φιλοξενίας σας. Επιλέξτε μια εργασία από τις παρακάτω για να δείτε βήμα προς βήμα οδηγό για το πώς να το ολοκληρώσετε.";
 $_LANG["forwardingtogateway"] = "Παρακαλώ περιμένετε ενώ μεταφέρεστε στην πύλη που επιλέξατε για την πληρωμή...";
 $_LANG["globalsystemname"] = "Αρχική";
 $_LANG["globalyouarehere"] = "Βρίσκεστε εδώ";
@@ -424,7 +424,7 @@ $_LANG["invoicesdatecreated"] = "Ημερομηνία Έκδοσης";
 $_LANG["invoicesdatedue"] = "Ημερομηνία Λήξης";
 $_LANG["invoicesdescription"] = "Περιγραφή";
 $_LANG["invoicesdownload"] = "Λήψη";
-$_LANG['invoiceserror'] = "Παρουσιάστηκε σφαλμα. Δοκιμαστε ξανά.";
+$_LANG['invoiceserror'] = "Παρουσιάστηκε σφάλμα. Δοκιμάστε ξανά.";
 $_LANG["invoicesinvoicedto"] = "Τιμολογήθηκε σε";
 $_LANG["invoicesinvoicenotes"] = "Σημειώσεις τιμολογίου";
 $_LANG["invoicesnoinvoices"] = "Κανένα τιμολόγιο";
@@ -471,8 +471,7 @@ $_LANG["knowledgebasetitle"] = "Βάση Γνώσεων";
 $_LANG["knowledgebaseviews"] = "Προβολές";
 $_LANG["knowledgebasevote"] = "Ψήφισε";
 $_LANG["knowledgebasevotes"] = "Ψήφοι";
-$_LANG['knowledgebaseyes'] = "Ναι";
-$_LANG['knowledgebaseArticleRatingThanks'] = "Ευχαριστώ για την βαθμολόγηση του άρθρου";
+$_LANG["knowledgebaseyes"] = "Ναι";
 $_LANG["language"] = "Γλώσσα";
 $_LANG["latefee"] = "Χρέωση καθυστέρησης";
 $_LANG["latefeeadded"] = "Προστέθηκε";
@@ -622,8 +621,7 @@ $_LANG["orderpromoexpired"] = "Ο κωδικός promotion που εισάγατ
 $_LANG["orderpromoinvalid"] = "Ο κωδικός promotion που εισάγατε δεν ισχύει για τα προϊόντα της παραγγελίας σας";
 $_LANG["orderpromomaxusesreached"] = "Ο κωδικός promotion που εισάγατε έχει ήδη χρησιμοποιηθεί";
 $_LANG["orderpromotioncode"] = "Κωδικός Promotion";
-$_LANG['orderpromovalidatebutton'] = "Επικύρωση Κωδικού";
-$_LANG['orderPromoCodePlaceholder'] = "Εισάγετε τον κωδικό προσφοράς, αν έχετε ένα";
+$_LANG["orderpromovalidatebutton"] = "Κωδικός Επικύρωσης >>";
 $_LANG["orderprorata"] = "Κατ'αναλογία";
 $_LANG["orderreceived"] = "Σας ευχαριστούμε για την παραγγελία σας. Θα λάβετε σύντομα email επιβεβαίωσης.";
 $_LANG["orderregisterdomain"] = "Κατοχύρωση Domain";
@@ -870,10 +868,10 @@ $_LANG["invoicepaymentfailedconfirmation"] = "Δυστυχώς η προσπάθ
 $_LANG["promoappliedbutnodiscount"] = "Ο κωδικός προώθησης που έχετε εισάγει εφαρμόστηκε στο καλάθι σας, αλλά δεν υπάρχουν προϊόντα όπου πληρούν τις προϋποθέσεις για την έκπτωση ακόμα - παρακαλώ ελέγξτε τους όρους προώθησης";
 
 $_LANG["upgradeerroroverdueinvoice"] = "You cannot currently upgrade or downgrade this product because an invoice has already been generated for the next renewal.<br /><br />To proceed, please first pay the outstanding invoice and then you will be able to upgrade or downgrade immediately following that and be charged the difference or credited as appropriate.";
-$_LANG["upgradeexistingupgradeinvoice"] = "Δεν μπορείτε να αναβαθμίσετε ή να υποβαθμίσει το προϊόν αυτό λόγω του ότι μια αναβάθμιση ή υποβάθμιση είναι ήδη σε εξέλιξη. <br /><br />Για να συνεχίσετε πρώτα εξοφλήστε το οφειλόμενο τιμολόγιο και τότε θα είστε σε θέση να αναβαθμίσετε ή να υποβαθμίσε θα είστε σε θέση να αναβαθμίσετε ή να υποβαθμίσετε και μετά και να χρεωθείτε ή να πιστωθείτε την διαφορά ανάλογα με την περίπτωση<br/><br/>Εάν πιστεύετε ότι λάβατε αυτό το μήνυμα κατά λάθος,, παρακαλουμε όπως υποβάλλετε ένα Αίτημα Υποστήριξης";
+$_LANG["upgradeexistingupgradeinvoice"] = "Δεν μπορείτε να αναβαθμίσετε ή να υποβαθμίσει το προϊόν αυτό λόγω του ότι μια αναβάθμιση ή υποβάθμιση είναι ήδη σε εξέλιξη. <br /><br />Για να συνεχίσετε πρώτα εξοφλήστε το οφειλόμενο τιμολόγιο και τότε θα είστε σε θέση να αναβαθμίσετε ή να υποβαθμίσετε θα είστε σε θέση να αναβαθμίσετε ή να υποβαθμίσετε και μετά και να χρεωθείτε ή να πιστωθείτε την διαφορά ανάλογα με την περίπτωση<br/><br/>Εάν πιστεύετε ότι λάβατε αυτό το μήνυμα κατά λάθος,, παρακαλούμε όπως υποβάλετε ένα Αίτημα Υποστήριξης";
 
 $_LANG["subaccountactivate"] = "Ενεργοποίηση <br>Υπολογαριασμού";
-$_LANG["subaccountactivatedesc"] = "Επιλέξτε για παραμετροποιήση υπολογαριασμού με πρόσβαση στην Περιοχή Πελατών";
+$_LANG["subaccountactivatedesc"] = "Επιλέξτε για παραμετροποίηση υπολογαριασμού με πρόσβαση στην Περιοχή Πελατών";
 $_LANG["subaccountpermissions"] = "Δικαιώματα Υπολογαριασμού";
 $_LANG["subaccountpermsprofile"] = "Τροποποίηση Προφίλ Κεντρικού Λογαριασμού";
 $_LANG["subaccountpermscontacts"] = "Προβολή & Διαχείριση επαφών";
@@ -1810,7 +1808,7 @@ $_LANG['domaincheckerunabletooffertld'] = "Δυστυχώς δεν είμαστ�
 $_LANG['domaincheckerbulkplaceholder'] = "Εισάγετε μέχρι 20 ονόματα domain \nΚάθε όνομα πρέπει να είναι σε ξεχωριστή γραμμή \n\nΠχ:\nexample.com\nexample.net";
 
 $_LANG['domainchecker']['suggestiontakentitle'] = "Domain Μη Διαθέσιμο";
-$_LANG['domainchecker']['suggestiontakenmsg'] = "Δυστυχώς το domain επιλέξατε δεν ειναι διαθέσιμο. Αυτό μπορεί να συμβει αν το domain έχει κατοχυρωθεί πρόσφατα. Παρακαλούμε επιστρέψτε πισω και επιλέξτε ένα άλλο domain.";
+$_LANG['domainchecker']['suggestiontakenmsg'] = "Δυστυχώς το domain επιλέξατε δεν είναι διαθέσιμο. Αυτό μπορεί να συμβεί αν το domain έχει κατοχυρωθεί πρόσφατα. Παρακαλούμε επιστρέψτε πίσω και επιλέξτε ένα άλλο domain.";
 $_LANG['domainchecker']['suggestiontakenchooseanother'] = "Επιλέξτε άλλο domain";
 
 $_LANG['domainchecker']['alreadyincarttitle'] = "Ήδη στο Καλάθι";
@@ -1818,7 +1816,7 @@ $_LANG['domainchecker']['alreadyincartmsg'] = "Αυτό το domain είναι �
 $_LANG['domainchecker']['alreadyincartcheckoutnow'] = "Ολοκλήρωση Τώρα";
 
 $_LANG['genericerror']['title'] = "Ωχ, κάτι πήγε στραβά!";
-$_LANG['genericerror']['msg'] = "Παρακαλώ δοκιμάστε ξανά και αν το πρόβλημα παραμένει, επικοινωνήστε με την ομάδα υποστήριξής μας.";
+$_LANG['genericerror']['msg'] = "Παρακαλώ δοκιμάστε ξανά και αν το πρόβλημα παραμένει, επικοινωνήστε με την ομάδα υποστήριξης μας.";
 
 # Licensing Addon
 
@@ -1833,7 +1831,7 @@ $_LANG['licensingaddon']['status'] = "Κατάσταση Άδειας";
 $_LANG['licensingaddon']['reissue'] = "Επανέκδοση";
 $_LANG['licensingaddon']['reissuestatusmsg'] = "Το έγκυρο domain, IP και κατάλογος θα ανιχνευθεί και αποθηκευθεί την επόμενη φορά που χρησιμοποιηθεί η άδεια.";
 
-$_LANG['affiliateWithdrawalSummary'] = 'Θα είστε σε θέση να ζητήσετε ανάλυψη μόλις το υπόλοιπό σας φτάσει το ελάχιστο απαιτούμενο ποσό των :amountForWithdrawal.';
+$_LANG['affiliateWithdrawalSummary'] = 'Θα είστε σε θέση να ζητήσετε ανάληψη μόλις το υπόλοιπό σας φτάσει το ελάχιστο απαιτούμενο ποσό των :amountForWithdrawal.';
 
 $_LANG['projectManagement']['activeProjects'] = "Ενεργά Έργα";
 
@@ -1882,12 +1880,4 @@ $_LANG['liveHelp']['chatNow'] = "Συνομιλία τώρα";
 $_LANG['quotes'] = "Προσφορές";
 
 $_LANG['productMustBeActiveForModuleCmds'] = "Το προϊόν πρέπει να είναι ενεργό για να εκτελέσετε αυτήν την ενέργεια";
-$_LANG['domainCannotBeManagedUnlessActive'] = "Αυτό το domain δεν είναι ενεργό. Δεν μπορούν να διαχειρίζονται domains εκτός εάν είναι ενεργά.";
-
-$_LANG['actionRequiresAtLeastOneDomainSelected'] = 'Παρακαλώ επιλέξτε τουλάχιστον ένα πεδίο για να εκτελέσετε αυτή την ενέργεια.';
-
-$_LANG['clientAreaProductDownloadsAvailable'] = "Τα παρακάτω αντικείμενα λήψης είναι διαθέσιμα για το προϊόν/υπηρεσία σας";
-$_LANG['clientAreaProductAddonsAvailable'] = "Διαθέσιμα πρόσθετα για το προϊόν/υπηρεσία σας. <a href=\"cart.php?gid=addons\">Κάντε κλικ εδώ για προβολη &amp; παραγγελία &raquo;</a>";
-$_LANG['clientAreaSecurityTwoFactorAuthRecommendation'] = "Σας προτρέπουμε να ενεργοποιήσετε το Two-Factor Authentication για πρόσθετη ασφάλεια.";
-$_LANG['clientAreaSecurityNoSecurityQuestions'] = "Ρυθμίζοντας ερώτηση και απάντηση ασφαλείας βοηθά στην προστασία του λογαριασμού σας από μη εξουσιοδοτημένη επαναφορά κωδικού πρόσβασης και μας επιτρέπει να επαληθεύσετε την ταυτότητά σας όταν ζητάτε αλλαγές στον λογαριασμό.";
-$_LANG['clientAreaSecuritySecurityQuestionOtherError'] = "Η ερώτηση ασφαλείας βοηθά στην προστασία του λογαριασμού σας από μη εξουσιοδοτημένη επαναφορά κωδικού πρόσβασης και μας επιτρέπει να επαληθεύσετε την ταυτότητά σας όταν ζητάτε αλλαγές στον λογαριασμό.";
+$_LANG['domainCannotBeManagedUnlessActive'] = "Αυτός το domain δεν είναι ενεργό. Δεν μπορούν να διαχειρίζονται domains εκτός εάν είναι ενεργά.";
