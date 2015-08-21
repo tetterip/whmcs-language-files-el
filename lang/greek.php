@@ -15,7 +15,7 @@
  * @author     WHMCS Limited <development@whmcs.com>
  * @translate  pRieStaKos - Cubric Internet Services
  * @license    http://www.whmcs.com/license/ WHMCS Eula
- * @version    6.0
+ * @version    6.0.2
  * @link       https://github.com/pRieStaKos/whmcs-language-files-el
  */
 
@@ -245,8 +245,8 @@ $_LANG["clientregistertitle"] = "Εγγραφή";
 $_LANG["clientregisterverify"] = "Επιβεβαίωση εγγραφής";
 $_LANG["clientregisterverifydescription"] = "Παρακαλούμε συμπληρώστε το κείμενο που βλέπετε στην εικόνα παρακάτω στο πεδίο. Αυτό απαιτείται για την πρόληψη αυτόματων εγγραφών.";
 $_LANG["clientregisterverifyinvalid"] = "Λάθος εισαγωγή κωδικού εικόνας επιβεβαίωσης";
-$_LANG["closewindow"] = "Κλείσιμο παραθύρου";
-$_LANG["completeorder"] = "Ολοκλήρωση παραγγελίας";
+$_LANG["closewindow"] = "Κλείσιμο Παραθύρου";
+$_LANG["completeorder"] = "Ολοκλήρωση Παραγγελίας";
 $_LANG["confirmnewpassword"] = "Επιβεβαίωση Νέου Κωδικού";
 $_LANG["contactemail"] = "Email";
 $_LANG["contacterrormessage"] = "Δεν εισάγατε μήνυμα";
@@ -472,6 +472,7 @@ $_LANG["knowledgebaseviews"] = "Προβολές";
 $_LANG["knowledgebasevote"] = "Ψήφισε";
 $_LANG["knowledgebasevotes"] = "Ψήφοι";
 $_LANG["knowledgebaseyes"] = "Ναι";
+$_LANG['knowledgebaseArticleRatingThanks'] = "Ευχαριστούμε για την βαθμολογηση του άρθρου μας";
 $_LANG["language"] = "Γλώσσα";
 $_LANG["latefee"] = "Χρέωση καθυστέρησης";
 $_LANG["latefeeadded"] = "Προστέθηκε";
@@ -621,7 +622,8 @@ $_LANG["orderpromoexpired"] = "Ο κωδικός promotion που εισάγατ
 $_LANG["orderpromoinvalid"] = "Ο κωδικός promotion που εισάγατε δεν ισχύει για τα προϊόντα της παραγγελίας σας";
 $_LANG["orderpromomaxusesreached"] = "Ο κωδικός promotion που εισάγατε έχει ήδη χρησιμοποιηθεί";
 $_LANG["orderpromotioncode"] = "Κωδικός Promotion";
-$_LANG["orderpromovalidatebutton"] = "Κωδικός Επικύρωσης >>";
+$_LANG["orderpromovalidatebutton"] = "Επικύρωση Κωδικού";
+$_LANG['orderPromoCodePlaceholder'] = "Εισάγετε τον κωδικό promo αν έχετε ένα";
 $_LANG["orderprorata"] = "Κατ'αναλογία";
 $_LANG["orderreceived"] = "Σας ευχαριστούμε για την παραγγελία σας. Θα λάβετε σύντομα email επιβεβαίωσης.";
 $_LANG["orderregisterdomain"] = "Κατοχύρωση Domain";
@@ -867,8 +869,8 @@ $_LANG["invoicepaymentfailedconfirmation"] = "Δυστυχώς η προσπάθ
 
 $_LANG["promoappliedbutnodiscount"] = "Ο κωδικός προώθησης που έχετε εισάγει εφαρμόστηκε στο καλάθι σας, αλλά δεν υπάρχουν προϊόντα όπου πληρούν τις προϋποθέσεις για την έκπτωση ακόμα - παρακαλώ ελέγξτε τους όρους προώθησης";
 
-$_LANG["upgradeerroroverdueinvoice"] = "You cannot currently upgrade or downgrade this product because an invoice has already been generated for the next renewal.<br /><br />To proceed, please first pay the outstanding invoice and then you will be able to upgrade or downgrade immediately following that and be charged the difference or credited as appropriate.";
-$_LANG["upgradeexistingupgradeinvoice"] = "Δεν μπορείτε να αναβαθμίσετε ή να υποβαθμίσει το προϊόν αυτό λόγω του ότι μια αναβάθμιση ή υποβάθμιση είναι ήδη σε εξέλιξη. <br /><br />Για να συνεχίσετε πρώτα εξοφλήστε το οφειλόμενο τιμολόγιο και τότε θα είστε σε θέση να αναβαθμίσετε ή να υποβαθμίσετε θα είστε σε θέση να αναβαθμίσετε ή να υποβαθμίσετε και μετά και να χρεωθείτε ή να πιστωθείτε την διαφορά ανάλογα με την περίπτωση<br/><br/>Εάν πιστεύετε ότι λάβατε αυτό το μήνυμα κατά λάθος,, παρακαλούμε όπως υποβάλετε ένα Αίτημα Υποστήριξης";
+$_LANG["upgradeerroroverdueinvoice"] = "Δεν μπορεί να αναβαθμίσετε ή να υποβαθμίσει αυτό το προϊόν, διότι ένα τιμολόγιο έχει ήδη δημιουργηθεί για την επόμενη ανανέωση. <br /> <br /> Για να προχωρήσετε, παρακαλούμε πρώτα να καταβάλει το οφειλόμενο τιμολόγιο και στη συνέχεια θα είστε σε θέση να αναβαθμίσετε ή να υποβαθμίστε αμέσως και μετά να χρεωθείτε ή να πιστωθείτε την διαφορά ανάλογα με την περίπτωση";
+$_LANG["upgradeexistingupgradeinvoice"] = "Δεν μπορείτε να αναβαθμίσετε ή να υποβαθμίσει αυτό το προϊόν διότι μια αναβάθμιση ή υποβάθμιση είναι ήδη σε εξέλιξη. <br /><br /> Για να προχωρήσετε, παρακαλούμε πρώτα εξοφλήστε το οφειλόμενο τιμολόγιο και τότε θα είστε σε θέση να αναβαθμίσετε ή να υποβαθμίσετε θα είστε σε θέση να αναβαθμίσετε ή να υποβαθμίσετε και μετά να χρεωθείτε ή να πιστωθείτε την διαφορά ανάλογα με την περίπτωση.<br/><br/>Εάν πιστεύετε ότι λάβατε αυτό το μήνυμα κατά λάθος,, παρακαλούμε όπως υποβάλετε ένα Αίτημα Υποστήριξης";
 
 $_LANG["subaccountactivate"] = "Ενεργοποίηση <br>Υπολογαριασμού";
 $_LANG["subaccountactivatedesc"] = "Επιλέξτε για παραμετροποίηση υπολογαριασμού με πρόσβαση στην Περιοχή Πελατών";
@@ -1881,3 +1883,11 @@ $_LANG['quotes'] = "Προσφορές";
 
 $_LANG['productMustBeActiveForModuleCmds'] = "Το προϊόν πρέπει να είναι ενεργό για να εκτελέσετε αυτήν την ενέργεια";
 $_LANG['domainCannotBeManagedUnlessActive'] = "Αυτός το domain δεν είναι ενεργό. Δεν μπορούν να διαχειρίζονται domains εκτός εάν είναι ενεργά.";
+
+$_LANG['actionRequiresAtLeastOneDomainSelected'] = 'Παρακαλώ επιλέξτε τουλάχιστον ένα domain για να εκτελέσετε την επιλεγμένη ενέργεια.';
+
+$_LANG['clientAreaProductDownloadsAvailable'] = "Τα παρακατω αντικείμενα λήψης είναι διαθέσιμα για το προϊόν / υπηρεσία σας";
+$_LANG['clientAreaProductAddonsAvailable'] = "Πρόσθετα είναι διαθέσιμα για το προϊόν / υπηρεσία σας. <a href=\"cart.php?gid=addons\">Κάντε κλικ εδώ για προβολή &amp; αγορά &raquo;</a>";
+$_LANG['clientAreaSecurityTwoFactorAuthRecommendation'] = "Σας προτρέπουμε να ενεργοποιήσετε Πιστοποίηση Δύο Παραγόντων για πρόσθετη ασφάλεια.";
+$_LANG['clientAreaSecurityNoSecurityQuestions'] = "Η ρύθμιση μιας ερώτησης και απάντησης ασφαλείας βοηθά στην προστασία του λογαριασμού σας από μη εξουσιοδοτημένη επαναφορά κωδικού πρόσβασης και μας επιτρέπει να επαληθεύσουμε την ταυτότητά σας όταν ζητάτε αλλαγές στον λογαριασμό.";
+$_LANG['clientAreaSecuritySecurityQuestionOtherError'] = "Η ερώτηση ασφαλείας βοηθά στην προστασία του λογαριασμού σας από μη εξουσιοδοτημένη επαναφορά κωδικού πρόσβασης και μας επιτρέπει να επαληθεύσουμε την ταυτότητά σας όταν ζητάτε αλλαγές στον λογαριασμό.";

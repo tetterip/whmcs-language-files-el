@@ -1692,10 +1692,10 @@ $_LANG['domainsCancelled'] = "Cancelled";
 $_LANG['domainsFraud'] = "Fraud";
 $_LANG['domainsPending'] = "Pending";
 $_LANG['domainsPendingTransfer'] = "Pending Transfer";
-$_LANG['domainsExpiringInTheNext30Days'] = "Expiring in the next 30 Days";
-$_LANG['domainsExpiringInTheNext90Days'] = "Expiring in the next 90 Days";
-$_LANG['domainsExpiringInTheNext180Days'] = "Expiring in the next 180 Days";
-$_LANG['domainsExpiringInMoreThan180Days'] = "Expiring in more than 180 Days";
+$_LANG['domainsExpiringInTheNext30Days'] = "Expiring within 30 Days";
+$_LANG['domainsExpiringInTheNext90Days'] = "Expiring within 90 Days";
+$_LANG['domainsExpiringInTheNext180Days'] = "Expiring within 180 Days";
+$_LANG['domainsExpiringInMoreThan180Days'] = "Expiring in 180+ Days";
 
 $_LANG['kbtagcloud'] = "Tag Cloud";
 
