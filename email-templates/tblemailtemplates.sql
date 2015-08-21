@@ -17,11 +17,8 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `cubricgr_clients`
 --
-
 -- --------------------------------------------------------
-
 --
 -- Table structure for table `tblemailtemplates`
 --
