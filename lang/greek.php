@@ -11,12 +11,13 @@
  * For instructions on overrides, please visit:
  *   http://docs.whmcs.com/Language_Overrides
  *
- * @package    WHMCS
- * @author     WHMCS Limited <development@whmcs.com>
- * @translate  pRieStaKos - Cubric Internet Services
- * @license    http://www.whmcs.com/license/ WHMCS Eula
- * @version    6.2.0
- * @link       https://github.com/pRieStaKos/whmcs-language-files-el
+ * @package         WHMCS
+ * @author          WHMCS Limited <development@whmcs.com>
+ * @translate       pRieStaKos - Cubric Internet Services
+ * @license         http://www.whmcs.com/license/ WHMCS Eula
+ * @version         6.2.0
+ * @link            https://github.com/pRieStaKos/whmcs-language-files-el
+ * @contributors    https://github.com/pRieStaKos/whmcs-language-files-el/graphs/contributors
  */
 
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
