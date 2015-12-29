@@ -15,7 +15,7 @@
  * @author     WHMCS Limited <development@whmcs.com>
  * @translate  pRieStaKos - Cubric Internet Services
  * @license    http://www.whmcs.com/license/ WHMCS Eula
- * @version    6.0.2
+ * @version    6.2.0
  * @link       https://github.com/pRieStaKos/whmcs-language-files-el
  */
 
