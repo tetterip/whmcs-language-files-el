@@ -26,7 +26,7 @@ $_LANG["locale"] = "el_GR";
 
 $_LANG["accountinfo"] = "Πληροφορίες Λογαριασμού";
 $_LANG["accountstats"] = "Στατιστικά Λογαριασμού";
-$_LANG["addfunds"] = "Προσθήκη Χρημάτων";
+$_LANG["addfunds"] = "Κατάθεση";
 $_LANG["addfundsamount"] = "Ποσό για προσθήκη";
 $_LANG["addfundsmaximum"] = "Μέγιστη Κατάθεση";
 $_LANG["addfundsmaximumbalance"] = "Μέγιστο Υπόλοιπο";
@@ -915,7 +915,7 @@ $_LANG["invoicestotaldue"] = "Σύνολο Οφειλής";
 $_LANG["masspaytitle"] = "Μαζική Πληρωμή";
 $_LANG["masspaydescription"] = "Παρακάτω είναι μια σύνοψη των επιλεγμένων τιμολογίων και η συνολική χρέωσή τους. Για να κάνετε την πληρωμή, επιλέξτε τον τρόπο πληρωμής παρακάτω και προχωρήστε.";
 $_LANG["masspayselected"] = "Επιλεγμένη Πληρωμή";
-$_LANG["masspayall"] = "Πληρωμή Όλων";
+$_LANG["masspayall"] = "Πληρωμή";
 $_LANG["masspaymakepayment"] = "Πληρωμή";
 
 # Version 4.3
