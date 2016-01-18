@@ -1751,7 +1751,7 @@ $_LANG["quoteacceptcontractwarning"] = "Πρέπει να γνωρίζετε ό�
 // Client alerts
 $_LANG["clientAlerts"]["creditCardExpiring"] = "Η πιστωτική σας κάρτα :creditCardType-:creditCardLastFourDigits λήγει μέσα σε :days μέρες. Σας παρακαλούμε να ενημερώσετε την όσο το δυνατόν συντομότερα.";
 $_LANG["clientAlerts"]["domainsExpiringSoon"] = "Έχετε :numberOfDomains domain(s) που λήγουν εντός :days ημερών.";
-$_LANG["clientAlerts"]["invoicesUnpaid"] = "Έχετε :numberOfInvoice ανεξόφλητα τιμολόγια). Πληρώστε τα νωρίς για την ειρήνη του μυαλού.";
+$_LANG["clientAlerts"]["invoicesUnpaid"] = "Έχετε :numberOfInvoices ανεξόφλητα τιμολόγια. Πληρώστε τα νωρίς για την ειρήνη του μυαλού.";
 $_LANG["clientAlerts"]["invoicesOverdue"] = "Έχετε :numberOfInvoices απλήρωτα τιμολόγια με συνολικό οφειλόμενο υπόλοιπο των :balanceDue. Πληρώστε τα τώρα για να αποφευχθούν τυχόν διακοπές στις υπηρεσίες.";
 $_LANG["clientAlerts"]["creditBalance"] = "Έχετε πιστωτικό υπόλοιπο των :creditBalance.";
 
