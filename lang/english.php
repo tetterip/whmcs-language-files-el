@@ -19,6 +19,7 @@
  * @link       http://www.whmcs.com/
  */
 
+
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
 
 $_LANG['locale'] = "en_GB";
@@ -282,6 +283,9 @@ $_LANG['creditcardsecuritynotice'] = "Any data you enter here is submitted secur
 $_LANG['creditcarduseexisting'] = "Use Existing Card";
 $_LANG['customfieldvalidationerror'] = "value is not valid";
 $_LANG['days'] = "Days";
+$_LANG['hours'] = "Hours";
+$_LANG['minutes'] = "Minutes";
+$_LANG['seconds'] = "Seconds";
 $_LANG['defaultbillingcontact'] = "Default Billing Contact";
 $_LANG['domainalternatives'] = "Try these alternatives:";
 $_LANG['domainavailable'] = "Available! Order Now";
@@ -784,6 +788,7 @@ $_LANG['supportticketsticketurgencyhigh'] = "High";
 $_LANG['supportticketsticketurgencylow'] = "Low";
 $_LANG['supportticketsticketurgencymedium'] = "Medium";
 $_LANG['supportticketsuploadfailed'] = "Could not upload attachment file";
+$_LANG['supportticketsuploadtoolarge'] = "Uploaded file was too large. Please try uploading a smaller file.";
 $_LANG['supportticketsviewticket'] = "View Ticket";
 $_LANG['supportticketclosedmsg'] = "This ticket is closed.  You may reply to this ticket to reopen it.";
 $_LANG['telesignincorrectpin'] = "Incorrect Pin!";
@@ -1280,7 +1285,7 @@ $_LANG['moduleactionfailed'] = "Action Failed";
 
 $_LANG['domaininfoexp'] = "To the right you can find the details of your domain. You can manage your domain using the tabs above.";
 $_LANG['domainrenewexp'] = "Enable auto renew to have us automatically send you a renewal invoice before your domain expires.";
-$_LANG['domainnsexp'] = "You can change where your domain points to here. Please be aware changes can take up to 24 hours to propogate.";
+$_LANG['domainnsexp'] = "You can change where your domain points to here. Please be aware changes can take up to 24 hours to propagate.";
 $_LANG['domainlockingexp'] = "Lock your domain to prevent it from being transferred away without your authorization.";
 $_LANG['domaincurrentlyunlocked'] = "Domain Currently Unlocked!";
 $_LANG['domaincurrentlyunlockedexp'] = "You should enable the registrar lock unless you are transferring the domain.";
@@ -1434,6 +1439,8 @@ $_LANG['feedbackworst'] = "Worst";
 $_LANG['feedbackbest'] = "Best";
 $_LANG['feedbackimprove'] = "How may we make your experience better in the future?";
 $_LANG['pleaserate2'] = "handled this support request";
+$_LANG['feedbacksupplyrating'] = "Please supply at least a rating for :staffname (comments are optional)";
+
 $_LANG['returnclient'] = "Return to Client Area";
 
 $_LANG['clientareanavsecurity'] = "Security Settings";
@@ -1772,6 +1779,7 @@ $_LANG['clientHomePanels']['affiliateProgram'] = "Affiliate Program";
 $_LANG['clientHomePanels']['recentSupportTickets'] = "Recent Support Tickets";
 $_LANG['clientHomePanels']['recentSupportTicketsNone'] = "No Recent Tickets Found. If you need any help, please <a href=\"submitticket.php\">open a ticket</a>.";
 $_LANG['clientHomePanels']['affiliateSummary'] = "Your current commission balance is :commissionBalance. You only need another :amountUntilWithdrawalLevel before you can withdraw your earnings.";
+$_LANG['clientHomePanels']['affiliateSummaryWithdrawalReady'] = "Your current commission balance is :commissionBalance. You may withdraw your earnings now.";
 
 $_LANG['upgradeNotPossible'] = "Upgrading this product is not possible.  If you believe you've reached this page in error, please notify our support department.  Otherwise, go back and double check your selection.";
 
@@ -1955,6 +1963,7 @@ $_LANG['orderForm']['addToCart'] = "Add to Cart";
 $_LANG['orderForm']['addedToCartRemove'] = "Added to Cart (Remove)";
 $_LANG['orderForm']['configureDesiredOptions'] = "Configure your desired options and continue to checkout.";
 $_LANG['orderForm']['haveQuestionsContact'] = "Have questions? Contact our sales team for assistance.";
+$_LANG['orderForm']['haveQuestionsClickHere'] = "Click here";
 $_LANG['orderForm']['use'] = "Use";
 $_LANG['orderForm']['check'] = "Check";
 $_LANG['orderForm']['transfer'] = "Transfer";
@@ -1994,6 +2003,7 @@ $_LANG['cloudSlider']['feature02DescriptionTwo'] = "Our dedication to customer s
 $_LANG['cloudSlider']['feature03Title'] = "Top Tier Security";
 $_LANG['cloudSlider']['feature03Description'] = "Rest easy knowing that we provide 24/7 security monitoring and DDoS protection. You take protecting your customer's data seriously, and so do we. Our security team and safeguards are on the job all day, every day to provide the level of security needed in today's digital age.";
 $_LANG['cloudSlider']['feature03DescriptionTwo'] = "A wide range of security tools are at your disposal, including SSL certificates, firewall configuration, security monitoring services, VPN access, and more.";
+$_LANG['cloudSlider']['selectProductLevel'] = "Select the Perfect Level for You!";
 
 $_LANG['domainChecker.additionalPricingOptions'] = 'Additional Pricing Options For :domain';
 
@@ -2022,5 +2032,47 @@ $_LANG['oauth']['badTwoFactorAuthModule'] = "Bad Two-Factor Auth Module. Please 
 $_LANG['oauth']['permAccessNameAndEmail'] = "Access your name and email address";
 
 $_LANG['errorButTryAgain'] = "An error occurred.  Please try again.";
+$_LANG['emailSent'] = 'Email Sent';
+$_LANG['verificationKeyExpired'] = 'This email verification key has expired. Please login to request a new one.';
+$_LANG['emailAddressVerified'] = 'Thank you for confirming your email address.';
+$_LANG['emailKeyExpired'] = 'This email verification key has expired. Please request a new one.';
+$_LANG['verifyEmailAddress'] = 'Please check your email and follow the link to verify your email address.';
+$_LANG['resendEmail'] = 'Resend Verification Email';
+
+// Markdown Editor Help
+$_LANG['markdown']['title']= "Markdown Guide";
+$_LANG['markdown']['emphasis']= "Emphasis";
+$_LANG['markdown']['bold']= "bold";
+$_LANG['markdown']['italics']= "italics";
+$_LANG['markdown']['strikeThrough']= "strikethrough";
+$_LANG['markdown']['headers']= "Headers";
+$_LANG['markdown']['bigHeader']= "Big header";
+$_LANG['markdown']['mediumHeader']= "Medium header";
+$_LANG['markdown']['smallHeader']= "Small header";
+$_LANG['markdown']['tinyHeader']= "Tiny header";
+$_LANG['markdown']['lists']= "Lists";
+$_LANG['markdown']['genericListItem']= "Generic list item";
+$_LANG['markdown']['numberedListItem']= "Numbered list item";
+$_LANG['markdown']['links']= "Links";
+$_LANG['markdown']['textToDisplay']= "Text to display";
+$_LANG['markdown']['exampleLink']= "http://www.example.com";
+$_LANG['markdown']['quotes']= "Quotes";
+$_LANG['markdown']['thisIsAQuote']= "This is a quote.";
+$_LANG['markdown']['quoteMultipleLines']= "It can span multiple lines!";
+$_LANG['markdown']['tables']= "Tables";
+$_LANG['markdown']['columnOne']= "Column 1";
+$_LANG['markdown']['columnTwo']= "Column 2";
+$_LANG['markdown']['columnThree']= "Column 3";
+$_LANG['markdown']['withoutAligning']= "Or without aligning the columns...";
+$_LANG['markdown']['john']= "John";
+$_LANG['markdown']['doe']= "Doe";
+$_LANG['markdown']['male']= "Male";
+$_LANG['markdown']['mary']= "Mary";
+$_LANG['markdown']['smith']= "Smith";
+$_LANG['markdown']['female'] = "Female";
+$_LANG['markdown']['displayingCode'] = "Displaying code";
+$_LANG['markdown']['spanningMultipleLines'] = "Or spanning multiple lines...";
+$_LANG['markdown']['saved'] = 'saved';
+$_LANG['markdown']['saving'] = 'autosaving';
 
 ////////// End of english language file.  Do not place any translation strings below this line!
