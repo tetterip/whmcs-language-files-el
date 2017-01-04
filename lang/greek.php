@@ -15,7 +15,7 @@
  * @author          WHMCS Limited <development@whmcs.com>
  * @translate       pRieStaKos - Cubric Internet Services
  * @license         http://www.whmcs.com/license/ WHMCS Eula
- * @version         6.3.0RC1
+ * @version         7.1.1
  * @link            https://github.com/pRieStaKos/whmcs-language-files-el
  * @contributors    https://github.com/pRieStaKos/whmcs-language-files-el/graphs/contributors
  */
@@ -127,7 +127,7 @@ $_LANG["clientareacancelinvalid"] = "Γι'αυτόν τον λογαριασμό
 $_LANG["clientareacancellationendofbillingperiod"] = "Τέλος περιόδου χρέωσης";
 $_LANG["clientareacancellationimmediate"] = "Άμεσα";
 $_LANG["clientareacancellationtype"] = "Τύπος Ακύρωσης";
-$_LANG["clientareacancelled"] = "Ακυρωμένα";
+$_LANG["clientareacancelled"] = "Ακυρωμένο";
 $_LANG["clientareacancelproduct"] = "Αίτηση Ακύρωσης για";
 $_LANG["clientareacancelreason"] = "Περιγράψτε εν συντομία το λόγο ακύρωσης";
 $_LANG["clientareacancelrequest"] = "Αίτηση Ακύρωσης Λογαριασμού";
@@ -139,11 +139,11 @@ $_LANG["clientareacity"] = "Πόλη";
 $_LANG["clientareacompanyname"] = "Όνομα Εταιρείας";
 $_LANG["clientareaconfirmpassword"] = "Επιβεβαίωση κωδικού";
 $_LANG["clientareacontactsemails"] = "Προτιμήσεις Email";
-$_LANG["clientareacontactsemailsdomain"] = "Domain Emails - Υπενθυμίσεις Ανανέωσης, Επιβεβαίωσης Κατοχύρωσης, κλπ...";
-$_LANG["clientareacontactsemailsgeneral"] = "Γενικά Emails - Γενικές Ανακοινώσεις &amp; Υπενθυμίσεις Κωδικού";
-$_LANG["clientareacontactsemailsinvoice"] = "Emails Τιμολογίων - Τιμολόγια &amp; Υπενθυμίσεις Πληρωμών";
-$_LANG["clientareacontactsemailsproduct"] = "Emails Προϊόντων - Πληροφορίες Παραγγελιών, Emails Καλωσορίσματος, κλπ...";
-$_LANG["clientareacontactsemailssupport"] = "Emails Υποστήριξης- Ειδοποιήσεις Αιτημάτων Υποστήριξης (Tickets)";
+$_LANG["clientareacontactsemailsdomain"] = "<strong>Domain Emails</strong> - Υπενθυμίσεις Ανανέωσης, Επιβεβαίωσης Κατοχύρωσης, κλπ";
+$_LANG["clientareacontactsemailsgeneral"] = "<strong>Γενικά Emails</strong> - Γενικές Ανακοινώσεις &amp; Υπενθυμίσεις Κωδικού";
+$_LANG["clientareacontactsemailsinvoice"] = "<strong>Emails Αναφορών Χρέωσης</strong> - Αναφορές &amp; Υπενθυμίσεις Πληρωμών";
+$_LANG["clientareacontactsemailsproduct"] = "<strong>Emails Προϊόντων</strong> - Πληροφορίες Παραγγελιών, Emails Καλωσορίσματος, κλπ";
+$_LANG["clientareacontactsemailssupport"] = "<strong>Emails Υποστήριξης</strong> - Ειδοποιήσεις Αιτημάτων Υποστήριξης (Tickets)";
 $_LANG["clientareacountry"] = "Χώρα";
 $_LANG["clientareacurrentsecurityanswer"] = "Παρακαλούμε εισάγετε την απάντηση";
 $_LANG["clientareacurrentsecurityquestion"] = "Παρακαλούμε επιλέξτε ερώτηση ασφαλείας";
@@ -212,7 +212,7 @@ $_LANG["clientareanavorder"] = "Παραγγελία Επιπρόσθετων Π
 $_LANG["clientareanavsecurityquestions"] = "Αλλαγή Ερώτησης Ασφαλείας";
 $_LANG["clientareanavservices"] = "Οι Υπηρεσίες μου";
 $_LANG["clientareanavsupporttickets"] = "Αιτήματα Υποστήριξης";
-$_LANG["clientareanocontacts"] = "Δεν Βρέθηκαν Επαφές";
+$_LANG["clientareanocontacts"] = "Δεν βρέθηκαν επαφές";
 $_LANG["clientareapassword"] = " Κωδικός";
 $_LANG["clientareapending"] = "Εν αναμονή";
 $_LANG["clientareapendingtransfer"] = "Εκκρεμεί Μεταφορά";
@@ -230,8 +230,8 @@ $_LANG["clientareaselectcountry"] = "Επιλογή χώρας";
 $_LANG["clientareasetlocking"] = "Ρύθμιση κλειδώματος";
 $_LANG["clientareastate"] = "Χώρα";
 $_LANG["clientareastatus"] = "Κατάσταση";
-$_LANG["clientareasuspended"] = "Ανεστάλμένα";
-$_LANG["clientareaterminated"] = "Τερματισμένα";
+$_LANG["clientareasuspended"] = "Ανεστάλμένο";
+$_LANG["clientareaterminated"] = "Ληγμένο";
 $_LANG["clientareaticktoenable"] = "Επιλέξτε για ενεργοποίηση";
 $_LANG["clientareatitle"] = "Περιοχή Πελατών";
 $_LANG["clientareaunlimited"] = "Απεριόριστο";
@@ -284,7 +284,7 @@ $_LANG["creditcarduseexisting"] = "Χρήση υπάρχουσας κάρτας"
 $_LANG["customfieldvalidationerror"] = "η τιμή δεν είναι έγκυρη";
 $_LANG["days"] = "Ημέρες";
 $_LANG['hours'] = "Ώρες";
-$_LANG['minutes'] = "Λεπτά";
+$_LANG['minutes'] = "Λεπτά  ";
 $_LANG['seconds'] = "Δευτερόλεπτα";
 $_LANG["defaultbillingcontact"] = "Προεπιλεγμένη Επαφή";
 $_LANG["domainalternatives"] = "Δοκιμάστε αυτά τα εναλλακτικά:";
@@ -296,7 +296,6 @@ $_LANG["domainbulksearch"] = "Μαζική Αναζήτηση Domain";
 $_LANG["domainbulksearchintro"] = "Η μαζική αναζήτηση domain σας επιτρέπει να αναζητήσετε μέχρι και 20 domains με μια ενέργεια, σε πραγματικό χρόνο. Εισάγετε τα domains στο παρακάτω πεδίο, ένα σε κάθε σειρά - μην προσθέσετε www. ή http:// στην αρχή.";
 $_LANG["domainbulktransferdescription"] = "Μπορείτε να μεταφέρετε τα υπάρχον domain σας σε εμάς σήμερα.  Για να ξεκινήσετε, απλά εισάγετε τα domains παρακάτω, ένα σε κάθε γραμμή - μην εισάγετε το www. ή το http://";
 $_LANG["domainbulktransfersearch"] = "Μαζική Μεταφορά Domain";
-$_LANG["domaincheckerdescription"] = "Ελέγξτε τη διαθεσιμότητα ενός domain";
 $_LANG["domaincontactinfo"] = "Στοιχεία επικοινωνίας";
 $_LANG["domaincurrentrenewaldate"] = "Τρέχουσα ημερομηνία ανανέωσης";
 $_LANG["domaindnsaddress"] = "Διεύθυνση";
@@ -369,7 +368,7 @@ $_LANG["domainsimplesearch"] = "Απλή Αναζήτηση Domain";
 $_LANG["domainspricing"] = "Τιμολόγηση Domain";
 $_LANG["domainsregister"] = "Κατοχύρωση";
 $_LANG["domainsrenew"] = "Ανανέωση";
-$_LANG["domainsrenewnow"] = "Ανανέωση τώρα";
+$_LANG["domainsrenewnow"] = "Ανανέωση";
 $_LANG["domainstatus"] = "Κατάσταση";
 $_LANG["domainstransfer"] = "Μεταφορά";
 $_LANG["domaintitle"] = "Έλεγχος Domain";
@@ -406,21 +405,21 @@ $_LANG["forwardingtogateway"] = "Παρακαλώ περιμένετε ενώ μ
 $_LANG["globalsystemname"] = "Αρχική";
 $_LANG["globalyouarehere"] = "Βρίσκεστε εδώ";
 $_LANG["go"] = "Go";
-$_LANG["headertext"] = "Καλώς ήλθατε στην σύστημα πελατών μας.";
+$_LANG["headertext"] = "Καλώς ήλθατε στην Περιοχή Πελατών μας.";
 $_LANG["hometitle"] = "Αρχική";
 $_LANG["imagecheck"] = "Παρακαλώ εισάγετε τον κωδικό ασφαλείας που εμφανίζεται στην εικόνα - αυτό απαιτείται για την αποφυγή αυτοματοποιημένων υποβολών";
 $_LANG["invoiceaddcreditamount"] = "Εισάγετε το ποσό για καταβολή";
 $_LANG["invoiceaddcreditapply"] = "Καταβολή πιστωτικού";
 $_LANG["invoiceaddcreditdesc1"] = "Το πιστωτικό υπόλοιπο σας είναι";
-$_LANG["invoiceaddcreditdesc2"] = "Αυτό μπορεί να καταβληθεί στο τιμολόγιο χρησιμοποιώντας την παρακάτω φόρμα.";
+$_LANG["invoiceaddcreditdesc2"] = "Αυτό μπορεί να καταβληθεί στην αναφορά χρέωσης χρησιμοποιώντας την παρακάτω φόρμα.";
 $_LANG["invoiceaddcreditoverbalance"] = "Δεν μπορείτε να καταβάλετε περισσότερη πίστωση από το οφειλόμενο υπόλοιπο";
 $_LANG["invoiceaddcreditovercredit"] = "Δεν μπορείτε να καταβάλετε περισσότερο πιστωτικό απ'όσο έχετε στο λογαριασμό σας";
-$_LANG["invoicenumber"] = "Τιμολόγιο #";
+$_LANG["invoicenumber"] = "Αναφορά Χρέωσης #";
 $_LANG["invoiceofflinepaid"] = "Οι πληρωμές εκτός σύνδεσης με πιστωτική κάρτα πραγματοποιείται χειροκίνητα.<br />Θα λάβετε επιβεβαίωση μέσω e-mail, αφού η πληρωμή σας υποβληθεί προς επεξεργασία.";
 $_LANG["invoicerefnum"] = "Αριθμός Αναφοράς";
-$_LANG["invoices"] = "Τιμολόγια";
+$_LANG["invoices"] = "Αναφορές Χρέωσης";
 $_LANG["invoicesamount"] = "Ποσό";
-$_LANG["invoicesattn"] = "ATTN";
+$_LANG["invoicesattn"] = "Υπόψην";
 $_LANG["invoicesbacktoclientarea"] = "&laquo; Πίσω στην Περιοχή Πελατών";
 $_LANG["invoicesbalance"] = "Υπόλοιπο";
 $_LANG["invoicesbefore"] = "πριν";
@@ -432,11 +431,11 @@ $_LANG["invoicesdatedue"] = "Ημερομηνία Λήξης";
 $_LANG["invoicesdescription"] = "Περιγραφή";
 $_LANG["invoicesdownload"] = "Λήψη";
 $_LANG['invoiceserror'] = "Παρουσιάστηκε σφάλμα. Δοκιμάστε ξανά.";
-$_LANG["invoicesinvoicedto"] = "Τιμολογήθηκε σε";
-$_LANG["invoicesinvoicenotes"] = "Σημειώσεις τιμολογίου";
-$_LANG["invoicesnoinvoices"] = "Κανένα τιμολόγιο";
+$_LANG["invoicesinvoicedto"] = "Χρεώθηκε σε";
+$_LANG["invoicesinvoicenotes"] = "Σημειώσεις αναφοράς";
+$_LANG["invoicesnoinvoices"] = "Καμία αναφορά χρέωσης";
 $_LANG["invoicesnotes"] = "Σημειώσεις";
-$_LANG["invoicesoutstandinginvoices"] = "Εκκρεμή τιμολόγια";
+$_LANG["invoicesoutstandinginvoices"] = "Εκκρεμείς αναφορές χρέωσης";
 $_LANG["invoicespaid"] = "Εξοφλημενο";
 $_LANG["invoicespaynow"] = "Πληρωμή τώρα";
 $_LANG["invoicespayto"] = "Πληρωμή σε";
@@ -444,23 +443,24 @@ $_LANG["invoicesrefunded"] = "Επιστροφη";
 $_LANG["invoicesstatus"] = "Κατάσταση";
 $_LANG["invoicessubtotal"] = "Υποσύνολο";
 $_LANG["invoicestax"] = "ΦΠΑ";
-$_LANG["invoicestaxindicator"] = "Υποδεικνύει ένα φορολογήσιμο στοιχείο.";
-$_LANG["invoicestitle"] = "Τιμολόγιο #";
+$_LANG["invoicestaxindicator"] = "Μη Φορολογήσιμο Παραστατικό.";
+$_LANG["invoicestitle"] = "Αναφορά Χρέωσης #";
 $_LANG["invoicestotal"] = "Σύνολο";
 $_LANG["invoicestransactions"] = "Συναλλαγές";
 $_LANG["invoicestransamount"] = "Ποσό";
 $_LANG["invoicestransdate"] = "Ημερομηνία Συναλλαγής";
 $_LANG["invoicestransgateway"] = "Τρόπος Πληρωμής";
-$_LANG["invoicestransid"] = "ID Συναλλαγής";
+$_LANG["invoicestransid"] = "Κωδικός Συναλλαγής";
 $_LANG["invoicestransnonefound"] = "Δεν βρέθηκε συνδεδεμένη συναλλαγή";
 $_LANG["invoicesunpaid"] = "Ανεξοφλητο";
 $_LANG['invoicesdraft'] = "Προσχέδιο";
-$_LANG["invoicesview"] = "Προβολή Τιμολογίου";
+$_LANG["invoicesview"] = "Προβολή Αναφοράς";
 $_LANG["jobtitle"] = "Τίτλος Εργασίας";
 $_LANG["kbsuggestions"] = "Προτάσεις Βάσης Γλώσσεων";
 $_LANG["kbsuggestionsexplanation"] = "Τα παρακάτω άρθρα βρέθηκαν στη Βάση Γνώσεων που μπορούν να απαντήσουν στην ερώτησή σας.";
 $_LANG["knowledgebasearticles"] = "Άρθρα";
 $_LANG["knowledgebasecategories"] = "Κατηγορίες";
+$_LANG['nokbcategories'] = "Δεν υπάρχουν κατηγορίες";
 $_LANG["knowledgebasedescription"] = "Αναζήτηση στην BΓ μας για απαντήσεις σε συχνές ερωτήσεις";
 $_LANG["knowledgebasefavorites"] = "Προσθήκη στα Αγαπημένα";
 $_LANG["knowledgebasehelpful"] = "Ήταν χρήσιμη αυτήν την απάντηση;";
@@ -482,7 +482,7 @@ $_LANG["knowledgebasevotes"] = "Ψήφοι";
 $_LANG["knowledgebaseyes"] = "Ναι";
 $_LANG['knowledgebaseArticleRatingThanks'] = "Ευχαριστούμε για την βαθμολογηση του άρθρου μας";
 $_LANG["language"] = "Γλώσσα";
-$_LANG["latefee"] = "Χρέωση καθυστέρησης";
+$_LANG["latefee"] = "Χρέωση Καθυστέρησης";
 $_LANG["latefeeadded"] = "Προστέθηκε";
 $_LANG["latestannouncements"] = "Τελευταίες Ανακοινώσεις";
 $_LANG["loginbutton"] = "Σύνδεση";
@@ -543,7 +543,7 @@ $_LANG["orderaddon"] = "Πρόσθετα";
 $_LANG["orderaddondescription"] = "Τα παρακάτω πρόσθετα είναι διαθέσιμα για αυτό το προϊόν. Επιλέξτε τα πρόσθετα που θέλετε να παραγγείλετε.";
 $_LANG["orderavailable"] = "Διαθέσιμα";
 $_LANG["orderavailableaddons"] = "Κάντε κλικ για να τα διαθέσιμα πρόσθετα";
-$_LANG["orderbillingcycle"] = "Κύκλος Τιμολόγησης";
+$_LANG["orderbillingcycle"] = "Κύκλος Χρέωσης";
 $_LANG["ordercategories"] = "Κατηγορίες";
 $_LANG["orderchangeaddons"] = "Αλλαγή Πρόσθετων";
 $_LANG["orderchangeconfig"] = "Αλλαγή Τροποποιήσιμων Επιλογών";
@@ -554,7 +554,7 @@ $_LANG["ordercheckout"] = "Ολοκλήρωση αγοράς";
 $_LANG["orderchooseaddons"] = "Επιλέξτε Πρόσθετων Προϊόντος";
 $_LANG["orderchooseapackage"] = "Επιλέξτε ένα Πακέτο";
 $_LANG["ordercodenotfound"] = "Ο κωδικός προώθησης που εισάγατε δεν υπάρχει";
-$_LANG["ordercompletebutnotpaid"] = "Προσοχή! Η παραγγελία σας έχει ολοκληρωθεί αλλά δεν έχει ακόμη εξοφληθεί γιαυτό επομένως δεν θα ενεργοποιηθεί. <br /> Κάντε κλικ στον παρακάτω σύνδεσμο για να μεταβείτε στο τιμολόγιο σας για να καταβάλετε την πληρωμή.";
+$_LANG["ordercompletebutnotpaid"] = "Προσοχή! Η παραγγελία σας έχει ολοκληρωθεί αλλά δεν έχει ακόμη εξοφληθεί γιαυτό επομένως δεν θα ενεργοποιηθεί. <br /> Κάντε κλικ στον παρακάτω σύνδεσμο για να μεταβείτε στην αναφορά χρέωσης για να προχωρήσετε στην πληρωμή.";
 $_LANG["orderconfigpackage"] = "Τροποποιήσιμες Επιλογές";
 $_LANG["orderconfigure"] = "Τροποποίηση";
 $_LANG["orderconfirmation"] = "Επιβεβαίωση Παραγγελίας";
@@ -592,13 +592,13 @@ $_LANG["ordererrorsubdomaintaken"] = "Το subdomain που εισάγατε ε�
 $_LANG["ordererrortransfersecret"] = "Θα πρέπει να εισάγετε το μυστικό μεταφοράς";
 $_LANG["ordererroruserexists"] = "Ένας χρήστης υπάρχει ήδη με τη συγκεκριμένη διεύθυνση e-mail";
 $_LANG["orderexistinguser"] = "Είμαι ήδη πελάτης και θέλω να προσθέσω αυτή την παραγγελία στο λογαριασμό μου";
-$_LANG["orderfailed"] = "Η παραγγελία απέτυχε";
+$_LANG["orderfailed"] = "Αποτυχία Παραγγελίας";
 $_LANG["orderfinalinstructions"] = "Αν έχετε οποιαδήποτε απορία σχετικά με την παραγγελία σας, παρακαλούμε να ανοίξει ένα ticket υποστήριξης από την Περιοχή πελατών και αναφέρετε τον αριθμό της παραγγελίας σας.";
 $_LANG["orderfree"] = "ΔΩΡΕΑΝ";
 $_LANG["orderfreedomainappliesto"] = "ισχύει για τις ακόλουθες επεκτάσεις μόνο";
 $_LANG["orderfreedomaindescription"] = "σε επιλεγμένους όρους πληρωμής";
 $_LANG["orderfreedomainonly"] = "Δωρεάν Domain";
-$_LANG["orderfreedomainregistration"] = "Δωρεάν Κατοχύρωση Domain";
+$_LANG["orderfreedomainregistration"] = "Δωρεάν κατοχύρωση Domain";
 $_LANG["ordergotoclientarea"] = "Κάντε κλικ εδώ για να μεταβείτε στην Περιοχή Πελατών μας";
 $_LANG["orderinvalidcodeforbillingcycle"] = "Ο κωδικός αυτός δεν ισχύει για τον επιλεγμένο κύκλο χρέωσης";
 $_LANG["orderlogininfo"] = "Πληροφορίες Είσοδος";
@@ -678,7 +678,7 @@ $_LANG["promoonceperclient"] = "Αυτός ο κωδικός μπορεί να �
 $_LANG["pwstrengthfail"] = "Ο κωδικός πρόσβασης που εισάγατε δεν είναι αρκετά ισχυρός - παρακαλούμε να εισάγετε ένα πιο σύνθετο κωδικό πρόσβασης";
 $_LANG['pwdoesnotmatch'] = "Οι κωδικοί πρόσβασης που εισάγατε δεν ταιριάζουν";
 $_LANG["quicknav"] = "Γρήγορη πλοήγηση";
-$_LANG["recordsfound"] = "εγγραφές βρέθηκαν";
+$_LANG["recordsfound"] = "Εγγραφές βρέθηκαν";
 $_LANG["recurring"] = "Επαναλαμβανόμενο";
 $_LANG["recurringamount"] = "Επαναλαμβανόμενο Ποσό";
 $_LANG["every"] = "Κάθε";
@@ -705,7 +705,7 @@ $_LANG["serverns2prefix"] = "Πρόθεμα NS2";
 $_LANG["serverpassword"] = " Κωδικός";
 $_LANG["serverrootpw"] = "Κωδικός Root";
 $_LANG["serverstatusdescription"] = "Δείτε ζωντανά πληροφορίες κατάστασης για τους διακομιστές μας";
-$_LANG["serverstatusnoservers"] = "Κανένας server δεν παρακολουθείται επί του παρόντος";
+$_LANG["serverstatusnoservers"] = "Κανένας διακομιστής δεν παρακολουθείται επί του παρόντος";
 $_LANG["serverstatusnotavailable"] = "Μη Διαθέσιμο";
 $_LANG["serverstatusoffline"] = "Αποσυνδεδεμένο";
 $_LANG["serverstatusonline"] = "Συνδεδεμένο";
@@ -736,7 +736,7 @@ $_LANG["sslserverinfodetails"] = "Πρέπει να έχετε ένα έγκυρ
 $_LANG["sslservertype"] = "Τύπος Διακομιστή Web";
 $_LANG["sslstatus"] = "Κατάσταση ρύθμισης παραμέτρων";
 $_LANG["statscreditbalance"] = "Υπόλοιπο πίστωσης λογαριασμού";
-$_LANG["statsdueinvoicesbalance"] = "Υπόλοιπο Οφειλόμενων Τιμολογίων";
+$_LANG["statsdueinvoicesbalance"] = "Υπόλοιπο Οφειλής";
 $_LANG["statsnumdomains"] = "Αριθμός Domain";
 $_LANG["statsnumproducts"] = "Αριθμός Προϊόντων/Υπηρεσιών";
 $_LANG["statsnumreferredsignups"] = "Αριθμός Παραπεμπομένων Εγγραφών";
@@ -788,7 +788,7 @@ $_LANG["supportticketsticketurgencyhigh"] = "Υψηλή";
 $_LANG["supportticketsticketurgencylow"] = "Χαμηλή";
 $_LANG["supportticketsticketurgencymedium"] = "Μέτρια";
 $_LANG["supportticketsuploadfailed"] = "Δεν ήταν δυνατή η επισύναψη του αρχείου";
-$_LANG['supportticketsuploadtoolarge'] = "Το επισυναπτόμενο αρχείο είναι μεγαλο. Παρακαλούμε δοκιμάστε ένα μικρότερο αρχείο.";
+$_LANG['supportticketsuploadtoolarge'] = "Το επισυναπτόμενο αρχείο είναι μεγάλο. Παρακαλούμε δοκιμάστε ένα μικρότερο αρχείο.";
 $_LANG["supportticketsviewticket"] = "Προβολή Αιτήματος";
 $_LANG["supportticketclosedmsg"] = "Το παρόν αίτημα είναι κλειστό. Μπορείτε να απαντήσετε σε αυτό το αίτημα για να το ανοίξετε εκ νέου.";
 $_LANG["telesignincorrectpin"] = "Λάθος PIN!";
@@ -802,7 +802,7 @@ $_LANG["telesignphonecall"] = "Κλήση τηλεφώνου";
 $_LANG["telesignpin"] = "Πληκτρολογήστε τον PIN σας: ";
 $_LANG["telesignsms"] = "SMS";
 $_LANG["telesignsmstextmessage"] = "Σας ευχαριστούμε που χρησιμοποιήσατε το σύστημα επαλήθευσης SMS. Ο κωδικός σας είναι: %s Παρακαλώ εισάγετε τον κωδικό στον υπολογιστή σας τώρα.!";
-$_LANG["telesigntitle"] = "Τηλεφωνική Επαλήθευση TeleSign.";
+$_LANG["telesigntitle"] = "TeleSign τηλεφωνική επαλήθευση.";
 $_LANG["telesigntype"] = "Επιλέξτε τον τύπο επαλήθευσης για τον αριθμό %s:";
 $_LANG["telesignverificationcanceled"] = "Υπάρχει ένα προσωρινό πρόβλημα με την υπηρεσία επαλήθευσης τηλεφώνου και ο έλεγχο του τηλεφώνου έχει ακυρωθεί.";
 $_LANG["telesignverificationproblem"] = "Υπήρξε πρόβλημα με την υπηρεσία τηλεφωνικής επαλήθευσης και η παραγγελία σας δεν μπόρεσε να επικυρωθεί. Παρακαλώ δοκιμάστε αργότερα.";
@@ -835,7 +835,7 @@ $_LANG["viewcart"] = "Προβολή Καλαθιού";
 $_LANG["welcomeback"] = "Καλωσήλθατε";
 $_LANG["whoisresults"] = "Αποτελέσματα WHOIS για";
 $_LANG["yes"] = "Ναι";
-$_LANG["yourdetails"] = "Τα στοιχεία σας";
+$_LANG["yourdetails"] = "Τα Στοιχεία σας";
 
 # Version 4.1
 
@@ -879,19 +879,19 @@ $_LANG["invoicepaymentfailedconfirmation"] = "Δυστυχώς η προσπάθ
 
 $_LANG["promoappliedbutnodiscount"] = "Ο κωδικός προώθησης που έχετε εισάγει εφαρμόστηκε στο καλάθι σας, αλλά δεν υπάρχουν προϊόντα όπου πληρούν τις προϋποθέσεις για την έκπτωση ακόμα - παρακαλώ ελέγξτε τους όρους προώθησης";
 
-$_LANG["upgradeerroroverdueinvoice"] = "Δεν μπορεί να αναβαθμίσετε ή να υποβαθμίσει αυτό το προϊόν, διότι ένα τιμολόγιο έχει ήδη δημιουργηθεί για την επόμενη ανανέωση. <br /> <br /> Για να προχωρήσετε, παρακαλούμε πρώτα να καταβάλει το οφειλόμενο τιμολόγιο και στη συνέχεια θα είστε σε θέση να αναβαθμίσετε ή να υποβαθμίστε αμέσως και μετά να χρεωθείτε ή να πιστωθείτε την διαφορά ανάλογα με την περίπτωση";
-$_LANG["upgradeexistingupgradeinvoice"] = "Δεν μπορείτε να αναβαθμίσετε ή να υποβαθμίσει αυτό το προϊόν διότι μια αναβάθμιση ή υποβάθμιση είναι ήδη σε εξέλιξη. <br /><br /> Για να προχωρήσετε, παρακαλούμε πρώτα εξοφλήστε το οφειλόμενο τιμολόγιο και τότε θα είστε σε θέση να αναβαθμίσετε ή να υποβαθμίσετε θα είστε σε θέση να αναβαθμίσετε ή να υποβαθμίσετε και μετά να χρεωθείτε ή να πιστωθείτε την διαφορά ανάλογα με την περίπτωση.<br/><br/>Εάν πιστεύετε ότι λάβατε αυτό το μήνυμα κατά λάθος,, παρακαλούμε όπως υποβάλετε ένα Αίτημα Υποστήριξης";
+$_LANG["upgradeerroroverdueinvoice"] = "Δεν μπορεί να αναβαθμίσετε ή να υποβαθμίσει αυτό το προϊόν, διότι μία αναφορά χρέωσης έχει ήδη δημιουργηθεί για την επόμενη ανανέωση. <br /> <br /> Για να προχωρήσετε, παρακαλούμε πρώτα να καταβάλει το οφειλόμενο ποσό και στη συνέχεια θα είστε σε θέση να αναβαθμίσετε ή να υποβαθμίστε αμέσως και μετά να χρεωθείτε ή να πιστωθείτε την διαφορά ανάλογα με την περίπτωση";
+$_LANG["upgradeexistingupgradeinvoice"] = "Δεν μπορείτε να αναβαθμίσετε ή να υποβαθμίσει αυτό το προϊόν διότι μια αναβάθμιση ή υποβάθμιση είναι ήδη σε εξέλιξη. <br /><br /> Για να προχωρήσετε, παρακαλούμε πρώτα εξοφλήστε το οφειλόμενο ποσό και τότε θα είστε σε θέση να αναβαθμίσετε ή να υποβαθμίσετε θα είστε σε θέση να αναβαθμίσετε ή να υποβαθμίσετε και μετά να χρεωθείτε ή να πιστωθείτε την διαφορά ανάλογα με την περίπτωση.<br/><br/>Εάν πιστεύετε ότι λάβατε αυτό το μήνυμα κατά λάθος,, παρακαλούμε όπως υποβάλετε ένα Αίτημα Υποστήριξης";
 
-$_LANG["subaccountactivate"] = "Ενεργοποίηση <br>Υπολογαριασμού";
-$_LANG["subaccountactivatedesc"] = "Επιλέξτε για παραμετροποίηση υπολογαριασμού με πρόσβαση στην Περιοχή Πελατών";
-$_LANG["subaccountpermissions"] = "Δικαιώματα Υπολογαριασμού";
+$_LANG["subaccountactivate"] = "Ενεργοποίηση Υπο-λογαριασμού";
+$_LANG["subaccountactivatedesc"] = "Επιλέξτε για παραμετροποίηση υπο-λογαριασμού";
+$_LANG["subaccountpermissions"] = "Δικαιώματα Υπο-λογαριασμού";
 $_LANG["subaccountpermsprofile"] = "Τροποποίηση Προφίλ Κεντρικού Λογαριασμού";
 $_LANG["subaccountpermscontacts"] = "Προβολή & Διαχείριση επαφών";
 $_LANG["subaccountpermsproducts"] = "Προβολή Προϊόντων & Υπηρεσιών";
 $_LANG["subaccountpermsmanageproducts"] = "Προβολή & Τροποποίηση κωδικών προϊόντος";
 $_LANG["subaccountpermsdomains"] = "Προβολή Domains";
 $_LANG["subaccountpermsmanagedomains"] = "Διαχείριση Ρυθμίσεων Domain";
-$_LANG["subaccountpermsinvoices"] = "Προβολή & Πληρωμή Τιμολογίων";
+$_LANG["subaccountpermsinvoices"] = "Προβολή & Πληρωμή Αναφορώς Χρέωσης";
 $_LANG["subaccountpermstickets"] = "Προβολή & Δημιουργία Ticket Υποστήριξης";
 $_LANG["subaccountpermsaffiliates"] = "Προβολή & Διαχείριση Λογαριασμών Συνεργατών";
 $_LANG["subaccountpermsemails"] = "Προβολή Emails";
@@ -899,7 +899,7 @@ $_LANG["subaccountpermsorders"] = "Νέες παραγγελίες/Αναβαθ�
 $_LANG["subaccountpermissiondenied"] = "Δεν έχετε τα απαραίτητα δικαιώματα για να δείτε αυτή τη σελίδα";
 $_LANG["subaccountallowedperms"] = "Τα δικαιώματά σας είναι:";
 $_LANG["subaccountcontactmaster"] = "Επικοινωνήστε με τον ιδιοκτήτη του κύριου λογαριασμού, αν νομίζετε ότι αυτό είναι λάθος.";
-$_LANG['subaccountSsoDenied'] = "Δεν έχετε δικαιώματα σύνδεσης μέσω Single Sign-On.";
+$_LANG['subaccountSsoDenied'] = "Δεν έχετε άδεια για να συνδεθείτε χρησιμοποιώντας Single Sign-On.";
 
 $_LANG["knowledgebasealsoread"] = "Επίσης Διαβάστε";
 
@@ -907,20 +907,20 @@ $_LANG["orderpaymenttermtriennially"] = "Τριετής";
 $_LANG["orderpaymentterm36month"] = "Τιμή 36 μηνών";
 
 $_LANG["domainrenewals"] = "Ανανεώσεις Domain";
-$_LANG["domaindaysuntilexpiry"] = "Ημέρες Μέχρι τη Λήξη";
+$_LANG["domaindaysuntilexpiry"] = "Ημέρες μέχρι τη λήξη";
 $_LANG["domainrenewalsnoneavailable"] = "Δεν υπάρχουν domains που μπορούν να ανανεωθούν στον λογαριασμό σας";
 $_LANG["domainrenewalspastgraceperiod"] = "Αδυναμία Ανανέωσης";
-$_LANG["domainrenewalsingraceperiod"] = "Τελευταία Ευκαιρία για Ανανέωση!";
+$_LANG["domainrenewalsingraceperiod"] = "Τελευταία ευκαιρία για ανανέωση!";
 $_LANG["domainrenewalsdays"] = "Ημέρες";
 $_LANG["domainrenewalsdaysago"] = "Ημέρες πριν";
 
-$_LANG["invoicespartialpayments"] = "Πληρωμές Έναντι";
+$_LANG["invoicespartialpayments"] = "Πληρωμές έναντι";
 $_LANG["invoicestotaldue"] = "Σύνολο Οφειλής";
 
 $_LANG["masspaytitle"] = "Μαζική Πληρωμή";
-$_LANG["masspaydescription"] = "Παρακάτω είναι μια σύνοψη των επιλεγμένων τιμολογίων και η συνολική χρέωσή τους. Για να κάνετε την πληρωμή, επιλέξτε τον τρόπο πληρωμής παρακάτω και προχωρήστε.";
+$_LANG["masspaydescription"] = "Παρακάτω είναι μια σύνοψη των επιλεγμένων αναφορών χρέωσης και η συνολική χρέωσή τους. Για να κάνετε την πληρωμή, επιλέξτε τον τρόπο πληρωμής παρακάτω και προχωρήστε.";
 $_LANG["masspayselected"] = "Επιλεγμένη Πληρωμή";
-$_LANG["masspayall"] = "Πληρωμή Όλων";
+$_LANG["masspayall"] = "Πληρωμή";
 $_LANG["masspaymakepayment"] = "Πληρωμή";
 
 # Version 4.3
@@ -1007,7 +1007,7 @@ $_LANG["cartdomaininvalid"] = "Το domain που εισάγατε δεν είν
 
 # Version 4.4
 
-$_LANG["dlinvalidlink"] = "Λανθασμένος Σύνδεσμος. Παρακαλούμε Επικοινωνήστε με την Υποστήριξη";
+$_LANG["dlinvalidlink"] = "Λανθασμένο Σύνδεσμο. Παρακαλούμε Επικοινωνήστε με την Υποστήριξη";
 
 $_LANG["domaindnsmanagementlaunch"] = "Εκκίνηση Διαχείρισης DNS";
 $_LANG["domainemailforwardinglaunch"] = "Εκκίνηση Διαχείρισης Προωθήσεων Email";
@@ -1053,7 +1053,7 @@ $_LANG["quotefinalpayment"] = "Υπόλοιπο από Κατάθεση";
 $_LANG["invoiceoneoffpayment"] = "Κάντε μια Προπληρωμή";
 $_LANG["invoicesubscriptionpayment"] = "Δημιουργία Αυτοματοποιημένης Επαναλαμβανόμενης Συνδρομής";
 
-$_LANG["invoicepaymentpendingreview"] = "Σας ευχαριστούμε! Η πληρωμή σας ήταν επιτυχής και θα εφαρμοστεί στο τιμολόγιο σας μόλις η διαδικασία αξιολόγησης 2CheckOut ολοκληρωθεί. <br /> <br /> Αυτό μπορεί να διαρκέσει μέχρι και λίγες ώρες οπότε η υπομονή σας θα εκτιμηθεί.";
+$_LANG["invoicepaymentpendingreview"] = "Σας ευχαριστούμε! Η πληρωμή σας ήταν επιτυχής και θα εφαρμοστεί στην αναφορά χρέωσης μόλις η διαδικασία αξιολόγησης 2CheckOut ολοκληρωθεί. <br /> <br /> Αυτό μπορεί να διαρκέσει μέχρι και λίγες ώρες οπότε η υπομονή σας θα εκτιμηθεί.";
 
 $_LANG["step"] = "Βήμα %s";
 $_LANG["cartdomainexists"] = "Το domain υπάρχει ήδη στη βάση μας, οπότε δεν μπορεί να αγοραστεί πάλι";
@@ -1146,7 +1146,7 @@ $_LANG["domainbulkmanagementnotpossible"] = "Δυστυχώς, αυτές οι �
 $_LANG["domainmanagens"] = "Διαχείριση Nameservers";
 
 $_LANG["domainautorenewstatus"] = "Αυτόματη Ανανέωση";
-$_LANG["domainautorenewinfo"] = "Η αυτόματη ανανέωση σας βοηθάει να προστατεύσετε το domain σας. Όταν είναι ενεργοποιημένη, θα σας στέλνουμε αυτόματα ένα τιμολόγιο ανανέωσης λίγες εβδομάδες πριν λήξει το domain, και θα το ανανεώσουμε αμέσως αφού εξοφληθεί.";
+$_LANG["domainautorenewinfo"] = "Η αυτόματη ανανέωση σας βοηθάει να προστατεύσετε το domain σας. Όταν είναι ενεργοποιημένη, θα σας στέλνουμε αυτόματα αναφορά χρέωσης ανανέωσης λίγες εβδομάδες πριν λήξει το domain, και θα το ανανεώσουμε αμέσως αφού εξοφληθεί.";
 $_LANG["domainautorenewrecommend"] = "Σας συνιστούμε να έχετε την επιλογή αυτή ενεργή, ώστε να αποφύγετε το ενδεχόμενο να χάσετε το domain σας.";
 
 $_LANG["domainreglockstatus"] = "Κλείδωμα Καταχωρητή";
@@ -1200,7 +1200,7 @@ $_LANG["navregisterdomain"] = "Κατοχύρωση Domain";
 $_LANG["navtransferdomain"] = "Μεταφορά Domain";
 $_LANG["navwhoislookup"] = "Αναζήτηση Whois";
 $_LANG["navbilling"] = "Τιμολόγηση";
-$_LANG["navinvoices"] = "Τιμολογια";
+$_LANG["navinvoices"] = "Αναφορές Χρέωσης";
 $_LANG["navsupport"] = "Υποστήριξη";
 $_LANG["navtickets"] = "Αιτηματα";
 $_LANG["navopenticket"] = "Υποβολή Αιτήματος";
@@ -1216,7 +1216,7 @@ $_LANG["forgotpw"] = "Ξεχάσατε τον κωδικό?";
 $_LANG["editaccountdetails"] = "Επεξεργασία Στοιχείων";
 
 $_LANG["clientareanavccdetails"] = "Στοιχεία Πιστωτικής Κάρτας";
-$_LANG["clientareanavcontacts"] = "Επαφές/Υπολογαριασμοί";
+$_LANG["clientareanavcontacts"] = "Επαφές / Υπο-λογαριασμοί";
 
 $_LANG["manageyouraccount"] = "Διαχείριση του λογαριασμού σας";
 $_LANG["accountoverview"] = "Περίληψη Λογαριασμού";
@@ -1227,7 +1227,7 @@ $_LANG["clientareanoaddons"] = "Δεν έχουν αγοραστεί πρόσθ�
 $_LANG["downloadssearch"] = "Αναζήτηση Λήψεων";
 $_LANG["emailviewmessage"] = "Προβολή Μηνύματος";
 $_LANG["resultsperpage"] = "Αποτελέσματα Ανά Σελίδα";
-$_LANG["accessdenied"] = "Δεν Επιτρέπεται η Πρόσβαση";
+$_LANG["accessdenied"] = "Δεν επιτρέπεται η πρόσβαση";
 $_LANG["search"] = "Αναζήτηση";
 $_LANG["cancel"] = "Ακύρωση";
 $_LANG["clientareabacklink"] = "&laquo; Πίσω";
@@ -1242,26 +1242,25 @@ $_LANG["clientareahomeloginbtn"] = "Ασφαλή Είσοδος Πελάτη";
 $_LANG["clientareaproductsintro"] = "Αυτές είναι όλες οι υπηρεσίες που έχουν καταχωρηθεί σε αυτόν το λογαριασμό.";
 $_LANG["clientareaproductdetailsintro"] = "Εδώ είναι μια επισκόπηση του <br>προϊόντος/υπηρεσίας σας.";
 $_LANG["clientareadomainsintro"] = "Αυτά είναι όλα τα domains που έχουν καταχωρηθεί σε αυτόν το λογαριασμό.";
-$_LANG["invoicesintro"] = "Παρακάτω μπορείτε να δείτε όλο το ιστορικό των τιμολογίων σας .";
+$_LANG["invoicesintro"] = "Παρακάτω μπορείτε να δείτε όλο το ιστορικό των αναφορών χρέωσης.";
 $_LANG["quotesintro"] = "Εδώ είναι όλες οι προσφορές που έχουμε δημιουργήσει για εσάς.";
 $_LANG["emailstagline"] = "Εδώ είναι αντίγραφα των πρόσφατων e-mail που σας έχουμε στείλει...";
 $_LANG["supportticketsintro"] = "Καταχωρήστε και παρακολουθείστε οποιαδήποτε απορία εδώ ...";
 $_LANG["addfundsintro"] = "Καταθέστε χρήματα εκ των προτέρων";
 $_LANG["registerintro"] = "Δημιουργήστε έναν λογαριασμό σε εμάς . . .";
-$_LANG["masspayintro"] = "Πληρώστε όλα τα τιμολόγια που αναφέρονται παρακάτω επιλέγοντας μια μέθοδο πληρωμής";
-$_LANG["domaincheckerintro"] = "Ξεκινήστε την αναζήτηση φιλοξενίας σας εδώ, ελέγχοντας αν το domain σας είναι διαθέσιμο...";
+$_LANG["masspayintro"] = "Πληρώστε όλες τις αναφορές χρέωσης που βρίσκονται παρακάτω επιλέγοντας μια μέθοδο πληρωμής";
 $_LANG["networkstatusintro"] = "Πληροφορίες κατάστασης υπηρεσιών και Ανακοινώσεις Δικτύου";
 
 $_LANG["creditcardyourinfo"] = "Πληροφορίες Χρέωσης";
 $_LANG["ourlatestnews"] = "Τα Τελευταία Νέα μας";
-$_LANG["ccexpiringsoon"] = "Η Πιστωτικής σας Κάρτα λήγει σύντομα";
+$_LANG["ccexpiringsoon"] = "Η πιστωτικής σας κάρτα λήγει σύντομα";
 $_LANG["ccexpiringsoondesc"] = "Η πιστωτική σας κάρτα λήγει σύντομα γιαυτό παρακαλούμε βεβαιωθείτε ότι έχετε %s ενημερώσετε τα στοιχεία της κάρτας σας%s, όταν μπορέσετε";
 $_LANG["availcreditbal"] = "Διαθέσιμο Πιστωτικό Υπόλοιπο";
-$_LANG["availcreditbaldesc"] = "Έχετε ένα πιστωτικό υπόλοιπο των %s και αυτό θα εφαρμοστεί αυτόματα σε κάθε νέα τιμολόγια";
-$_LANG["youhaveoverdueinvoices"] = "Έχετε %s Ληξιπρόθεσμο Τιμολόγιο(α)";
-$_LANG["overdueinvoicesdesc"] = "Για να αποφευχθεί διακοπή των υπηρεσιών, παρακαλούμε να πληρώσετε ανεξόφλητα τιμολόγια σας το συντομότερο δυνατόν. %s Πληρωμή Τώρα &raquo;%s";
+$_LANG["availcreditbaldesc"] = "Έχετε ένα πιστωτικό υπόλοιπο των %s και αυτό θα εφαρμοστεί αυτόματα σε κάθε νέα αναφορά χρέωσης";
+$_LANG["youhaveoverdueinvoices"] = "Έχετε %s Ληξιπρόθεσμές Οφειλές";
+$_LANG["overdueinvoicesdesc"] = "Για να αποφευχθεί διακοπή των υπηρεσιών, παρακαλούμε να πληρώσετε ανεξόφλητες οφειλές σας το συντομότερο δυνατόν. %s Πληρωμή Τώρα &raquo;%s";
 $_LANG["supportticketsnoneopen"] = "Δεν υπάρχουν ανοιχτά αιτήματα υποστήριξης";
-$_LANG["invoicesnoneunpaid"] = "Δεν υπάρχουν ανεξόφλητα τιμολόγια";
+$_LANG["invoicesnoneunpaid"] = "Δεν υπάρχουν ανεξόφλητες οφειλές";
 
 $_LANG["registerdisablednotice"] = "Για να εγγραφείτε παρακαλώ τοποθετήστε μία <strong><a href=\"cart.php\">παραγγελία</a></strong>";
 $_LANG['registerCreateAccount'] = "Για δημιουργία λογαριασμού, παρακαλούμε";
@@ -1284,7 +1283,7 @@ $_LANG["moduleactionsuccess"] = "Η Ενέργεια αυτή Ολοκληρώθ
 $_LANG["moduleactionfailed"] = "Η Ενέργεια Απέτυχε";
 
 $_LANG["domaininfoexp"] = "Στα δεξιά μπορείτε να βρείτε τις λεπτομέρειες του domain σας. Μπορείτε να διαχειριστείτε το domain σας χρησιμοποιώντας τις παραπάνω καρτέλες.";
-$_LANG["domainrenewexp"] = "Ενεργοποιήστε την αυτόματη ανανέωση για να σας στείλουμε αυτόματα ένα τιμολόγιο ανανέωσης πριν λήξει το domain σας.";
+$_LANG["domainrenewexp"] = "Ενεργοποιήστε την αυτόματη ανανέωση για να σας στείλουμε αυτόματα αναφορά χρέωσης για την ανανέωση πριν λήξει το domain σας.";
 $_LANG["domainnsexp"] = "Μπορείτε να αλλάξετε που θα δείχνει το domain σας εδώ. Παρακαλούμε να έχετε υπόψη σας πως οι αλλαγές μπορεί να χρειαστούν έως και 24 ώρες για να ισχύσουν.";
 $_LANG["domainlockingexp"] = "Κλειδώστε το domain σας για να το αποτρέψετε από το να μεταφερθεί χωρίς την άδειά σας.";
 $_LANG["domaincurrentlyunlocked"] = "Το Domain Ξεκλειδώθηκε!";
@@ -1297,7 +1296,7 @@ $_LANG["serverstatusheadingtext"] = "Παρακάτω είναι μία άμεσ
 
 $_LANG["clientareacancelreasonrequired"] = "Πρέπει να εισάγετε ένα λόγο ακύρωσης";
 
-$_LANG["addfundsdescription"] = "Προσθέστε χρήματα στο λογαριασμό σας για να αποφεύγεται μικρές συναλλαγές και να ληφθούν αυτόματα σε νέα τιμολόγια που δημιουργηθούν.";
+$_LANG["addfundsdescription"] = "Προσθέστε χρήματα στο λογαριασμό σας για να αποφεύγεται μικρές συναλλαγές και να ληφθούν αυτόματα σε νέες αναφορές χρέωσης που δημιουργηθούν.";
 $_LANG["addfundsnonrefundable"] = "* Οι ολοκληρωμένες καταθέσεις δεν επιστρέφονται.";
 
 $_LANG["creditcardexpirydateinvalid"] = "Η ημερομηνία λήξης πρέπει να εγγράφονται στο μορφή ΜΜ / ΕΕ και δεν μπορεί να είναι το παρελθόν";
@@ -1305,13 +1304,7 @@ $_LANG["creditcardexpirydateinvalid"] = "Η ημερομηνία λήξης πρ
 $_LANG["domaincheckerchoosedomain"] = "Επιλέξτε ένα domain...";
 $_LANG["domaincheckerchecknewdomain"] = "Ελέγξτε την διαθεσιμότητα ενός νέου domain";
 $_LANG["domaincheckerdomainexample"] = " πχ. yourdomain.com";
-$_LANG["domaincheckerinvalidtld"] = "δεν είναι έγκυρο TLD. Παρακαλώ δοκιμάστε ξανά.";
-$_LANG['domaincheckerinvalidtld2'] = "Το TLD δεν είναι έγκυρο.";
-$_LANG['domaincheckerinvaliddomain'] = "Το ζητούμενο domain δεν είναι έγκυρο.";
-$_LANG['domaincheckernopricing'] = "Μη διαθέσιμη Τιμολόγηση για αυτό το TLD.";
-$_LANG["domaincheckerhostingonly"] = "Παραγγελία Φιλοξενίας μόνο";
-$_LANG["domaincheckeravailtransfer"] = "Διαθέσιμο για Μεταφορά";
-$_LANG["domaincheckerenterdomain"] = "Ξεκινήστε την εμπειρία φιλοξενίας σας με εμάς εισάγοντας το όνομα του domain που θέλετε να κατοχυρώσετε, μεταφέρετε ή απλά αγοράστε φιλοξενία παρακάτω...";
+$_LANG["domaincheckerhostingonly"] = "Παραγγελία φιλοξενίας μόνο";
 $_LANG["domaincheckerbulkinvaliddomain"] = "Ένα ή περισσότερους από τα domain που δώσατε παραπάνω δεν ήταν έγκυρα και έτσι έχουν αφαιρεθεί από τα αποτελέσματα";
 
 $_LANG["kbquestionsearchere"] = "Έχετε κάποια ερώτηση; Ξεκινήστε την αναζήτησή σας εδώ.";
@@ -1382,8 +1375,8 @@ $_LANG["clientgroupdiscount"] = "Έκπτωση Πελάτη";
 $_LANG["billableitemshours"] = "Ώρες";
 $_LANG["billableitemshour"] = "Ώρα";
 
-$_LANG["invoicefilename"] = "Τιμολόγιο-";
-$_LANG["quotefilename"] = "Προσφορά-";
+$_LANG["invoicefilename"] = "ΑΧ-";
+$_LANG["quotefilename"] = "Π-";
 
 # Domain Addons
 
@@ -1407,7 +1400,7 @@ $_LANG["loginrequired"] = "Απαιτείται Σύνδεση";
 $_LANG["unsubscribe"] = "Διαγραφή";
 $_LANG["emailoptout"] = "Εξαίρεση Newsletter";
 $_LANG["newsletterunsubscribe"] = "Διαγραφή Newsletter";
-$_LANG["emailoptoutdesc"] = "Μαρκάρετε για εξαίρεση από Ενημερωτικά Email";
+$_LANG["emailoptoutdesc"] = "Επιλέξτε για εξαίρεση από Ενημερωτικά Email";
 $_LANG["alreadyunsubscribed"] = "Έχετε ήδη καταργήσει την εγγραφή σας από το ενημερωτικό δελτίο μας.";
 $_LANG["newsletterresubscribe"] = "Αν επιθυμείτε να εγγραφείτε εκ νέου μπορείτε να το κάνετε από την ενότητα %sΟι πληροφορίες μου%s της Περιοχής Πελατών μας ανά πάσα στιγμή.";
 $_LANG["unsubscribehashinvalid"] = "Η διαγραφή απέτυχε, παρακαλώ επικοινωνήστε με την Υποστήριξη.";
@@ -1439,37 +1432,37 @@ $_LANG["feedbackworst"] = "Χείριστο";
 $_LANG["feedbackbest"] = "Άριστο";
 $_LANG["feedbackimprove"] = "Πώς μπορούμε να κάνουμε την εμπειρία σας καλύτερη στο μέλλον;";
 $_LANG["pleaserate2"] = "χειρίστηκε το αίτημα υποστήριξης";
-$_LANG['feedbacksupplyrating'] = "Παρακαλούμε  δώστε τουλάχιστον μία βαθμολογία για τον/την :staffname (σχόλια είναι προαιρετικά)";
+$_LANG['feedbacksupplyrating'] = "Παρακαλούμε δηλώστε τουλάχιστον μία βαθμολογία για τον :staffname (σχόλια προαιρετικά)";
 
 $_LANG["returnclient"] = "Επιστροφή στην Περιοχή Πελατών";
 
-$_LANG['clientareanavsecurity'] = "Ρυθμίσεις Ασφαλείας";
-$_LANG['twofactorauth'] = "Two-Factor Πιστοποίηση";
-$_LANG['twofaenable'] = "Ενεργοποίηση Two-Factor Πιστοποίησης";
-$_LANG['twofadisable'] = "Απενεργοποίηση Two-Factor Πιστοποίησης";
-$_LANG['twofaenableclickhere'] = "Κάντε Click εδώ για Ενεργοποιήση";
-$_LANG['twofadisableclickhere'] = "Κάντε Click εδώ για Απενεργοποίηση";
-$_LANG['twofaenforced'] = "Για την ασφάλειά σας, θα πρέπει να ενεργοποιήσετε την Two-Factor Πιστοποίηση για να μπορέσετε να συνεχίσετε. Αυτή η σελίδα θα σας καθοδηγήσει στη διαδικασία ρύθμισης του.";
-$_LANG['twofasetup'] = "Διαδικασία Εγκατάστασης Two-Factor Πιστοποίησης";
-$_LANG['twofasetupgetstarted'] = "Ξεκινήστε";
-$_LANG['twofaactivationintro'] = "Η Two-Factor Πιστοποίηση προσθέτει ένα επιπλέον επίπεδο προστασίας στις συνδέσεις. Μόλις ενεργοποιηθεί &amp; ρυθμιστεί, κάθε φορά που θα συνδεθείτε θα σας ζητηθεί να εισάγετε τόσο το όνομα χρήστη και τον κωδικό πρόσβασής σας, καθώς και ένα δεύτερο παράγοντα, όπως ένας κωδικός ασφαλείας.";
-$_LANG['twofaactivationmultichoice'] = "Για να συνεχίσετε, επιλέξτε την επιθυμητή μέθοδο σας Two-Factor Πιστοποίησης παρακάτω.";
-$_LANG['twofadisableintro'] = "Για να απενεργοποιήσετε την Two-Factor Πιστοποίηση παρακαλούμε επιβεβαιώστε τον κωδικό πρόσβασής σας στο παρακάτω πεδίο.";
-$_LANG['twofaactivationerror'] = "Παρουσιάστηκε σφάλμα κατά την προσπάθεια να ενεργοποιήσετε την Two-Factor Πιστοποίηση για το λογαριασμό σας. Παρακαλώ προσπάθησε ξανά.";
-$_LANG['twofamoduleerror'] = "Παρουσιάστηκε σφάλμα κατά τη φόρτωση της μονάδας. Παρακαλώ προσπάθησε ξανά.";
-$_LANG['twofaactivationcomplete'] = "Η εγκατάσταση Two-Factor Πιστοποίησης Ολοκληρώθηκε!";
-$_LANG['twofadisableconfirmation'] = "Η Two-Factor Πιστοποίηση έχει απενεργοποιηθεί για το λογαριασμό σας.";
-$_LANG['twofabackupcodeis'] = "Ο Εφεδρικός Κωδικός σας είναι";
-$_LANG['twofanewbackupcodeis'] = "Ο Νέος Εφεδρικός Κωδικός σας είναι";
-$_LANG['twofabackupcodelogin'] = "Εισαγάγετε τον Εφεδρικό Κωδικό σας για Σύνδεση";
-$_LANG['twofabackupcodeexpl'] = "Σημειώστε τον σε χαρτί και κρατήστε τον ασφαλή.<br /> Θα τον χρειαστείτε αν χάσετε ποτέ Two-Factor συσκευή σας ή δεν είναι διαθέσιμη σε εσάς.";
-$_LANG['twofaconfirmpw'] = "Εισάγετε τον Κωδικό σας";
-$_LANG['twofa2ndfactorreq'] = "Ο δεύτερος παράγοντας σας είναι υποχρεωτικός για να ολοκληρωθεί η σύνδεσή.";
-$_LANG['twofa2ndfactorincorrect'] = "Ο δεύτερος παράγοντας που δηλώσατε ήταν λανθασμένος. Παρακαλώ προσπάθησε ξανά.";
-$_LANG['twofabackupcodereset'] = "Σύνδεση μέσω Εφεδρικού Κωδικό Επιτυχής <br />Οι Εφεδρικοί Κωδικοί ισχύουν μόνο μία φορά. Τώρα θα γίνει επαναφορά.";
-$_LANG['twofacantaccess2ndfactor'] = "Δεν είναι δυνατή η πρόσβαση στην Συσκευή Two-Factor σας;";
-$_LANG['twofaloginusingbackupcode'] = "Σύνδεση με χρήση Εφεδρικού Κωδικού";
-$_LANG['twofageneralerror'] = "Παρουσιάστηκε σφάλμα κατά τη φόρτωση της μονάδας. Παρακαλώ προσπάθησε ξανά.";
+$_LANG["clientareanavsecurity"] = "Ρυθμίσεις Ασφαλείας";
+$_LANG["twofactorauth"] = "Two-Factor Authentication";
+$_LANG["twofaenable"] = "Ενεργοποίηση ".$_LANG["twofactorauth"];
+$_LANG["twofadisable"] = "Απενεργοποίηση ".$_LANG["twofactorauth"];
+$_LANG["twofaenableclickhere"] = "Πατήστε εδώ για Ενεργοποίηση";
+$_LANG["twofadisableclickhere"] = "Πατήστε εδώ για Απενεργοποίηση";
+$_LANG["twofaenforced"] = "Για την ασφάλειά σας, σας ζητούμε να ενεργοποιήσετε το ".$_LANG["twofactorauth"]." πριν συνεχίσετε. Αυτή η σελίδα θα σας καθοδηγήσει στη διαδικασία ρύθμισης του.";
+$_LANG["twofasetup"] = "Διαδικασία Εγκατάστασης Two-Factor Πιστοποίησης";
+$_LANG["twofasetupgetstarted"] = "Ξεκινήστε";
+$_LANG["twofaactivationintro"] = "Το ".$_LANG["twofactorauth"]." προσθέτει ένα επιπλέον επίπεδο προστασίας για τις συνδέσεις. Αφού ενεργοποιηθεί και ρυθμιστεί, κάθε φορά που θα συνδεθείτε θα σας ζητηθεί να εισαγάγετε και τα δύο username & password σας, καθώς και ένα δεύτερο παράγοντα, όπως ένας κωδικός ασφαλείας.";
+$_LANG["twofaactivationmultichoice"] = "Για να συνεχίσετε, επιλέξτε την επιθυμητή μέθοδο ".$_LANG["twofactorauth"]." από τις παρακάτω";
+$_LANG["twofadisableintro"] = "Για να απενεργοποιήσετε το ".$_LANG["twofactorauth"]." παρακαλούμε επιβεβαιώστε τον κωδικό πρόσβασης σας στο παρακάτω πεδίο.";
+$_LANG["twofaactivationerror"] = "Παρουσιάστηκε σφάλμα κατά την απόπειρα να ενεργοποιήσετε το ".$_LANG["twofactorauth"]." για το λογαριασμό σας. Παρακαλούμε δοκιμάστε ξανά.";
+$_LANG["twofamoduleerror"] = "Παρουσιάστηκε σφάλμα κατά τη φόρτωση του module. Παρακαλούμε δοκιμάστε ξανά.";
+$_LANG["twofaactivationcomplete"] = "Η εγκατάσταση του ".$_LANG["twofactorauth"]." έχει ολοκληρωθεί!";
+$_LANG["twofadisableconfirmation"] = "Το ".$_LANG["twofactorauth"]." έχει πλέον απενεργοποιηθεί για το λογαριασμό σας.";
+$_LANG["twofabackupcodeis"] = "Ο εφεδρικός Κωδικός σας είναι";
+$_LANG["twofanewbackupcodeis"] = "Ο Νέος εφεδρικός Κωδικός σας είναι";
+$_LANG["twofabackupcodelogin"] = "Εισάγετε τον Εφεδρικό κωδικό σας παραπάνω για να συνδεθείτε";
+$_LANG["twofabackupcodeexpl"] = "Σημειώστε αυτό σε ένα χαρτί και κρατήστε το ασφαλές.<br />Θα σας χρειαστεί αν ποτέ χάσετε τη συσκευή Two-Factor ή δεν είναι διαθέσιμη για εσάς.";
+$_LANG["twofaconfirmpw"] = "Εισάγετε τον κωδικό σας";
+$_LANG["twofa2ndfactorreq"] = "Δεύτερος παράγοντας σας απαιτείται για την ολοκλήρωση σύνδεσης.";
+$_LANG["twofa2ndfactorincorrect"] = "Ο δεύτερος παράγοντας που δώσατε ήταν εσφαλμένος. Παρακαλούμε δοκιμάστε ξανά.";
+$_LANG["twofabackupcodereset"] = "Σύνδεση μέσω Εφεδρικού κωδικού Επιτυχής<br />Οι εφεδρικοί κωδικοί ισχύουν μόνο μία φορά. Τώρα θα μηδενιστεί.";
+$_LANG["twofacantaccess2ndfactor"] = "Δεν είναι δυνατή η πρόσβαση σας στην συσκευή 2ου Παράγοντα?";
+$_LANG["twofaloginusingbackupcode"] = "Σύνδεση με χρήση Εφεδρικού Κωδικού";
+$_LANG["twofageneralerror"] = "Παρουσιάστηκε σφάλμα κατά τη φόρτωση του module. Παρακαλούμε δοκιμάστε ξανά.";
 
 $_LANG["continue"] = "Συνέχεια";
 $_LANG["disable"] = "Απενεργοποίηση";
@@ -1557,7 +1550,7 @@ $_LANG["affiliatesconversionrate"] = "Μετατροπές";
 $_LANG["affiliatesclicks"] = "Clicks";
 $_LANG["contacts"] = "Επαφές";
 $_LANG["backtoservicedetails"] = "Πίσω στις Λεπτομέρειες Υπηρεσίας";
-$_LANG["invoicesintro"] = "Ιστορικό Τιμολόγησης";
+$_LANG["invoicesintro"] = "Ιστορικό Αναφορών Χρέωσης";
 
 $_LANG["sidebars"]["viewAccount"]["yourAccount"] = "Ο λογαριασμός σας";
 $_LANG["sidebars"]["viewAccount"]["myDetails"] = "Τα Στοιχεία μου";
@@ -1571,19 +1564,19 @@ $_LANG["aboutsecurityquestions"] = "Γιατί ερωτήσεις ασφαλεί
 $_LANG["registersecurityquestionblurb"] = "Ρυθμίζοντας μια ερώτηση ασφαλείας σας προσφέρει επιπλέον ασφάλεια, καθώς όλες οι αλλαγές στο λογαριασμό σας απαιτούν την παροχή των πρόσθετων πληροφοριών από την ερώτησή.";
 
 $_LANG["update"] = "Ανανέωση";
-$_LANG["yourinfo"] = "Στοιχεία";
+$_LANG["yourinfo"] = "Στοιχεία Πελάτη";
 $_LANG["shortcuts"] = "Συντομεύσεις";
 
 $_LANG["yourservices"] = "Οι Υπηρεσίες σας";
 $_LANG["yourdomains"] = "Τα Domain σας";
 $_LANG["yourtickets"] = "Τα Αιτήματα σας";
 $_LANG["managecontacts"] = "Διαχείριση Επαφών";
-$_LANG["billingdetails"] = "Στοιχεία Τιμολόγησης";
+$_LANG["billingdetails"] = "Στοιχεία Χρέωσης";
 $_LANG["homechooseproductservice"] = "Επιλέξτε ένα προϊόν/υπηρεσία να διαχειριστείτε:";
 
-$_LANG["invoicesdue"] = "Εκκρεμή Τιμολόγια";
-$_LANG["invoicesduemsg"] = "Έχετε %s τιμολόγια απλήρωτα με συνολικό υπόλοιπο  %s";
-$_LANG["noinvoicesduemsg"] = "Δεν έχετε εκκρεμή τιμολόγια αυτή τη στιγμή.";
+$_LANG["invoicesdue"] = "Εκκρεμείς Αναφορές Χρέωσης";
+$_LANG["invoicesduemsg"] = "Έχετε %s αναφορές χρέωσης ανεξόφλητες με συνολικό υπόλοιπο  %s";
+$_LANG["noinvoicesduemsg"] = "Δεν έχετε εκκρεμείς αναφορές χρέωσης αυτή τη στιγμή.";
 
 $_LANG["expiringsoon"] = "Λήγει Σύντομα";
 
@@ -1615,7 +1608,7 @@ $_LANG["actions"] = "Ενέργειες";
 
 $_LANG["upgradedowngradeshort"] = "Ανα/Υποβάθμιση";
 
-$_LANG["masspayintro"] = "όλων των τιμολογίων με ένα βήμα";
+$_LANG["masspayintro"] = "όλων των αναφορών χρέωσης με ένα βήμα";
 $_LANG["masspaymentselectgateway"] = "Επιλογή Πύλης Μαζικών Πληρωμών";
 
 $_LANG["ticketfeedbackrequest"] = "Αίτηση Αξιολόγησης";
@@ -1658,7 +1651,6 @@ $_LANG["passwordtips"] = "<strong>Συμβουλές για ένα καλό κω
 $_LANG["regdate"] = "Ημέρα Εγγραφής";
 $_LANG["nextdue"] = "Ημέρα Λήξης";
 
-$_LANG["domaincheckertagline"] = "Βρείτε το τέλειο όνομα domain για σας...";
 $_LANG["findyourdomain"] = "Βρείτε το νέο σας όνομα domain";
 $_LANG["searchtermrequired"] = "Πρέπει να εισάγετε ένα domain name ή λέξη κλειδί για αναζήτηση";
 $_LANG["unabletolookup"] = "Λυπούμαστε, δεν μπορεί να βρεθεί ο όρος, όπως έγινε εισαγωγή";
@@ -1702,12 +1694,13 @@ $_LANG["quotestageexpired"] = "Ληγμένη";
 $_LANG["detailstitle"] = "Στοιχεία";
 $_LANG["customfield"] = "Ειδικά Πεδία";
 
-$_LANG["domainsActive"] = "Ενεργά";
-$_LANG["domainsExpired"] = "Ληγμένα";
-$_LANG["domainsCancelled"] = "Ακυρωμένα";
+$_LANG["domainsActive"] = "Ενεργό";
+$_LANG["domainsExpired"] = "Ληγμένο";
+$_LANG["domainsCancelled"] = "Ακυρωμένο";
 $_LANG["domainsFraud"] = "Απάτη";
 $_LANG["domainsPending"] = "Εκκρεμεί";
 $_LANG["domainsPendingTransfer"] = "Εκκρεμεί Μεταφορά";
+$_LANG['domainsTransferredAway'] = "Μεταφέρθηκε Αλλού";
 $_LANG["domainsExpiringInTheNext30Days"] = "Λήγει σε 30 Μέρες";
 $_LANG["domainsExpiringInTheNext90Days"] = "Λήγει σε 90 Μέρες";
 $_LANG["domainsExpiringInTheNext180Days"] = "Λήγει σε 180 Μέρες";
@@ -1741,7 +1734,7 @@ $_LANG["directDebitSubmit"] = "Υποβολή";
 $_LANG["directDebitChecking"] = "Όψεως";
 $_LANG["directDebitSavings"] = "Ταμιευτηρίου";
 
-$_LANG["outOfStockProductRemoved"] = "Μια εξαντλημένο προϊόν αφαιρείται αυτόματα από το καλάθι";
+$_LANG["outOfStockProductRemoved"] = "Ένα εξαντλημένο προϊόν αφαιρείται αυτόματα από το καλάθι";
 
 $_LANG["subaccountpermsquotes"] = "Προβολή & Αποδοχή Προσφορών";
 
@@ -1761,25 +1754,25 @@ $_LANG["quoteacceptcontractwarning"] = "Πρέπει να γνωρίζετε ό�
 // Client alerts
 $_LANG["clientAlerts"]["creditCardExpiring"] = "Η πιστωτική σας κάρτα :creditCardType-:creditCardLastFourDigits λήγει μέσα σε :days μέρες. Σας παρακαλούμε να ενημερώσετε την όσο το δυνατόν συντομότερα.";
 $_LANG["clientAlerts"]["domainsExpiringSoon"] = "Έχετε :numberOfDomains domain(s) που λήγουν εντός :days ημερών.";
-$_LANG["clientAlerts"]["invoicesUnpaid"] = "Έχετε :numberOfInvoices ανεξόφλητα τιμολόγια. Πληρώστε τα νωρίς για την ειρήνη του μυαλού.";
-$_LANG["clientAlerts"]["invoicesOverdue"] = "Έχετε :numberOfInvoices απλήρωτα τιμολόγια με συνολικό οφειλόμενο υπόλοιπο των :balanceDue. Πληρώστε τα τώρα για να αποφευχθούν τυχόν διακοπές στις υπηρεσίες.";
+$_LANG["clientAlerts"]["invoicesUnpaid"] = "Έχετε :numberOfInvoices εκκρεμείς αναφορές χρέωσης.";
+$_LANG["clientAlerts"]["invoicesOverdue"] = "Έχετε :numberOfInvoices εκκρεμείς αναφορές χρέωσης με ανεξόφλητο υπόλοιπο των :balanceDue.";
 $_LANG["clientAlerts"]["creditBalance"] = "Έχετε πιστωτικό υπόλοιπο των :creditBalance.";
 
 // Client homepage panels
-$_LANG["clientHomePanels"]["unpaidInvoices"] = "Απλήρωτα Τιμολόγια";
-$_LANG["clientHomePanels"]["unpaidInvoicesMsg"] = "Έχετε :numberOfInvoices απλήρωτα τιμολόγια με συνολικό οφειλόμενο υπόλοιπο των :balanceDue. Πληρώστε τα νωρίς για την ειρήνη του μυαλού.";
-$_LANG["clientHomePanels"]["overdueInvoices"] = "Ληξιπρόθεσμα τιμολόγια";
-$_LANG["clientHomePanels"]["overdueInvoicesMsg"] = "Έχετε :numberOfInvoices ληξιπρόθεσμα τιμολόγια με συνολικό οφειλόμενο υπόλοιπο των :balanceDue. Πληρώστε τα τώρα για να αποφευχθούν τυχόν διακοπές στην υπηρεσία.";
-$_LANG["clientHomePanels"]["domainsExpiringSoon"] = "Domains όπου λήγουν σύντομα";
+$_LANG["clientHomePanels"]["unpaidInvoices"] = "Εκκρεμείς Αναφορές Χρέωσης";
+$_LANG["clientHomePanels"]["unpaidInvoicesMsg"] = "Έχετε :numberOfInvoices απλήρωτες αναφορές χρέωσης με συνολικό οφειλόμενο υπόλοιπο των :balanceDue. Πληρώστε τα νωρίς για την ειρήνη του μυαλού.";
+$_LANG["clientHomePanels"]["overdueInvoices"] = "Ληξιπρόθεσμες Οφειλές";
+$_LANG["clientHomePanels"]["overdueInvoicesMsg"] = "Έχετε :numberOfInvoices ληξιπρόθεσμες οφειλές με συνολικό υπόλοιπο των :balanceDue. Πληρώστε τα τώρα για να αποφευχθούν τυχόν διακοπές στην υπηρεσία σας.";
+$_LANG["clientHomePanels"]["domainsExpiringSoon"] = "Domains - λήγουν σύντομα";
 $_LANG["clientHomePanels"]["domainsExpiringSoonMsg"] = "Έχετε :numberOfDomains domains που λήγουν εντός των επόμενων :days ημερών. Ανανεώστε τα σήμερα για την ειρήνη του μυαλού.";
-$_LANG["clientHomePanels"]["activeProductsServices"] = "Ενεργά Προϊόντα/Υπηρεσίες";
+$_LANG["clientHomePanels"]["activeProductsServices"] = "Προϊόντα/Υπηρεσίες";
 $_LANG["clientHomePanels"]["activeProductsServicesNone"] = "Φαίνεται ότι δεν έχετε κανένα προϊόν/υπηρεσία σε εμάς ακόμα. <a href='cart.php'> Κάντε μια παραγγελία για να ξεκινήσετε </a>.";
 $_LANG["clientHomePanels"]["recentNews"] = "Πρόσφατα Νέα";
 $_LANG["clientHomePanels"]["affiliateProgram"] = "Πρόγραμμα Συνεργατών";
-$_LANG["clientHomePanels"]["recentSupportTickets"] = "Πρόσφατα Αιτήματα Υποστήριξης";
+$_LANG["clientHomePanels"]["recentSupportTickets"] = "Αιτήματα Υποστήριξης";
 $_LANG["clientHomePanels"]["recentSupportTicketsNone"] = "Δεν βρέθηκαν Πρόσφατα Αιτήματα. Αν χρειάζεστε οποιαδήποτε βοήθεια, παρακαλούμε <a href='submitticket.php'> ανοίξει ένα αίτημα</a>.";
 $_LANG["clientHomePanels"]["affiliateSummary"] = "Το τρέχον Υπόλοιπο Προμήθειας σας είναι :commissionBalance. Χρειάζεστε μόνο :amountUntilWithdrawalLevel πριν να κάνετε ανάληψη των κερδών σας.";
-$_LANG['clientHomePanels']['affiliateSummaryWithdrawalReady'] = "Το τρέχον υπόλοιπό προμήθεια σας είναι:commissionBalance. Μπορείτε να κάνετε ανάληψη των κερδών σας άμεσα.";
+$_LANG['clientHomePanels']['affiliateSummaryWithdrawalReady'] = "Το τρέχον υπόλοιπό προμήθειας σας είναι :commissionBalance. Μπορείτε να κάνετε ανάληψη τα κέρδη σας τώρα.";
 
 $_LANG["upgradeNotPossible"] = "Η αναβάθμιση αυτού του προϊόντος δεν είναι δυνατή. Εάν πιστεύετε ότι έχετε φτάσει αυτή τη σελίδα κατά λάθος, παρακαλούμε ενημερώστε το Τμήμα Υποστήριξης μας. Διαφορετικά, πηγαίνετε πίσω και ελέγξτε την επιλογή σας ξανά.";
 
@@ -1948,7 +1941,7 @@ $_LANG['orderForm']['streetAddress2'] = "Διεύθυνση 2";
 $_LANG['orderForm']['city'] = "Πόλη";
 $_LANG['orderForm']['state'] = "Νομός";
 $_LANG['orderForm']['country'] = "Χώρα";
-$_LANG['orderForm']['postcode'] = "Ταχ.Κώδικας";
+$_LANG['orderForm']['postcode'] = "Τ.Κ";
 $_LANG['orderForm']['domainAlternativeContact'] = "Μπορείτε να καθορίσετε εναλλακτικά καταχωρημένα στοιχεία επαφής για την καταχώρηση(εις) domain της παραγγελίας σας, καθώς κάνετε μια παραγγελία για λογαριασμό άλλου προσώπου ή οντότητας. Εάν δεν επιθυμείτε αυτό, μπορείτε να παραλείψετε αυτό το τμήμα.";
 $_LANG['orderForm']['accountSecurity'] = "Ασφάλεια Λογαριασμού";
 $_LANG['orderForm']['mediumStrength'] = "Μέτρια Ασφάλεια";
@@ -1963,7 +1956,7 @@ $_LANG['orderForm']['addToCart'] = "Προσθήκη στο Καλάθι";
 $_LANG['orderForm']['addedToCartRemove'] = "Προστέθηκε στο Καλάθι (Αφαίρεση)";
 $_LANG['orderForm']['configureDesiredOptions'] = "Διαμορφώστε τις επιθυμητές επιλογές σας και συνεχίστε για ολοκλήρωση της παραγγελίας.";
 $_LANG['orderForm']['haveQuestionsContact'] = "Έχετε ερωτήσεις; Επικοινωνήστε με το Τμημα Πωλήσεών μας για βοήθεια.";
-$_LANG['orderForm']['haveQuestionsClickHere'] = "Κάντε Click εδώ";
+$_LANG['orderForm']['haveQuestionsClickHere'] = "Κάντε κλίκ εδώ";
 $_LANG['orderForm']['use'] = "Χρήση";
 $_LANG['orderForm']['check'] = "Έλεγχος";
 $_LANG['orderForm']['transfer'] = "Μεταφορά";
@@ -1995,7 +1988,7 @@ $_LANG['orderForm']['errorNoProductGroup'] = "Δεν ήταν δυνατή η φ
 $_LANG['orderForm']['errorNoProducts'] = "Η κατηγορία προϊόντων δεν περιέχει ορατά προϊόντα";
 
 $_LANG['cloudSlider']['feature01Title'] = "Μέγ.χρόνος Λειτουργίας Διακομιστή";
-$_LANG['cloudSlider']['feature01Description'] = "Η λειτουργια του Διακομιστή είναι ζωτικής σημασίας για όλες τις επιχειρήσεις - θεωρήστε την τον καρδιακό παλμό της φιλοξενίας σας της επιχειρήσεως σας. Διακομιστές αρχείων και βάσεων δεδομένων, email και web servers αποτελούν αναπόσπαστο μέρος των περισσότερων επιχειρηματικών διαδικασιών και οι διακοπές λειτουργίας έχουν άμεσες αρνητικές επιπτώσεις στην παραγωγικότητα των πωλήσεων, των εργαζομένων και την ικανοποίηση του πελάτη. Γι 'αυτό και η εξασφάλιση της μέγιστης λειτουργίας διακομιστή είναι τόσο σημαντική για εμάς, θέλουμε να βεβαιωθείτε ότι οι επιχειρηματικές διαδικασίες σας θα λειτουργούν υγιεινά, ώστε οι πελάτες σας να είναι ευχαριστημένοι.";
+$_LANG['cloudSlider']['feature01Description'] = "Η λειτουργια του διακομιστή είναι ζωτικής σημασίας για όλες τις επιχειρήσεις - θεωρήστε την τον καρδιακό παλμό της φιλοξενίας σας της επιχειρήσεως σας. Διακομιστές αρχείων και βάσεων δεδομένων, email και web servers αποτελούν αναπόσπαστο μέρος των περισσότερων επιχειρηματικών διαδικασιών και οι διακοπές λειτουργίας έχουν άμεσες αρνητικές επιπτώσεις στην παραγωγικότητα των πωλήσεων, των εργαζομένων και την ικανοποίηση του πελάτη. Γι 'αυτό και η εξασφάλιση της μέγιστης λειτουργίας διακομιστή είναι τόσο σημαντική για εμάς, θέλουμε να βεβαιωθείτε ότι οι επιχειρηματικές διαδικασίες σας θα λειτουργούν υγιεινά, ώστε οι πελάτες σας να είναι ευχαριστημένοι.";
 $_LANG['cloudSlider']['feature01DescriptionTwo'] = "Με την εμπιστοσύνη σας για τις ανάγκες της επιχείρησής σας, σας υποσχόμαστε χρόνο λειτουργίας 99,9% για κάθε υπηρεσία που παρέχουμε, εκτός της οποιαδήποτε τυπική συντήρησης ενδέχεται να εκτελέσουμε.";
 $_LANG['cloudSlider']['feature02Title'] = "Παράδοση Παγκόσμιων Δεδομένων";
 $_LANG['cloudSlider']['feature02Description'] = "Οι υπηρεσίες μας τροφοδοτούνται από εκατοντάδες διακομιστές και κέντρα δεδομένων που βρίσκονται σε όλο τον κόσμο, έτσι μπορείτε να είστε ήσυχοι γνωρίζοντας ότι πελάτες μπορούν να έχουν πρόσβαση στην ιστοσελίδα σας από οπουδήποτε.Επιπλέον, παρέχουμε εργαλεία παρακολούθησης για να σας προσφέρουν αναλυτικά στοιχεία ειδικά - Η κίνηση της ιστοσελίδας είναι ένα σημαντικό βήμα για τη βελτίωση της αποδοτικότητας και τη δημοτικότητα του δικτυακού σας τόπου, καθώς και η παρακολούθηση από που οι επισκέπτες σας προέρχονται , τι ώρα της ημέρας σας επισκέπτονται , και πόσο καιρό παρέμειναν. Η αφοσίωσή μας σε μια παγκόσμια αγορά επεκτείνεται σε κατοχυρώσεις, καθώς σας προσφέρουμε το πιο δημοφιλές TLD για κατοχύρωση.";
@@ -2003,7 +1996,7 @@ $_LANG['cloudSlider']['feature02DescriptionTwo'] = "Η αφοσίωση στην
 $_LANG['cloudSlider']['feature03Title'] = "Κορυφαία Βαθμίδα Ασφάλειας";
 $_LANG['cloudSlider']['feature03Description'] = "Να είστε ήσυχοι γνωρίζοντας ότι παρέχουμε παρακολούθηση 24/7 και προστασία από DDoS επιθέσεις. Παίρνετε την προστασία των δεδομένων των πελατών σας στα σοβαρά, και εμείς επίσης. Η ομάδα ασφαλείας και τα μέτρα διασφάλισης μας εργάζονται όλη μέρα, κάθε μέρα για να παρέχουν το αναγκαίο επίπεδο ασφαλείας στην σημερινή ψηφιακή εποχή.";
 $_LANG['cloudSlider']['feature03DescriptionTwo'] = "Ένα ευρύ φάσμα από εργαλείων ασφαλείας είναι στη διάθεσή σας, συμπεριλαμβανομένων των πιστοποιητικών SSL, διαμόρφωση του τείχους προστασίας, υπηρεσίες παρακολούθησης ασφάλειας, πρόσβασης μέσω VPN, και πολλά άλλα.";
-$_LANG['cloudSlider']['selectProductLevel'] = "Επιλέξτε το Ιδανικό Επίπεδο για Εσάς!";
+$_LANG['cloudSlider']['selectProductLevel'] = "Επιλέξτε το Τέλειο Επίπεδο για εσάς!";
 
 $_LANG['domainChecker.additionalPricingOptions'] = 'Πρόσθετες Επιλογές Τιμολόγησης για :domain';
 
@@ -2019,7 +2012,7 @@ $_LANG['startingat'] = "Ξεκινώντας από";
 $_LANG['yourdomainplaceholder'] = 'το-domain-σας';
 $_LANG['yourtldplaceholder'] = 'com';
 
-$_LANG['subaccountpermsproductsso'] = "Εκτέλεση Single Sign-On";
+$_LANG['subaccountpermsproductsso'] = "Εκτελέστε Single Sign-On";
 
 $_LANG['sso']['title'] = "Single Sign-On";
 $_LANG['sso']['summary'] = "Εφαρμογές τρίτων αξιοποιούν την ενιαία λειτουργία Sign-On για την παροχή άμεσης πρόσβασης στο λογαριασμό χρέωσής σας χωρίς να χρειάζεται να επαναλάβετε τον έλεγχο ταυτότητας.";
@@ -2032,32 +2025,32 @@ $_LANG['oauth']['badTwoFactorAuthModule'] = "Σφάλμα Πιστοποιήση
 $_LANG['oauth']['permAccessNameAndEmail'] = "Αποκτήσετε πρόσβαση στο όνομα και το email σας";
 
 $_LANG['errorButTryAgain'] = "Παρουσιάστηκε σφάλμα. Παρακαλώ προσπάθησε ξανά.";
-$_LANG['emailSent'] = 'Το Μήνυμα εστάλη';
-$_LANG['verificationKeyExpired'] = 'Αυτό το κλειδί επαλήθευσης έχει λήξει. Παρακαλούμε συνδεθείτε για να ζητήσετε ένα νέο.';
-$_LANG['emailAddressVerified'] = 'Ευχαριστούμε για την επιβεβαίωση της διεύθυνσης email σας.';
-$_LANG['emailKeyExpired'] = 'Αυτό το κλειδί επαλήθευσης ηλεκτρονικού ταχυδρομείου έχει λήξει. Παρακαλούμε ζητήσετε ένα νέο.';
-$_LANG['verifyEmailAddress'] = 'Παρακαλούμε  ελέγξτε το email σας και ακολουθήστε το σύνδεσμο για να επαληθεύσετε την ηλεκτρονική σας διεύθυνση.';
-$_LANG['resendEmail'] = 'Επαναποστολή Μηνύματος Επιβεβαίωσης';
+$_LANG['emailSent'] = 'Το email εστάλη';
+$_LANG['verificationKeyExpired'] = 'Αυτό το κλειδί επαλήθευσης ηλεκτρονικού ταχυδρομείου έχει λήξει. Παρακαλούμε συνδεθείτε για να ζητήσετε νέο.';
+$_LANG['emailAddressVerified'] = 'Σας ευχαριστώ για την επιβεβαίωση της διεύθυνσης ηλεκτρονικού ταχυδρομείου σας.';
+$_LANG['emailKeyExpired'] = 'Αυτό το κλειδί επαλήθευσης ηλεκτρονικού ταχυδρομείου έχει λήξει. Παρακαλούμε ζητήσετε νέο.';
+$_LANG['verifyEmailAddress'] = 'Παρακαλούμε ελέγξτε το email σας και ακολουθήστε το σύνδεσμο για να επαληθεύσετε τη διεύθυνση ηλεκτρονικού ταχυδρομείου σας.';
+$_LANG['resendEmail'] = 'Επαναποστολή μηνύματος επιβεβαίωσης';
 
 // Markdown Editor Help
-$_LANG['markdown']['title']= "Οδηγίες Markdown";
-$_LANG['markdown']['emphasis']= "Υπογράμμιση";
+$_LANG['markdown']['title']= "Οδηγός Markdown";
+$_LANG['markdown']['emphasis']= "Εμφαση";
 $_LANG['markdown']['bold']= "έντονα";
 $_LANG['markdown']['italics']= "πλάγια";
-$_LANG['markdown']['strikeThrough']= "διαγράμμιση";
-$_LANG['markdown']['headers']= "Επικεφαλίδες";
-$_LANG['markdown']['bigHeader']= "Μεγάλη Επικεφαλίδα";
-$_LANG['markdown']['mediumHeader']= "Μεσαία Επικεφαλίδα";
-$_LANG['markdown']['smallHeader']= "Μικρή Επικεφαλίδα";
-$_LANG['markdown']['tinyHeader']= "Μικροσκοπική Επικεφαλίδα";
+$_LANG['markdown']['strikeThrough']= "διεγραμμένα";
+$_LANG['markdown']['headers']= "Κεφαλαία";
+$_LANG['markdown']['bigHeader']= "Μεγαλη επικεφαλίδα";
+$_LANG['markdown']['mediumHeader']= "Μεσαία επικεφαλίδα";
+$_LANG['markdown']['smallHeader']= "Μικρή επικεφαλίδα";
+$_LANG['markdown']['tinyHeader']= "Μικροσκοπική επικεφαλίδα";
 $_LANG['markdown']['lists']= "Λίστες";
-$_LANG['markdown']['genericListItem']= "Γενικά αντικείμενα λίστας";
-$_LANG['markdown']['numberedListItem']= "Αριθμημένο αντικείμενο λίστας";
+$_LANG['markdown']['genericListItem']= "Γενικό στοιχείο λίστας";
+$_LANG['markdown']['numberedListItem']= "Αριθμιτικό στοιχείο λίστας";
 $_LANG['markdown']['links']= "Σύνδεσμοι";
 $_LANG['markdown']['textToDisplay']= "Κειμενο για προβολή";
 $_LANG['markdown']['exampleLink']= "http://www.example.com";
-$_LANG['markdown']['quotes']= "Παράθεση";
-$_LANG['markdown']['thisIsAQuote']= "Αυτό είναι μία παράθεση.";
+$_LANG['markdown']['quotes']= "Αποσπάσματα";
+$_LANG['markdown']['thisIsAQuote']= "Αυτό ειναι ένα απόσπασμα.";
 $_LANG['markdown']['quoteMultipleLines']= "Μπορεί να εκτείνεται σε πολλαπλές γραμμές!";
 $_LANG['markdown']['tables']= "Πίνακες";
 $_LANG['markdown']['columnOne']= "Στήλη 1";
@@ -2065,14 +2058,92 @@ $_LANG['markdown']['columnTwo']= "Στήλη 2";
 $_LANG['markdown']['columnThree']= "Στήλη 3";
 $_LANG['markdown']['withoutAligning']= "Ή χωρίς ευθυγράμμιση των στηλών...";
 $_LANG['markdown']['john']= "Γιάννης";
-$_LANG['markdown']['doe']= "Π.";
-$_LANG['markdown']['male']= "Άρρεν";
+$_LANG['markdown']['doe']= "Δημητρίου";
+$_LANG['markdown']['male']= "Αρρεν";
 $_LANG['markdown']['mary']= "Μαρία";
-$_LANG['markdown']['smith']= "Δ.";
+$_LANG['markdown']['smith']= "Γεωργίου";
 $_LANG['markdown']['female'] = "Θήλυ";
 $_LANG['markdown']['displayingCode'] = "Εμφάνιση κώδικα";
 $_LANG['markdown']['spanningMultipleLines'] = "Ή επέκταση σε πολλαπλές γραμμές...";
-$_LANG['markdown']['saved'] = 'αποθηκευμένο';
-$_LANG['markdown']['saving'] = 'αυτόματη αποθήκευση';
+$_LANG['markdown']['saved'] = "αποθηκεύθηκε";
+$_LANG['markdown']['saving'] = "αυτόματη αποθήκευση";
+
+$_LANG['oauth']['authoriseAppToAccess'] = "Εξουσιοδότηση :appName<br /> για πρόσβαση στο λογαριασμό σας;";
+$_LANG['oauth']['willBeAbleTo'] = "Η εφαρμογή αυτή θα είναι σε θέση να";
+$_LANG['oauth']['authorise'] = "Εξουσιοδότηση";
+$_LANG['oauth']['currentlyLoggedInAs'] = "Έχετε συνδεθεί ως :firstName :lastName";
+$_LANG['oauth']['notYou'] = "Οχι εσείς?";
+$_LANG['oauth']['returnToApp'] = "Επιστροφή στo :appName";
+$_LANG['oauth']['copyrightFooter'] = "Copyright &copy; :dateYear :companyName. All Rights Reserved.";
+$_LANG['oauth']['loginToGrantApp'] = "Σύνδεση για χορήγηση πρόσβασης του :appName<br /> στο λογαριασμό σας";
+$_LANG['oauth']['redirectDescriptionOne'] = "Ανακατεύθυνση πίσω στην εφαρμογή. Αυτό μπορεί να διαρκέσει μερικά λεπτά.";
+$_LANG['oauth']['redirectDescriptionTwo'] = "Αν το πρόγραμμα περιήγησής δεν σας ανακατευθύνει, παρακαλούμε";
+$_LANG['oauth']['redirectDescriptionThree'] = "κάντε κλικ εδώ για να συνεχίσετε";
+$_LANG['downloadLoginRequiredTagline'] = "Παρακαλούμε συνδεθείτε για να αποκτήσετε πρόσβαση στο αιτούμενο αρχείο λήψης";
+
+$_LANG['orderForm']['year'] = "Έτος";
+$_LANG['orderForm']['years'] = "Έτη";
+$_LANG['orderForm']['domainOrKeyword'] = "Εισάγετε ένα domain ή λέξη-κλειδί";
+$_LANG['orderForm']['searching'] = "Αναζήτηση";
+$_LANG['orderForm']['domainIsUnavailable'] = "Το <strong>:domain</strong> δεν είναι διαθέσιμο"; //Strong tag is required here
+$_LANG['orderForm']['add'] = "Προσθηκη";
+$_LANG['orderForm']['suggestedDomains'] = "Προτεινόμενα Domains";
+$_LANG['orderForm']['generatingSuggestions'] = "Δημιουργία προτάσεων για σας";
+$_LANG['orderForm']['addHosting'] = "Προσθήκη Web Hosting";
+$_LANG['orderForm']['chooseFromRange'] = "Επιλέξτε από μια γκάμα πακέτων φιλοξενίας";
+$_LANG['orderForm']['packagesForBudget'] = "Έχουμε πακέτα σχεδιασμένα για να ταιριάζουν σε κάθε προϋπολογισμό";
+$_LANG['orderForm']['exploreNow'] = "Εξερευνήστε τα πακέτα τώρα";
+$_LANG['orderForm']['transferToUs'] = "Μεταφέρετε το domain σας σε εμάς";
+$_LANG['orderForm']['transferExtend'] = "Μεταφέρετε τώρα για να επεκτείνετε το domain σας για 1 έτος!";
+$_LANG['orderForm']['transferDomain'] = "Μεταφέρετε ένα domain";
+$_LANG['orderForm']['extendExclusions'] = "Εξαιρούνται κάποια TLDs και πρόσφατα ανανεωμένα domains";
+$_LANG['orderForm']['singleTransfer'] = "Μεταφορά ενός domain";
+$_LANG['orderForm']['enterDomain'] = "Παρακαλώ εισάγετε το domain σας";
+$_LANG['orderForm']['authCode'] = "Κωδικός Εξουσιοδότησης";
+$_LANG['orderForm']['authCodePlaceholder'] = "Κωδικός Epp / Κωδικός Εξουσιοδότησης";
+$_LANG['orderForm']['authCodeTooltip'] = "Για να ξεκινήσει μια μεταφορά θα πρέπει να αποκτήσετε τον κωδικό εξουσιοδότησης από τον τρέχων καταχωρητή σας. Αυτος μπορεί συχνά να αναφέρεται είτε ως κωδικός epp ή εξουσιοδώτησης κωδικός. Ενεργούν ως ένας κωδικός πρόσβασης και είναι μοναδικός για το domain.";
+$_LANG['orderForm']['help'] = "Βοήθεια";
+$_LANG['orderForm']['required'] = "Απαιτείται";
+
+$_LANG['orderForm']['checkingAvailability'] = 'Έλεγχος διαθεσιμότητας';
+$_LANG['orderForm']['verifyingTransferEligibility'] = 'Επαλήθευση επιλεγμένης μεταφορας';
+$_LANG['orderForm']['verifyingDomain'] = 'Επαλήθευση του επιλεγμένου domain σας';
+$_LANG['orderForm']['transferEligible'] = 'Το domain σας είναι διαθέσιμο για μεταφορά';
+$_LANG['orderForm']['transferUnlockBeforeContinuing'] = 'Παρακαλούμε βεβαιωθείτε ότι έχετε ξεκλειδώσει το domain σας στο τρέχων καταχωρητή σας πριν συνεχίσετε.';
+$_LANG['orderForm']['transferNotEligible'] = 'Μη διαθέσιμο για Μεταφορά';
+$_LANG['orderForm']['transferNotRegistered'] = 'Το domain που δηλώσατε δεν φαίνεται να καταχωρηθεί.';
+$_LANG['orderForm']['trasnferRecentlyRegistered'] = 'Αν το domain καταχωρήθηκε πρόσφατα, μπορεί να χρειαστεί να δοκιμάστε ξανά αργότερα.';
+$_LANG['orderForm']['transferAlternativelyRegister'] = 'Διαφορετικά, μπορείτε να κάνετε αναζήτηση για καταχώριση αυτού του domain.';
+$_LANG['orderForm']['domainInvalid'] = 'Μη έγκυρο domain';
+$_LANG['orderForm']['domainInvalidCheckEntry'] = 'Παρακαλούμε ελέγξτε την εισαγωγή σας και δοκιμάστε ξανά.';
+$_LANG['orderForm']['domainPriceRegisterLabel'] = 'Συνέχεια για καταχώρηση αυτού του domain για';
+$_LANG['orderForm']['domainPriceTransferLabel'] = 'Μεταφερθείτε σε μας και επεκτείνεται κατά 1 έτος* για';
+
+$_LANG['change'] = "Αλλαγή";
+
+$_LANG['filemanagement']['nofileuploaded'] = "Δεν φορτώθηκε αρχείο.";
+$_LANG['filemanagement']['invalidname'] = "Έγκυρα ονόματα περιέχουν μόνο αλφαριθμητικά, τελείες, παύλες και χαρακτήρες υπογράμμισης.";
+$_LANG['filemanagement']['couldNotSaveFile'] = "Αδυναμία αποθήκευσης αρχείου.";
+$_LANG['filemanagement']['checkPermissions'] = "Παρακαλούμε ελέγξτε τα δικαιώματα.";
+$_LANG['filemanagement']['checkAvailableDiskSpace'] = "Παρακαλούμε ελέγξετε το διαθέσιμο χώρο στο δίσκο.";
+$_LANG['filemanagement']['fileAlreadyExists'] = "Το αρχείο υπάρχει ήδη.";
+$_LANG['filemanagement']['noUniqueName'] = "Αδυναμία εύρεσης μοναδικού ονόματος αρχείου.";
+
+$_LANG['cartSimpleCaptcha'] = "Παρακαλώ εισάγετε τον κωδικό που εμφανίζεται παρακάτω";
+
+$_LANG['clientHomePanels']['showingRecent100'] = "Εμφάνιση των πιο πρόσφατων 100 εγγραφών";
+$_LANG['orderForm']['domainLetterOrNumber'] = "Τα domains πρέπει να αρχίζουν με ένα γράμμα ή έναν αριθμό";
+$_LANG['orderForm']['domainLengthRequirements'] = " και να είναι μεταξύ <span class=\"min-length\"></span> και <span class=\"max-length\"></span> χαρακτήρες σε μήκος";
+
+$_LANG['clientareatransferredaway'] = "Μεταφέρθηκε αλλου";
+$_LANG['clientareacompleted'] = "Ολοκληρώθηκε";
+$_LANG['domainContactUs'] = "Επικοινωνήστε μαζί μας";
+
+$_LANG['orderForm']['shortPerYear'] = "/:yearsyr";
+$_LANG['orderForm']['shortPerYears'] = "/:yearsyrs";
+
+$_LANG['domainCheckerSalesGroup']['sale'] = "Προσφορά";
+$_LANG['domainCheckerSalesGroup']['hot'] = "Δημοφιλές";
+$_LANG['domainCheckerSalesGroup']['new'] = "Νέο";
 
 ////////// End of english language file.  Do not place any translation strings below this line!
