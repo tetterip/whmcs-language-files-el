@@ -10,7 +10,6 @@ For instructions on overrides, please visit: http://docs.whmcs.com/Language_Over
 
 - This language file is been translated by the contributor and therefore it will not be updated by WHMCS Limited in future updates.
 - We recommend that you use overrides to customize the text displayed in a way which will be safely preserved through the upgrade process.
-- `Email templates` file is a sql dump from a live WHMCS, with referrals / notes to Cubric Internet Services and their clients. Edit to your needs.
 - If you would like to suggest or report a fault, please make a pull request
 
 **Link:** http://forum.whmcs.com/showthread.php?83658-WHMCS-Language-File-Greek-(el)
