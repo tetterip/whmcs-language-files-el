@@ -12,6 +12,6 @@ For instructions on overrides, please visit: http://docs.whmcs.com/Language_Over
 - We recommend that you use overrides to customize the text displayed in a way which will be safely preserved through the upgrade process.
 - If you would like to suggest or report a fault, please make a pull request
 
-**Link:** http://forum.whmcs.com/showthread.php?83658-WHMCS-Language-File-Greek-(el)
+**Link:** https://forums.whmcs.com/showthread.php?123554-WHMCS-Language-File-Greek-(el)-continue
 
 **Download:** https://github.com/pRieStaKos/whmcs-language-files-el/releases
