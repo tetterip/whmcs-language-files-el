@@ -2146,4 +2146,4 @@ $_LANG['domainCheckerSalesGroup']['sale'] = "Προσφορά";
 $_LANG['domainCheckerSalesGroup']['hot'] = "Δημοφιλές";
 $_LANG['domainCheckerSalesGroup']['new'] = "Νέο";
 
-////////// End of english language file.  Do not place any translation strings below this line!
+////////// End of greek language file.  Do not place any translation strings below this line!
