@@ -3201,5 +3201,40 @@ $_LANG['orderForm']['shortPerYears'] = "/:yearsyrs";
 $_LANG['domainCheckerSalesGroup']['sale'] = "Προσφορά";
 $_LANG['domainCheckerSalesGroup']['hot'] = "Δημοφιλές";
 $_LANG['domainCheckerSalesGroup']['new'] = "Νέο";
+$_LANG['invoicePaymentSuccessAwaitingNotify'] = "Ευχαριστούμε για την πληρωμή σας. Μόλις λάβουμε την πληρωμή στο σύστημά μας θα σας στείλουμε περισσότερες λεπτομέριες για την παραγγελίας σας μέσω email.";
+
+$_LANG['remoteAuthn']['success'] = 'Επιτυχία!';
+$_LANG['remoteAuthn']['errorExclamation'] = 'Σφάλμα!';
+$_LANG['remoteAuthn']['error'] = 'Σφάλμα';
+$_LANG['remoteAuthn']['linkInitiated'] = 'Η σύνδεση ξεκίνησε!';
+$_LANG['remoteAuthn']['areYouSure'] = 'Είστε σίγουροι?';
+$_LANG['remoteAuthn']['yesUnlinkIt'] = 'Ναι, αποσυνδέστε το!';
+$_LANG['remoteAuthn']['unlinked'] = 'Αποσυνδέθηκε!';
+$_LANG['remoteAuthn']['unavailable'] = 'δεν είναι διαθέσιμο αυτή τη στιγμή. Παρακαλούμε δοκιμάστε αργότερα.';
+$_LANG['remoteAuthn']['connectError'] = 'Δεν μπορέσαμε να συνδέσουμε τον λογαριασμό. Παρακαλούμε επικοινωνήστε με τον διαχειριστή.';
+$_LANG['remoteAuthn']['completeSignIn'] = 'Παρακαλούμε ολοκληρώστε τη σύνδεση με την επιλεγμένη υπηρεσία.';
+$_LANG['remoteAuthn']['redirecting'] = 'Επιτυχημένη είσοδος! Σας μεταφέρουμε αμέσως...';
+$_LANG['remoteAuthn']['accountNowLinked'] = 'Ο λογαριασμός σας έχει πλέον συνδεθεί με το :displayName .';
+$_LANG['remoteAuthn']['oneTimeAuthRequired'] = 'Παρακαλούμε ολοκληρώστε την σύνδεσή σας για να συνδέσουμε την υπηρεσία με τον λογαριασμό σας. Η διαδικασία αυτή θα γίνει μόνο μια φορά.';
+$_LANG['remoteAuthn']['completeRegistrationForm'] = 'Παρακαλούμε συμπληρώστε την παρακάτω φόρμα εγγραφής.';
+$_LANG['remoteAuthn']['completeNewAccountForm'] = 'Παρακαλούμε ολοκληρώστε τις πληροφορίες του λογαριασμού σας.';
+$_LANG['remoteAuthn']['linkedToAnotherClient'] = 'Αυτός ο λογαριασμός είναι ήδη συνδεδεμένος με υπάρχον λογαριασμό στο σύστημά μας. Παρακαλούμε επιλέξτε άλλο λογαριασμό ή άλλη υπηρεσία.';
+$_LANG['remoteAuthn']['alreadyLinkedToYou'] = 'Αυτός ο λογαριασμός είναι ήδη συνδεδεμένος με το σύστημά μας. Παρακαλούμε επιλέξτε άλλο λογαριασμό ή άλλη υπηρεσία.';
+$_LANG['remoteAuthn']['saveTimeByLinking'] = 'Γρήγορη σύνδεση με χρήση κάποιας από τις παρακάτω υπηρσίες.';
+$_LANG['remoteAuthn']['unlinkDesc'] = 'Αυτό αποσυνδέει μόνιμα τον συνδεδεμένο λογαριασμό.';
+$_LANG['remoteAuthn']['mayHaveMultipleLinks'] = 'Συνδέστε τον λογαριασμό σας με κάποια από τις παρακάτω υπηρεσίες για να απλοποιήσετε τη διαδικασία σύνδεσης.';
+$_LANG['remoteAuthn']['titleSignUpVerb'] = 'Εγγραφή';
+$_LANG['remoteAuthn']['titleOr'] = 'Ή';
+$_LANG['remoteAuthn']['titleLinkedAccounts'] = 'Συνδεδεμένοι Λογαριασμοί';
+$_LANG['remoteAuthn']['provider'] = 'Υπηρεσία';
+$_LANG['remoteAuthn']['name'] = 'Όνομα';
+$_LANG['remoteAuthn']['emailAddress'] = 'Email';
+$_LANG['remoteAuthn']['actions'] = 'Ενέργειες';
+$_LANG['remoteAuthn']['noLinkedAccounts'] = 'Δεν βρέθηκαν συνδεδεμένοι λογαριασμοί';
+$_LANG['remoteAuthn']['signInWith'] = 'Σύνδεση με :provider';
+$_LANG['remoteAuthn']['connectWith'] = 'Σύνδεση με :provider';
+$_LANG['remoteAuthn']['signUpWith'] = 'Εγγραφή με :provider';
+
+$_LANG['unlink'] = "Αποσύνδεση";
 
 ////////// End of greek language file.  Do not place any translation strings below this line!
