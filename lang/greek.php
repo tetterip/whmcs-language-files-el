@@ -13,10 +13,11 @@
  *
  * @package         WHMCS
  * @author          WHMCS Limited <development@whmcs.com>
- * @translate       Based on pRieStaKos - Cubric Internet Services translation. Updated by tettris
+ * @translate       Based on pRieStaKos - Cubric Internet Services translation. Updated by tetterip
  * @license         http://www.whmcs.com/license/ WHMCS Eula
  * @version         7.6.1
  * @link            https://github.com/pRieStaKos/whmcs-language-files-el
+ * @contrbutors     https://github.com/tetterip/whmcs-language-files-el/graphs/contributors
  */
 
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
