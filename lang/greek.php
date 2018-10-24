@@ -2138,8 +2138,8 @@ $_LANG['clientareatransferredaway'] = "Μεταφέρθηκε αλλου";
 $_LANG['clientareacompleted'] = "Ολοκληρώθηκε";
 $_LANG['domainContactUs'] = "Επικοινωνήστε μαζί μας";
 
-$_LANG['orderForm']['shortPerYear'] = "/:yearsyr";
-$_LANG['orderForm']['shortPerYears'] = "/:yearsyrs";
+$_LANG['orderForm']['shortPerYear'] = "/:yearsχρ.";
+$_LANG['orderForm']['shortPerYears'] = "/:yearsχρ.";
 
 $_LANG['domainCheckerSalesGroup']['sale'] = "Προσφορά";
 $_LANG['domainCheckerSalesGroup']['hot'] = "Δημοφιλές";
@@ -2152,7 +2152,7 @@ $_LANG['pricing']['renewal'] = "Renewal";
 $_LANG['pricing']['selectExtCategory'] = "Please choose a category from above.";
 $_LANG['pricing']['noExtensionsDefined'] = "No extensions available";
 
-$_LANG['navStore'] = "Store";
+$_LANG['navStore'] = "Κατάστημα";
 $_LANG['navBrowseProductsServices'] = "Browse All";
 
 $_LANG['navWebsiteSecurity'] = "Website & Security";
@@ -2265,57 +2265,58 @@ $_LANG['cart']['applyCreditAmount'] = "Apply <span>:amount</span> from my credit
 $_LANG['cart']['applyCreditAmountNoFurtherPayment'] = "Apply <span>:amount</span> from my credit balance to this order. No further payment will be due.";
 $_LANG['cart']['applyCreditSkip'] = "Do not apply any credit from my credit balance to this order. I will pay for it using the payment method selected below.";
 
-$_LANG['dateTime']['monday'] = "Monday";
-$_LANG['dateTime']['tuesday'] = "Tuesday";
-$_LANG['dateTime']['wednesday'] = "Wednesday";
-$_LANG['dateTime']['thursday'] = "Thursday";
-$_LANG['dateTime']['friday'] = "Friday";
-$_LANG['dateTime']['saturday'] = "Saturday";
-$_LANG['dateTime']['sunday'] = "Sunday";
-$_LANG['dateTime']['mon'] = "Mon";
-$_LANG['dateTime']['tue'] = "Tue";
-$_LANG['dateTime']['wed'] = "Wed";
-$_LANG['dateTime']['thu'] = "Thu";
-$_LANG['dateTime']['fri'] = "Fri";
-$_LANG['dateTime']['sat'] = "Sat";
-$_LANG['dateTime']['sun'] = "Sun";
+$_LANG['dateTime']['monday'] = "Δευτέρα";
+$_LANG['dateTime']['tuesday'] = "Τρίτη";
+$_LANG['dateTime']['wednesday'] = "Τετάρτη";
+$_LANG['dateTime']['thursday'] = "Πέμπτη";
+$_LANG['dateTime']['friday'] = "Παρασκευή";
+$_LANG['dateTime']['saturday'] = "Σάββατο";
+$_LANG['dateTime']['sunday'] = "Κυριακή";
+$_LANG['dateTime']['mon'] = "Δευ";
+$_LANG['dateTime']['tue'] = "Τρι";
+$_LANG['dateTime']['wed'] = "Τετ";
+$_LANG['dateTime']['thu'] = "Πεμ";
+$_LANG['dateTime']['fri'] = "Παρ";
+$_LANG['dateTime']['sat'] = "Σαβ";
+$_LANG['dateTime']['sun'] = "Κυρ";
 $_LANG['dateTime']['th'] = "th";
 $_LANG['dateTime']['nd'] = "nd";
 $_LANG['dateTime']['rd'] = "rd";
 $_LANG['dateTime']['st'] = "st";
-$_LANG['dateTime']['january'] = "January";
-$_LANG['dateTime']['february'] = "February";
-$_LANG['dateTime']['march'] = "March";
-$_LANG['dateTime']['april'] = "April";
-$_LANG['dateTime']['may'] = "May";
-$_LANG['dateTime']['june'] = "June";
-$_LANG['dateTime']['july'] = "July";
-$_LANG['dateTime']['august'] = "August";
-$_LANG['dateTime']['september'] = "September";
-$_LANG['dateTime']['october'] = "October";
-$_LANG['dateTime']['november'] = "November";
-$_LANG['dateTime']['december'] = "December";
-$_LANG['dateTime']['jan'] = "Jan";
-$_LANG['dateTime']['feb'] = "Feb";
-$_LANG['dateTime']['mar'] = "Mar";
-$_LANG['dateTime']['apr'] = "Apr";
-$_LANG['dateTime']['may'] = "May";
-$_LANG['dateTime']['jun'] = "Jun";
-$_LANG['dateTime']['jul'] = "Jul";
-$_LANG['dateTime']['aug'] = "Aug";
-$_LANG['dateTime']['sept'] = "Sept";
-$_LANG['dateTime']['oct'] = "Oct";
-$_LANG['dateTime']['nov'] = "Nov";
-$_LANG['dateTime']['dec'] = "Dec";
-$_LANG['dateTime']['AM'] = "AM";
-$_LANG['dateTime']['PM'] = "PM";
-$_LANG['dateTime']['am'] = "am";
-$_LANG['dateTime']['pm'] = "pm";
+$_LANG['dateTime']['january'] = "Ιανουάριος";
+$_LANG['dateTime']['february'] = "Φεβρουάριος";
+$_LANG['dateTime']['march'] = "Μάρτιος";
+$_LANG['dateTime']['april'] = "Απρίλιος";
+
+$_LANG['dateTime']['may'] = "Μάιος";
+$_LANG['dateTime']['june'] = "Ιούνιος";
+$_LANG['dateTime']['july'] = "Ιούλιος";
+$_LANG['dateTime']['august'] = "Αύγουστος";
+$_LANG['dateTime']['september'] = "Σεπτέμβριος";
+$_LANG['dateTime']['october'] = "Οκτώβριος";
+$_LANG['dateTime']['november'] = "Νοέμβριος";
+$_LANG['dateTime']['december'] = "Δεκέμβριος";
+$_LANG['dateTime']['jan'] = "Ιαν";
+$_LANG['dateTime']['feb'] = "Φεβ";
+$_LANG['dateTime']['mar'] = "Μαρ";
+$_LANG['dateTime']['apr'] = "Απρ";
+$_LANG['dateTime']['may'] = "Μαι";
+$_LANG['dateTime']['jun'] = "Ιουν";
+$_LANG['dateTime']['jul'] = "Ιουλ";
+$_LANG['dateTime']['aug'] = "Αυγ";
+$_LANG['dateTime']['sept'] = "Σεπ";
+$_LANG['dateTime']['oct'] = "Οκτ";
+$_LANG['dateTime']['nov'] = "Νοε";
+$_LANG['dateTime']['dec'] = "Δεκ";
+$_LANG['dateTime']['AM'] = "ΠΜ";
+$_LANG['dateTime']['PM'] = "ΜΜ";
+$_LANG['dateTime']['am'] = "πμ";
+$_LANG['dateTime']['pm'] = "μμ";
 
 $_LANG['emailMarketing']['joinOurMailingList'] = "Join our mailing list";
 
-$_LANG['edit'] = "Edit";
-$_LANG['thankYou'] = "Thank You";
+$_LANG['edit'] = "Επεξεργασία";
+$_LANG['thankYou'] = "Ευχαριστούμε";
 
 $_LANG['domainGracePeriodFeeInvoiceItem'] = "Domain Renewal Fee in Grace Period for :domainName";
 $_LANG['domainRedemptionPeriodFeeInvoiceItem'] = "Domain Renewal Fee in Redemption Grace Period for :domainName";
@@ -2345,15 +2346,15 @@ $_LANG['store']['sitelock']['tagline'] = "Automatically scan your website for ma
 $_LANG['store']['sitelock']['manageService'] = "Manage your SiteLock Service";
 $_LANG['store']['sitelock']['cartShortDescription'] = "SiteLock provides a range of features designed to protect both your website and your business’ reputation.";
 
-$_LANG['learnmore'] = "Learn more";
-$_LANG['category'] = "Category";
-$_LANG['changeCurrency'] = "Change Currency";
+$_LANG['learnmore'] = "Περισσότερα";
+$_LANG['category'] = "Κατηγορία";
+$_LANG['changeCurrency'] = "Αλλαγή Νομίσματος";
 
 $_LANG['store']['ssl']['competitiveUpgrade'] = "Competitive Upgrade";
 $_LANG['store']['ssl']['competitiveUpgradeBannerMsg'] = "Your domain <em>:domain</em> has been successfully validated. Please choose a certificate type to continue and complete the checkout process.";
 $_LANG['store']['ssl']['competitiveUpgradeQualified'] = "Qualified for Competitive Upgrade";
 
-$_LANG['dismiss'] = "Dismiss";
+$_LANG['dismiss'] = "Απόρριψη";
 
 $_LANG['store']['emailServices']['manageService'] = "Login to SpamExperts Control Panel";
 
@@ -2427,8 +2428,8 @@ $_LANG['validation']['url'] = "The :attribute format is invalid.";
 $_LANG['orderErrorServerHostnameInvalid'] = "The hostname for your server is invalid.";
 $_LANG['orderErrorServerNameserversInvalid'] = "The nameserver prefix is invalid.";
 
-$_LANG['checkAll'] = "Check All";
-$_LANG['uncheckAll'] = "Uncheck All";
+$_LANG['checkAll'] = "Επιλογή Όλων";
+$_LANG['uncheckAll'] = "Αποεπιλογή Όλων";
 
 $_LANG['maxmind']['manualReview'] = "Your order has been held for manual review.<br /><br />If you feel you have received this message in error, then please accept our apologies and <a href=\"submitticket.php\">submit a support ticket</a> to our Customer Service Team.  Thank you.";
 
@@ -2480,8 +2481,8 @@ $_LANG['domains']['modifyPending'] = "Verification Required";
 $_LANG['domains']['changePending'] = "Your requested change has triggered the contact verification process. An ownership verification email has been sent to :email. Click on the link in the email to apply the changes.";
 $_LANG['domains']['changePendingDate'] = "Your requested change has triggered the contact verification process. An ownership verification email has been sent to :email. Click on the link in the email within :days days to apply the changes.";
 
-$_LANG['getStartedNow'] = "Get Started Now";
-$_LANG['notificationsnew'] = "NEW";
+$_LANG['getStartedNow'] = "Ξεκινήστε τώρα";
+$_LANG['notificationsnew'] = "ΝΕΟ";
 
 $_LANG['store']['websiteBuilder']['tab']['overview'] = "Overview";
 $_LANG['store']['websiteBuilder']['tab']['features'] = "Features";
@@ -2564,6 +2565,6 @@ $_LANG['store']['websiteBuilder']['upgrade']['submitTicket'] = "Contact support"
 $_LANG['store']['websiteBuilder']['upgrade']['to'] = "Upgrade to :product for :amount";
 $_LANG['store']['websiteBuilder']['upgrade']['noPlans'] = "No active Weebly plans found";
 $_LANG['store']['websiteBuilder']['upgrade']['loggedInAs'] = "You are currently logged in as :email";
-$_LANG['store']['websiteBuilder']['upgrade']['switchUser'] = "Logout/switch user";
+$_LANG['store']['websiteBuilder']['upgrade']['switchUser'] = "Αποσύνδεση/αλλαγή χρήστη";
 
-////////// End of english language file.  Do not place any translation strings below this line!
+////////// End of greek language file.  Do not place any translation strings below this line!
